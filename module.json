@@ -6,15 +6,18 @@
   "authors": [
     {
         "name": "gonzaPaEst"
+    },
+    {
+      "name": "Roberto Lorite",
+      "url": "https://github.com/sharak"
     }
   ],
-  "version": "2.1",
+  "version": "2.2",
   "minimumCoreVersion": "11",
   "compatibleCoreVersion": "11",
   "compatibility": {
     "minimum": "11",
-    "maximum": "11",
-    "verified": "11.315"
+    "verified": "12.331"
   },
   "relationships": {
     "systems": [
@@ -23,8 +26,8 @@
             "type": "system",
             "manifest": "https://asacolips-artifacts.s3.amazonaws.com/pbta/master/system.json",
             "compatibility": {
-                "verified": "0.9.1",
-                "minimum": "0.8.0"
+                "verified": "1.1.5",
+                "minimum": "1.0.11"
             }
         }
     ]
@@ -476,7 +479,7 @@
       ]
     }
   ],
-  "url": "https://github.com/gonzaPaEst/root",
-  "manifest": "https://raw.githubusercontent.com/gonzaPaEst/root/v2.1/module.json",
-  "download": "https://github.com/gonzaPaEst/root/releases/download/v2.1/module.zip"
+  "url": "https://github.com/sharak/root",
+  "manifest": "https://raw.githubusercontent.com/sharak/root/v2.2/module.json",
+  "download": "https://github.com/sharak/root/releases/download/v2.2/module.zip"
 }
