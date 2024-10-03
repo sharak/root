@@ -50,8 +50,9 @@ export const configSheet = async () => {
             value: 0
           }
         },
-        attrTop: {
+        attributes: {
           reputation: {
+            position: "top",
             label: game.i18n.localize("Root.Sheet.AttrTop.Reputation.Label"),
             description: null,
             customLabel: false,
@@ -770,10 +771,9 @@ export const configSheet = async () => {
                 values: {}
               }
             }
-          }
-        },
-        attrLeft: {
-          resource: {
+          },
+          resource:   {
+            position: "left",
             label: " ",
             description: null,
             customLabel: false,
@@ -910,6 +910,7 @@ export const configSheet = async () => {
             }
           },
           nature: {
+            position: "left",
             label: game.i18n.localize("Root.Sheet.AttrLeft.Nature"),
             description: null,
             customLabel: false,
@@ -918,6 +919,7 @@ export const configSheet = async () => {
             value: ""
           },
           drive: {
+            position: "left",
             label: game.i18n.localize("Root.Sheet.AttrLeft.Drives"),
             description: null,
             customLabel: false,
@@ -926,6 +928,7 @@ export const configSheet = async () => {
             value: ""
           },
           connection: {
+            position: "left",
             label: game.i18n.localize("Root.Sheet.AttrLeft.Connections"),
             description: null,
             customLabel: false,
@@ -934,6 +937,7 @@ export const configSheet = async () => {
             value: ""
           },
           feat: {
+            position: "left",
             label: game.i18n.localize("Root.Sheet.AttrLeft.Feats"),
             description: null,
             customLabel: false,
@@ -942,6 +946,7 @@ export const configSheet = async () => {
             value: ""
           },
           startingvalue: {
+            position: "left",
             label: game.i18n.localize("Root.Sheet.AttrLeft.Equipment.Label"),
             description: game.i18n.localize("Root.Sheet.AttrLeft.Equipment.Description"),
             customLabel: false,
@@ -950,6 +955,7 @@ export const configSheet = async () => {
             value: 0
           },
           carrying: {
+            position: "left",
             label: game.i18n.localize("Root.Sheet.AttrLeft.Carrying"),
             description: null,
             customLabel: false,
@@ -958,6 +964,7 @@ export const configSheet = async () => {
             value: 0
           },
           burdened: {
+            position: "left",
             label: game.i18n.localize("Root.Sheet.AttrLeft.Burdened"),
             description: null,
             customLabel: false,
@@ -966,6 +973,7 @@ export const configSheet = async () => {
             value: 0
           },
           max: {
+            position: "left",
             label: game.i18n.localize("Root.Sheet.AttrLeft.Max"),
             description: null,
             customLabel: false,
@@ -1007,8 +1015,9 @@ export const configSheet = async () => {
         }
       },
       npc: {
-        attrTop: {
+        attributes: {
           injury: {
+            position: 'top',
             label: game.i18n.localize("Root.Sheet.NPC.Injury"),
             description: null,
             customLabel: false,
@@ -1094,6 +1103,7 @@ export const configSheet = async () => {
             }
           },
           exhaustion: {
+            position: 'top',
             label: game.i18n.localize("Root.Sheet.NPC.Exhaustion"),
             description: null,
             customLabel: false,
@@ -1179,6 +1189,7 @@ export const configSheet = async () => {
             }
           },
           wear: {
+            position: 'top',
             label: game.i18n.localize("Root.Sheet.NPC.Wear"),
             description: null,
             customLabel: false,
@@ -1264,6 +1275,7 @@ export const configSheet = async () => {
             }
           },
           morale: {
+            position: 'top',
             label: game.i18n.localize("Root.Sheet.NPC.Morale"),
             description: null,
             customLabel: false,
@@ -1347,10 +1359,9 @@ export const configSheet = async () => {
                 }
               }
             }
-          }
-        },
-        attrLeft: {
+          },
           inflicts: {
+            position: 'left',
             label: game.i18n.localize("Root.Sheet.NPC.Inflicts"),
             description: null,
             customLabel: false,
@@ -1359,6 +1370,7 @@ export const configSheet = async () => {
             value: ""
           },
           drive: {
+            position: 'left',
             label: game.i18n.localize("Root.Sheet.NPC.Drive"),
             description: null,
             customLabel: false,

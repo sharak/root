@@ -6,7 +6,7 @@
         <div class="header-fields">
             <h1 class="charname"><input name="name" type="text" value="{{item.name}}" placeholder="{{localize "PBTA.Common.Name"}}"/></h1>
         </div>
-        <div class="trait-type"> <label class="resource-label">{{localize "Root.Sheet.Traits.Type"}}:</label> 
+        <div class="trait-type"> <label class="resource-label" for="flags.root.traitType">{{localize "Root.Sheet.Traits.Type"}}:</label>
         <select name="flags.root.traitType" id="flags.root.traitType" data-dType="String">
             {{#select item.flags.root.traitType}}
             <option value="nature">{{localize "Root.Sheet.Traits.Nature"}}</option>
