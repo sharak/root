@@ -1,0 +1,62 @@
+folder: gz08yG76DEThimJM
+name: Tall Tales
+type: move
+_id: mU2FHw6pNuyIqrlp
+img: icons/skills/trades/academics-book-study-runes.webp
+system:
+  name: ''
+  description: >-
+    <p>When you attempt to impress a crowd with a wild story, roll with
+    Luck.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: >-
+        <p>On a 10+, the crowd is moved; everyone in your band takes +1 ongoing
+        to persuade or trick someone in line with the story. Someone foolish
+        even approaches you with profitable work!&nbsp;</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7-9, the crowd is moved; everyone in your band takes +1 ongoing
+        to persuade or trick someone in line with the story.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, your stories attract someone in desperate need of help
+        you&rsquo;re not equipped to give.</p>
+  uses: 0
+  playbook: The Prince
+  rollType: luck
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690580219195
+  modifiedTime: 1690580427322
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!mU2FHw6pNuyIqrlp'
+

@@ -1,0 +1,37 @@
+folder: URbjKQLcGbYJZYvM
+name: Friend
+type: root.traits
+_id: ESRFMRX5Z5KKeuZN
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: connection
+    traitDescription: >-
+      <p>I traveled with ____________ for a time right after I became a
+      vagabond. They helped keep me safe and showed me the Woodland. What
+      keepsake did I gift them?</p>
+
+      <blockquote>When you help them, you can mark 2-exhaustion to give a +2,
+      instead of 1-exhaustion for a +1.</blockquote>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689794138139
+  modifiedTime: 1689794171327
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!ESRFMRX5Z5KKeuZN'
+

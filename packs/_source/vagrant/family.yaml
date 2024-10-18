@@ -1,0 +1,38 @@
+folder: KPxRorNS3ab69h4Y
+name: Family
+type: root.traits
+_id: PAjgCUZTJCt3PCEm
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: connection
+    traitDescription: >-
+      <p>After _______________ and I pulled off an impressive heist and stole
+      something very valuable from a powerful faction, my bad choices landed me
+      in dire straits. But they bailed me out, and we&rsquo;ve been close ever
+      since.</p>
+
+      <blockquote>When you help them fulfill their nature, you both clear your
+      exhaustion track.</blockquote>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689986515590
+  modifiedTime: 1689986533900
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!PAjgCUZTJCt3PCEm'
+

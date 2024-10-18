@@ -1,0 +1,33 @@
+folder: 5hdStAYZiXYUnvfN
+name: Cynic
+type: root.traits
+_id: xUm5eHJ7Cg0Ct6qe
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: nature
+    traitDescription: >-
+      <p>Clear your exhaustion track when you openly and directly ask dangerous
+      questions about an accepted &ldquo;truth&rdquo;.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689905075494
+  modifiedTime: 1689905086247
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!xUm5eHJ7Cg0Ct6qe'
+

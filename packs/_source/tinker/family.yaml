@@ -1,0 +1,36 @@
+folder: QCiSKZ2kwN626x93
+name: Family
+type: root.traits
+_id: ObVjdILFT9EOyEDA
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: connection
+    traitDescription: >-
+      <p>_____________ and I had each other&rsquo;s back when we were run out of
+      a clearing because our natures got out of hand.</p>
+
+      <blockquote>When you help them fulfill their nature, you both clear your
+      exhaustion track.</blockquote>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689980466358
+  modifiedTime: 1689980487351
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!ObVjdILFT9EOyEDA'
+

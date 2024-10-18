@@ -1,0 +1,33 @@
+folder: xs7LgYXvrkx43Yqy
+name: Healer
+type: root.traits
+_id: 6wUY6SQIaxU8AIDv
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: nature
+    traitDescription: >-
+      <p>Clear your exhaustion track when you attempt to start a dialogue
+      between two foes from different factions.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690308559222
+  modifiedTime: 1690308883013
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!6wUY6SQIaxU8AIDv'
+

@@ -1,0 +1,31 @@
+{
+  "name": "root",
+  "packageManager": "yarn@4.5.1",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "compendium:extract": "node cli.js compendium extract",
+    "compendium:compile": "node cli.js compendium compile"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.12.0",
+    "@foundryvtt/foundryvtt-cli": "^1.0.3",
+    "eslint": "^9.12.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-foundry-vtt": "^0.0.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-n": "^17.11.1",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-promise": "^7.1.0",
+    "fancy-log": "^2.0.0",
+    "globals": "^15.11.0",
+    "prettier": "^3.3.3",
+    "yargs": "^17.7.2"
+  },
+  "overrides": {
+    "eslint": "^9.12.0"
+  }
+}

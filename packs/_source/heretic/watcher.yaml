@@ -1,0 +1,38 @@
+folder: vNxPbXN1mE1VdSIX
+name: Watcher
+type: root.traits
+_id: zSnfnfACyNX1azyY
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: connection
+    traitDescription: >-
+      <p>____________ was once hurt greatly by someone who shared my cause. Why
+      do I think I might still win them over? What have I already tried to do to
+      earn their trust?</p>
+
+      <blockquote>When you figure them out, you always hold 1, even on a miss.
+      When you plead with them to go along with you, you can let them clear
+      2-exhaustion instead of 1.</blockquote>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690308733494
+  modifiedTime: 1690309102866
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!zSnfnfACyNX1azyY'
+

@@ -1,0 +1,26 @@
+folder: Xvg3JRTYUqw8jnPI
+name: Thick
+type: tag
+_id: DUN08ca2Mm65Ufle
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: >-
+    <p>When you mark wear on this shield to block a hit, you only ever mark
+    1-wear, even if you are blocking more harm from a single hit.</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690774969141
+  modifiedTime: 1690774982951
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!DUN08ca2Mm65Ufle'
+

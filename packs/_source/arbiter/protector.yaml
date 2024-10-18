@@ -1,0 +1,37 @@
+folder: uI9PftWy5WUOUrE1
+name: Protector
+type: root.traits
+_id: CW6La4i3KsbbcbuT
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: connection
+    traitDescription: >-
+      <p>I once protected ____________ from a mortal blow during a fight, and I
+      would do it again. Why?</p>
+
+      <blockquote>When they are in reach, mark exhaustion to take a blow meant
+      for them. If you do, take +1 ongoing to weapon moves for the rest of the
+      scene.</blockquote>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689876847697
+  modifiedTime: 1689876879701
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!CW6La4i3KsbbcbuT'
+

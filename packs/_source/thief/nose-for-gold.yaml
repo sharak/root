@@ -1,0 +1,61 @@
+folder: e1NonQmIadthtpP1
+name: Nose for Gold
+type: move
+_id: gCFU7OuGSV7sO4nY
+img: icons/commodities/currency/coins-plain-stack-gold.webp
+system:
+  name: ''
+  description: |-
+    <p>When you figure someone out, you can always ask (even on a miss):</p>
+    <ul>
+    <li>what is the most valuable thing they are carrying?</li>
+    </ul>
+    <p>When you read a tense situation, you can always ask (even on a miss):</p>
+    <ul>
+    <li>what is the most valuable thing here?</li>
+    </ul>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Thief
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689969013326
+  modifiedTime: 1689969105242
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!gCFU7OuGSV7sO4nY'
+

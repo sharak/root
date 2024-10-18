@@ -1,0 +1,24 @@
+folder: NiuSEccu9Pv8f6up
+name: Close
+type: tag
+_id: WJfdLhIKA3ThvVqF
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: <p>Close range, close enough to fight with melee weapons</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690773136756
+  modifiedTime: 1690773986819
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!WJfdLhIKA3ThvVqF'
+

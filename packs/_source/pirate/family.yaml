@@ -1,0 +1,36 @@
+folder: VUhO1r6EpNE6ccBb
+name: Family
+type: root.traits
+_id: hWgqosDz04YqEKKH
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: connection
+    traitDescription: >-
+      <p>____________ had a good relationship with my former captain. How have
+      they supported me in taking on the role as my own?</p>
+
+      <blockquote>When you help them, you can mark 2-exhaustion to give a +2,
+      instead of 1-exhaustion for a +1.</blockquote>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690321405139
+  modifiedTime: 1690321423437
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!hWgqosDz04YqEKKH'
+

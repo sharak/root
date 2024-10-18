@@ -1,0 +1,27 @@
+folder: pyjA1M1AIyuM4SiT
+name: Revealing
+type: tag
+_id: IWBZrMd7sLP9QzRD
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: >-
+    <p>when you perform in public, mark wear to ask any one character who
+    watched “what truly motivates your character?”; take +1 when acting on the
+    answer</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690681270166
+  modifiedTime: 1690681282639
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!IWBZrMd7sLP9QzRD'
+

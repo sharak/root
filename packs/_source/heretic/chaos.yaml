@@ -1,0 +1,33 @@
+folder: deOnsDVks6Qy1wLG
+name: Chaos
+type: root.traits
+_id: yMvntHG2FrLyUZ0E
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: drive
+    traitDescription: >-
+      <p>Advance when you topple a tyrannical or dangerously overbearing figure
+      or order.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690309034831
+  modifiedTime: 1690309051784
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!yMvntHG2FrLyUZ0E'
+

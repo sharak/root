@@ -1,0 +1,57 @@
+folder: e1NonQmIadthtpP1
+name: Rope-a-Dope
+type: move
+_id: 83Wlie3JFDalKoee
+img: systems/pbta/assets/icons/skills/armor_01.webp
+system:
+  name: ''
+  description: >-
+    <p>When you evade and dodge your enemy so as to tire them out, roll with
+    Finesse.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: <p>On a 10+, you can mark exhaustion to make them mark 3-exhaustion.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: <p>On a 7-9, you can mark exhaustion to make them mark 2-exhaustion.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a miss, they catch you in the middle of a dodge&mdash;you&rsquo;re
+        at their mercy.</p>
+  uses: 0
+  playbook: The Thief
+  rollType: finesse
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689968395175
+  modifiedTime: 1689968551609
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!83Wlie3JFDalKoee'
+

@@ -1,0 +1,26 @@
+folder: Xvg3JRTYUqw8jnPI
+name: Fast
+type: tag
+_id: 219DCyvolBrHjH91
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: >-
+    <p>Mark wear when engaging in melee to suffer 1 fewer harm, even on a
+    miss.</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690774243772
+  modifiedTime: 1690774250540
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!219DCyvolBrHjH91'
+

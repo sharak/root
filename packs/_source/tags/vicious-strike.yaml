@@ -1,0 +1,27 @@
+folder: jVsymm4H7y1AIYhE
+name: Vicious Strike
+type: tag
+_id: SEZCp41rLxZb1t1t
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: >-
+    <p>Weapon can be use with the
+    @UUID[Compendium.root.weapon-special.Item.RT1WnI2rRG9kj6OO]{Vicious Strike}
+    special move.</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690773595641
+  modifiedTime: 1691115564949
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!SEZCp41rLxZb1t1t'
+

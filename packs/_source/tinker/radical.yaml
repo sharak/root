@@ -1,0 +1,33 @@
+folder: bvKWEfHw1Jq6mwzE
+name: Radical
+type: root.traits
+_id: rGrE7jIamdXR1kGo
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: nature
+    traitDescription: >-
+      <p>Clear your exhaustion track when you espouse dangerous ideas to the
+      wrong audience.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689980300107
+  modifiedTime: 1689980309264
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!rGrE7jIamdXR1kGo'
+

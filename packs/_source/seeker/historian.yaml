@@ -1,0 +1,33 @@
+folder: Mc1wCyPZoGZ7VhiL
+name: Historian
+type: root.traits
+_id: pHKGko6gMI6s4xcS
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: nature
+    traitDescription: >-
+      <p>Clear your exhaustion track when you refuse to allow someone to cover
+      up or obscure the truth.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690768889336
+  modifiedTime: 1690768896909
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!pHKGko6gMI6s4xcS'
+

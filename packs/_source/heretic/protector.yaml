@@ -1,0 +1,38 @@
+folder: vNxPbXN1mE1VdSIX
+name: Protector
+type: root.traits
+_id: o1RXbl6xOKo9P6vr
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: connection
+    traitDescription: >-
+      <p>____________ has come to share my beliefs; I must stand with them, no
+      matter the cost. What happened to us that convinced them of the wisdom of
+      my cause?</p>
+
+      <blockquote>When they are in reach, mark exhaustion to take a blow meant
+      for them. If you do, take +1 ongoing to weapon moves for the rest of the
+      scene.</blockquote>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690308683592
+  modifiedTime: 1690309131625
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!o1RXbl6xOKo9P6vr'
+

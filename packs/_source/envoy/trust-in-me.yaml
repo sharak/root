@@ -1,0 +1,64 @@
+folder: 5m4TK5f3u0q6qVCu
+name: Trust in Me
+type: move
+_id: 90dRsQTK2T1GTAKn
+img: systems/pbta/assets/icons/skills/light_01.webp
+system:
+  name: ''
+  description: |-
+    <p>When you soothe or placate an angry NPC, roll with Cunning.</p>
+    <details>
+    <summary>Choices</summary>
+    <ul>
+    <li>They reveal an unexpected vulnerability</li>
+    <li>They hesitate in their fury; you create an opportunity</li>
+    <li>They take you further into their confidence</li>
+    </ul>
+    </details>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: <p>On a 10+, you calm their rage and choose 2.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: <p>On a 7-9, you calm their rage and choose 1.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, you can only calm them by redirecting their
+        frustrations.</p>
+  uses: 0
+  playbook: The Envoy
+  rollType: cunning
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690220068113
+  modifiedTime: 1690220310979
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!90dRsQTK2T1GTAKn'
+

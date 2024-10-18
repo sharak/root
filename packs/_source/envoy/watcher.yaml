@@ -1,0 +1,37 @@
+folder: o8lllO4tCbbo3sb5
+name: Watcher
+type: root.traits
+_id: 22reEFcahFkUpM8b
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: connection
+    traitDescription: >-
+      <p>____________ reminds me of a powerful political figure of the Woodland.
+      Whom do they resemble? Why is the resemblance so striking to me?</p>
+
+      <blockquote>When you figure them out, you always hold 1, even on a miss.
+      When you plead with them to go along with you, you can let them clear
+      2-exhaustion instead of 1.</blockquote>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690218372860
+  modifiedTime: 1690218395315
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!22reEFcahFkUpM8b'
+

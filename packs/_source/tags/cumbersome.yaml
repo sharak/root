@@ -1,0 +1,26 @@
+folder: 0D09CG4JOkfF1LaH
+name: Cumbersome
+type: tag
+_id: wkJn21qrFGlBluqK
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: >-
+    <p>Mark one exhaustion when you don your armor&mdash; clear one exhaustion
+    when you take it off.</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690774057450
+  modifiedTime: 1690774068030
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!wkJn21qrFGlBluqK'
+

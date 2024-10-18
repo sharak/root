@@ -1,0 +1,26 @@
+folder: NiuSEccu9Pv8f6up
+name: Intimate
+type: tag
+_id: VHtWLdnW3JCstcLG
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: >-
+    <p>Intimate range, in each other's faces, close enough for
+    grappling.&nbsp;</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690773071354
+  modifiedTime: 1690773979159
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!VHtWLdnW3JCstcLG'
+

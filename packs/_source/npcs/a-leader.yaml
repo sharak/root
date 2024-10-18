@@ -1,0 +1,359 @@
+name: A Leader
+type: npc
+_id: uv2gOApTso15EGJA
+img: modules/root/styles/img/icons/mole.svg
+system:
+  stats: {}
+  attributesTop: {}
+  attributesLeft: {}
+  attrTop:
+    injury:
+      label: Injury
+      description: null
+      customLabel: false
+      userLabel: false
+      type: ListMany
+      condition: false
+      options:
+        '0':
+          label: ''
+          value: false
+          values:
+            '0':
+              value: false
+            '1':
+              value: false
+            '2':
+              value: false
+            '3':
+              value: false
+            '4':
+              value: false
+            '5':
+              value: false
+            '6':
+              value: false
+            '7':
+              value: false
+            '8':
+              value: false
+            '9':
+              value: false
+            '10':
+              value: false
+            '11':
+              value: false
+            '12':
+              value: false
+            '13':
+              value: false
+            '14':
+              value: false
+            '15':
+              value: false
+            '16':
+              value: false
+            '17':
+              value: false
+            '18':
+              value: false
+            '19':
+              value: false
+            '20':
+              value: false
+            '21':
+              value: false
+            '22':
+              value: false
+    exhaustion:
+      label: Exhaustion
+      description: null
+      customLabel: false
+      userLabel: false
+      type: ListMany
+      condition: false
+      options:
+        '0':
+          label: ''
+          value: false
+          values:
+            '0':
+              value: false
+            '1':
+              value: true
+            '2':
+              value: false
+            '3':
+              value: false
+            '4':
+              value: false
+            '5':
+              value: false
+            '6':
+              value: false
+            '7':
+              value: false
+            '8':
+              value: false
+            '9':
+              value: false
+            '10':
+              value: false
+            '11':
+              value: false
+            '12':
+              value: false
+            '13':
+              value: false
+            '14':
+              value: false
+            '15':
+              value: false
+            '16':
+              value: false
+            '17':
+              value: false
+            '18':
+              value: false
+            '19':
+              value: false
+            '20':
+              value: false
+            '21':
+              value: false
+            '22':
+              value: false
+    wear:
+      label: Wear
+      description: null
+      customLabel: false
+      userLabel: false
+      type: ListMany
+      condition: false
+      options:
+        '0':
+          label: ''
+          value: false
+          values:
+            '0':
+              value: false
+            '1':
+              value: false
+            '2':
+              value: false
+            '3':
+              value: false
+            '4':
+              value: false
+            '5':
+              value: false
+            '6':
+              value: false
+            '7':
+              value: false
+            '8':
+              value: false
+            '9':
+              value: false
+            '10':
+              value: false
+            '11':
+              value: false
+            '12':
+              value: false
+            '13':
+              value: false
+            '14':
+              value: false
+            '15':
+              value: false
+            '16':
+              value: false
+            '17':
+              value: false
+            '18':
+              value: false
+            '19':
+              value: false
+            '20':
+              value: false
+            '21':
+              value: false
+            '22':
+              value: false
+    morale:
+      label: Morale
+      description: null
+      customLabel: false
+      userLabel: false
+      type: ListMany
+      condition: false
+      options:
+        '0':
+          label: ''
+          value: false
+          values:
+            '0':
+              value: false
+            '1':
+              value: true
+            '2':
+              value: false
+            '3':
+              value: true
+            '4':
+              value: false
+            '5':
+              value: false
+            '6':
+              value: false
+            '7':
+              value: false
+            '8':
+              value: false
+            '9':
+              value: false
+            '10':
+              value: false
+            '11':
+              value: false
+            '12':
+              value: false
+            '13':
+              value: false
+            '14':
+              value: false
+            '15':
+              value: false
+            '16':
+              value: false
+            '17':
+              value: false
+            '18':
+              value: false
+            '19':
+              value: false
+            '20':
+              value: false
+            '21':
+              value: false
+            '22':
+              value: false
+  attrLeft:
+    inflicts:
+      label: Inflicts
+      description: null
+      customLabel: false
+      userLabel: false
+      type: LongText
+      value: ''
+    drive:
+      label: Drive
+      description: null
+      customLabel: false
+      userLabel: false
+      type: LongText
+      value: ''
+  details:
+    biography: >-
+      <p>Not a fighter. Someone more likely to be in charge, and not to try to
+      fight on their own.</p>
+  tags: []
+  tagsString: ''
+prototypeToken:
+  name: A Leader
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/root/styles/img/icons/monkey.svg
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: null
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    negative: false
+    priority: 0
+    color: null
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+    color: null
+  detectionModes: []
+  flags: {}
+  randomImg: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+items: []
+effects: []
+folder: null
+sort: 500000
+ownership:
+  default: 0
+flags:
+  root:
+    npcWear:
+      addBox1: true
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690776662457
+  modifiedTime: 1691681943909
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!actors!uv2gOApTso15EGJA'
+

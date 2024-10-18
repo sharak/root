@@ -1,0 +1,24 @@
+folder: AqtsECVOdTtN2nnX
+name: Renowned
+type: tag
+_id: 027WOfvZj1OKQwYw
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: <p>take +1 to reputation with a chosen faction while on your ship</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690322857795
+  modifiedTime: 1690773958070
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!027WOfvZj1OKQwYw'
+

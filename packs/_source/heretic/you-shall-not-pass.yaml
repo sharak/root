@@ -1,0 +1,68 @@
+folder: gln6juXn8idlJZXh
+name: You Shall Not Pass
+type: move
+_id: WJuuyeHVGso8JMCW
+img: icons/magic/unholy/strike-hand-glow-pink.webp
+system:
+  name: ''
+  description: |-
+    <p>When you plant yourself in the way of your enemies, roll with Charm.</p>
+    <details>
+    <summary>Choices</summary>
+    <ul>
+    <li>You suffer +1 harm from all your enemies’ attacks</li>
+    <li>A single enemy (GM’s choice) slips past you</li>
+    <li>You cannot retreat from your position</li>
+    </ul>
+    </details>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: >-
+        <p>On a 10+, your foes cannot get past you until they take you
+        down&mdash;brace yourself. And choose 1.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7-9, your foes cannot get past you until they take you
+        down&mdash;brace yourself. And choose 2</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, your enemies find or create a new way past you that makes
+        your situation far worse.</p>
+  uses: 0
+  playbook: The Heretic
+  rollType: charm
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690310123187
+  modifiedTime: 1690310275519
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!WJuuyeHVGso8JMCW'
+

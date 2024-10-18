@@ -1,0 +1,33 @@
+folder: AoHsAyoxA0xQVNf9
+name: Revenge
+type: root.traits
+_id: rO6zDi4KRwd05fc1
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: drive
+    traitDescription: >-
+      <p>Name your foe. Advance when you cause significant harm to them or their
+      interests.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689950904298
+  modifiedTime: 1689950913916
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!rO6zDi4KRwd05fc1'
+

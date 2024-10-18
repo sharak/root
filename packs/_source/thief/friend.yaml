@@ -1,0 +1,36 @@
+folder: XfSZ77IMasVJOBu9
+name: Friend
+type: root.traits
+_id: ZFNPHozrky97zCnl
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: connection
+    traitDescription: >-
+      <p>______________ sprang to get me out of holding, whether they bailed me
+      out or rescued me. I owe them.</p>
+
+      <blockquote>When you help them, you can mark 2-exhaustion to give a +2,
+      instead of 1-exhaustion for a +1.</blockquote>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689967831717
+  modifiedTime: 1689967854616
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!ZFNPHozrky97zCnl'
+

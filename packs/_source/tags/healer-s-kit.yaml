@@ -1,0 +1,24 @@
+folder: Xvg3JRTYUqw8jnPI
+name: Healer’s Kit
+type: tag
+_id: ZEWW8FaJbirNp3WC
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: <p>Mark wear to clear exhaustion. Mark 2-wear to clear injury.</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690774335689
+  modifiedTime: 1690774415788
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!ZEWW8FaJbirNp3WC'
+

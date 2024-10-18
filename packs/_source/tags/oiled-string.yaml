@@ -1,0 +1,26 @@
+folder: Xvg3JRTYUqw8jnPI
+name: Oiled String
+type: tag
+_id: n70Y9jnR89Siw24Q
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: >-
+    <p>Mark wear to use the weapon skill quick shot even if you don&rsquo;t have
+    it.</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690774509281
+  modifiedTime: 1690774516763
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!n70Y9jnR89Siw24Q'
+

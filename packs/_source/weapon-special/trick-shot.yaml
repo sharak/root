@@ -1,0 +1,76 @@
+name: Trick Shot
+type: move
+img: icons/skills/ranged/arrow-strike-apple-orange.webp
+system:
+  name: ''
+  description: >-
+    <p>When you fire a clever shot designed to take advantage of the environment
+    at any range, mark wear and roll with Finesse.</p>
+
+    <details>
+
+    <summary>Choices</summary>
+
+    <ul>
+
+    <li>Your shot lands in any target of your choice within range, even if
+    it&rsquo;s behind cover or hidden (inflicting injury or wear if
+    appropriate).</li>
+
+    <li>Your shot strikes a second available target of your choice.</li>
+
+    <li>Your shot cuts something, breaks something, or knocks something over,
+    your choice.</li>
+
+    <li>Your shot distracts an opponent and provides an opportunity.</li>
+
+    </ul>
+
+    </details>
+  requiresMove: ''
+  moveType: weapon
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: <p>On a 10+, choose 3.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: <p>On a 7&ndash;9, choose 2.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: <p>On a 6-, the GM gets to say what happens next.</p>
+  uses: 0
+  playbook: ''
+  rollType: finesse
+  rollMod: 0
+  choices: ''
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689200848576
+  modifiedTime: 1689908251014
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_id: EwhkWgLikYolwwCH
+sort: 100000
+_key: '!items!EwhkWgLikYolwwCH'
+

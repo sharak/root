@@ -1,0 +1,56 @@
+folder: yfgWmnNblb0MsbsG
+name: Silent Paws
+type: move
+_id: IJ3MTM6g67YEKFV3
+img: icons/magic/nature/wolf-paw-glow-small-teal-blue.webp
+system:
+  name: ''
+  description: >-
+    <p>You are adept at slipping into and out of dangerous situations without
+    anyone noticing. When you attempt a roguish feat to sneak or hide, you can
+    mark 2-exhaustion to shift a miss to a 7-9.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Ranger
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689905979766
+  modifiedTime: 1689906076103
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!IJ3MTM6g67YEKFV3'
+

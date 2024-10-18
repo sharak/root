@@ -1,0 +1,31 @@
+folder: pOLTz7j4gkrnZIeg
+name: Thrills
+type: root.traits
+_id: 3YrJvFHgEvx5gtLr
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: drive
+    traitDescription: <p>Advance when you escape from certain death or incarceration.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689967779037
+  modifiedTime: 1689967790907
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!3YrJvFHgEvx5gtLr'
+

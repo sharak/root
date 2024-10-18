@@ -1,1414 +1,1412 @@
 export const configSheet = async () => {
-
   // Pass Root sheet object to sheeConfig
 
   game.pbta.sheetConfig = {
-    rollFormula: "2d6",
+    rollFormula: '2d6',
     rollResults: {
       failure: {
         start: null,
         end: 6,
-        label: game.i18n.localize("Root.Sheet.Results.Failure")
+        label: game.i18n.localize('Root.Sheet.Results.Failure'),
       },
       partial: {
         start: 7,
         end: 9,
-        label: game.i18n.localize("Root.Sheet.Results.Partial")
+        label: game.i18n.localize('Root.Sheet.Results.Partial'),
       },
       success: {
         start: 10,
         end: null,
-        label: game.i18n.localize("Root.Sheet.Results.Success")
+        label: game.i18n.localize('Root.Sheet.Results.Success'),
       },
       critical: {
         start: null,
         end: null,
-        label: game.i18n.localize("Root.Sheet.Results.Critical")
-      }
+        label: game.i18n.localize('Root.Sheet.Results.Critical'),
+      },
     },
     actorTypes: {
       character: {
         stats: {
           charm: {
-            label: game.i18n.localize("Root.Sheet.Stats.Charm"),
-            value: 0
+            label: game.i18n.localize('Root.Sheet.Stats.Charm'),
+            value: 0,
           },
           cunning: {
-            label: game.i18n.localize("Root.Sheet.Stats.Cunning"),
-            value: 0
+            label: game.i18n.localize('Root.Sheet.Stats.Cunning'),
+            value: 0,
           },
           finesse: {
-            label: game.i18n.localize("Root.Sheet.Stats.Finesse"),
-            value: 0
+            label: game.i18n.localize('Root.Sheet.Stats.Finesse'),
+            value: 0,
           },
           luck: {
-            label: game.i18n.localize("Root.Sheet.Stats.Luck"),
-            value: 0
+            label: game.i18n.localize('Root.Sheet.Stats.Luck'),
+            value: 0,
           },
           might: {
-            label: game.i18n.localize("Root.Sheet.Stats.Might"),
-            value: 0
-          }
+            label: game.i18n.localize('Root.Sheet.Stats.Might'),
+            value: 0,
+          },
         },
         attributes: {
           reputation: {
-            position: "top",
-            label: game.i18n.localize("Root.Sheet.AttrTop.Reputation.Label"),
+            position: 'top',
+            label: game.i18n.localize('Root.Sheet.AttrTop.Reputation.Label'),
             description: null,
             customLabel: false,
             userLabel: false,
-            type: "ListMany",
+            type: 'ListMany',
             condition: false,
             options: {
               0: {
-                label: "[Text]",
+                label: '[Text]',
                 value: false,
-                values: {}
+                values: {},
               },
               1: {
-                label: "-3",
+                label: '-3',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               2: {
-                label: "-2",
+                label: '-2',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               3: {
-                label: "-1",
+                label: '-1',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               4: {
-                label: "+0",
+                label: '+0',
                 value: false,
                 values: {
                   0: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               5: {
-                label: "+1",
+                label: '+1',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
+                    value: false,
                   },
                   4: {
-                    value: false
+                    value: false,
                   },
                   5: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               6: {
-                label: "+2",
+                label: '+2',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
+                    value: false,
                   },
                   4: {
-                    value: false
+                    value: false,
                   },
                   5: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               7: {
-                label: "+3",
+                label: '+3',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
+                    value: false,
                   },
                   4: {
-                    value: false
+                    value: false,
                   },
                   5: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               8: {
-                label: "[Text]",
+                label: '[Text]',
                 value: false,
-                values: {}
+                values: {},
               },
               9: {
-                label: "-3",
+                label: '-3',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               10: {
-                label: "-2",
+                label: '-2',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               11: {
-                label: "-1",
+                label: '-1',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               12: {
-                label: "+0",
+                label: '+0',
                 value: false,
                 values: {
                   0: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               13: {
-                label: "+1",
+                label: '+1',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
+                    value: false,
                   },
                   4: {
-                    value: false
+                    value: false,
                   },
                   5: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               14: {
-                label: "+2",
+                label: '+2',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
+                    value: false,
                   },
                   4: {
-                    value: false
+                    value: false,
                   },
                   5: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               15: {
-                label: "+3",
+                label: '+3',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
+                    value: false,
                   },
                   4: {
-                    value: false
+                    value: false,
                   },
                   5: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               16: {
-                label: "[Text]",
+                label: '[Text]',
                 value: false,
-                values: {}
+                values: {},
               },
               17: {
-                label: "-3",
+                label: '-3',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               18: {
-                label: "-2",
+                label: '-2',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               19: {
-                label: "-1",
+                label: '-1',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               20: {
-                label: "+0",
+                label: '+0',
                 value: false,
                 values: {
                   0: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               21: {
-                label: "+1",
+                label: '+1',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
+                    value: false,
                   },
                   4: {
-                    value: false
+                    value: false,
                   },
                   5: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               22: {
-                label: "+2",
+                label: '+2',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
+                    value: false,
                   },
                   4: {
-                    value: false
+                    value: false,
                   },
                   5: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               23: {
-                label: "+3",
+                label: '+3',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
+                    value: false,
                   },
                   4: {
-                    value: false
+                    value: false,
                   },
                   5: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               24: {
-                label: "[Text]",
+                label: '[Text]',
                 value: false,
-                values: {}
+                values: {},
               },
               25: {
-                label: "-3",
+                label: '-3',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               26: {
-                label: "-2",
+                label: '-2',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               27: {
-                label: "-1",
+                label: '-1',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               28: {
-                label: "+0",
+                label: '+0',
                 value: false,
                 values: {
                   0: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               29: {
-                label: "+1",
+                label: '+1',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
+                    value: false,
                   },
                   4: {
-                    value: false
+                    value: false,
                   },
                   5: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               30: {
-                label: "+2",
+                label: '+2',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
+                    value: false,
                   },
                   4: {
-                    value: false
+                    value: false,
                   },
                   5: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               31: {
-                label: "+3",
+                label: '+3',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
+                    value: false,
                   },
                   4: {
-                    value: false
+                    value: false,
                   },
                   5: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               32: {
-                label: "[Text]",
+                label: '[Text]',
                 value: false,
-                values: {}
+                values: {},
               },
               33: {
-                label: "-3",
+                label: '-3',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               34: {
-                label: "-2",
+                label: '-2',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               35: {
-                label: "-1",
+                label: '-1',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               36: {
-                label: "+0",
+                label: '+0',
                 value: false,
                 values: {
                   0: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               37: {
-                label: "+1",
+                label: '+1',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
+                    value: false,
                   },
                   4: {
-                    value: false
+                    value: false,
                   },
                   5: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               38: {
-                label: "+2",
+                label: '+2',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
+                    value: false,
                   },
                   4: {
-                    value: false
+                    value: false,
                   },
                   5: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               39: {
-                label: "+3",
+                label: '+3',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
+                    value: false,
                   },
                   4: {
-                    value: false
+                    value: false,
                   },
                   5: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               40: {
-                label: game.i18n.localize("Root.Sheet.AttrTop.Reputation.Notoriety"),
+                label: game.i18n.localize('Root.Sheet.AttrTop.Reputation.Notoriety'),
                 value: false,
-                values: {}
+                values: {},
               },
               41: {
-                label: game.i18n.localize("Root.Sheet.AttrTop.Reputation.Prestige"),
+                label: game.i18n.localize('Root.Sheet.AttrTop.Reputation.Prestige'),
                 value: false,
-                values: {}
-              }
-            }
+                values: {},
+              },
+            },
           },
-          resource:   {
-            position: "left",
-            label: " ",
+          resource: {
+            position: 'left',
+            label: ' ',
             description: null,
             customLabel: false,
             userLabel: false,
-            type: "ListMany",
+            type: 'ListMany',
             condition: false,
             options: {
               0: {
-                label: game.i18n.localize("Root.Sheet.AttrLeft.Resource.Injury"),
+                label: game.i18n.localize('Root.Sheet.AttrLeft.Resource.Injury'),
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
+                    value: false,
                   },
                   4: {
-                    value: false
+                    value: false,
                   },
                   5: {
-                    value: false
+                    value: false,
                   },
                   6: {
-                    value: false
+                    value: false,
                   },
                   7: {
-                    value: false
+                    value: false,
                   },
                   8: {
-                    value: false
+                    value: false,
                   },
                   9: {
-                    value: false
+                    value: false,
                   },
                   10: {
-                    value: false
+                    value: false,
                   },
                   11: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               1: {
-                label: game.i18n.localize("Root.Sheet.AttrLeft.Resource.Exhaustion"),
+                label: game.i18n.localize('Root.Sheet.AttrLeft.Resource.Exhaustion'),
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
+                    value: false,
                   },
                   4: {
-                    value: false
+                    value: false,
                   },
                   5: {
-                    value: false
+                    value: false,
                   },
                   6: {
-                    value: false
+                    value: false,
                   },
                   7: {
-                    value: false
+                    value: false,
                   },
                   8: {
-                    value: false
+                    value: false,
                   },
                   9: {
-                    value: false
+                    value: false,
                   },
                   10: {
-                    value: false
+                    value: false,
                   },
                   11: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
               2: {
-                label: game.i18n.localize("Root.Sheet.AttrLeft.Resource.Depletion"),
+                label: game.i18n.localize('Root.Sheet.AttrLeft.Resource.Depletion'),
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
+                    value: false,
                   },
                   4: {
-                    value: false
+                    value: false,
                   },
                   5: {
-                    value: false
+                    value: false,
                   },
                   6: {
-                    value: false
+                    value: false,
                   },
                   7: {
-                    value: false
+                    value: false,
                   },
                   8: {
-                    value: false
+                    value: false,
                   },
                   9: {
-                    value: false
+                    value: false,
                   },
                   10: {
-                    value: false
+                    value: false,
                   },
                   11: {
-                    value: false
-                  }
-                }
-              }
-            }
+                    value: false,
+                  },
+                },
+              },
+            },
           },
           nature: {
-            position: "left",
-            label: game.i18n.localize("Root.Sheet.AttrLeft.Nature"),
+            position: 'left',
+            label: game.i18n.localize('Root.Sheet.AttrLeft.Nature'),
             description: null,
             customLabel: false,
             userLabel: false,
-            type: "LongText",
-            value: ""
+            type: 'LongText',
+            value: '',
           },
           drive: {
-            position: "left",
-            label: game.i18n.localize("Root.Sheet.AttrLeft.Drives"),
+            position: 'left',
+            label: game.i18n.localize('Root.Sheet.AttrLeft.Drives'),
             description: null,
             customLabel: false,
             userLabel: false,
-            type: "LongText",
-            value: ""
+            type: 'LongText',
+            value: '',
           },
           connection: {
-            position: "left",
-            label: game.i18n.localize("Root.Sheet.AttrLeft.Connections"),
+            position: 'left',
+            label: game.i18n.localize('Root.Sheet.AttrLeft.Connections'),
             description: null,
             customLabel: false,
             userLabel: false,
-            type: "LongText",
-            value: ""
+            type: 'LongText',
+            value: '',
           },
           feat: {
-            position: "left",
-            label: game.i18n.localize("Root.Sheet.AttrLeft.Feats"),
+            position: 'left',
+            label: game.i18n.localize('Root.Sheet.AttrLeft.Feats'),
             description: null,
             customLabel: false,
             userLabel: false,
-            type: "LongText",
-            value: ""
+            type: 'LongText',
+            value: '',
           },
           startingvalue: {
-            position: "left",
-            label: game.i18n.localize("Root.Sheet.AttrLeft.Equipment.Label"),
-            description: game.i18n.localize("Root.Sheet.AttrLeft.Equipment.Description"),
+            position: 'left',
+            label: game.i18n.localize('Root.Sheet.AttrLeft.Equipment.Label'),
+            description: game.i18n.localize('Root.Sheet.AttrLeft.Equipment.Description'),
             customLabel: false,
             userLabel: false,
-            type: "Number",
-            value: 0
+            type: 'Number',
+            value: 0,
           },
           carrying: {
-            position: "left",
-            label: game.i18n.localize("Root.Sheet.AttrLeft.Carrying"),
+            position: 'left',
+            label: game.i18n.localize('Root.Sheet.AttrLeft.Carrying'),
             description: null,
             customLabel: false,
             userLabel: false,
-            type: "Number",
-            value: 0
+            type: 'Number',
+            value: 0,
           },
           burdened: {
-            position: "left",
-            label: game.i18n.localize("Root.Sheet.AttrLeft.Burdened"),
+            position: 'left',
+            label: game.i18n.localize('Root.Sheet.AttrLeft.Burdened'),
             description: null,
             customLabel: false,
             userLabel: false,
-            type: "Number",
-            value: 0
+            type: 'Number',
+            value: 0,
           },
           max: {
-            position: "left",
-            label: game.i18n.localize("Root.Sheet.AttrLeft.Max"),
+            position: 'left',
+            label: game.i18n.localize('Root.Sheet.AttrLeft.Max'),
             description: null,
             customLabel: false,
             userLabel: false,
-            type: "Number",
-            value: 0
-          }
+            type: 'Number',
+            value: 0,
+          },
         },
         moveTypes: {
           basic: {
-            label: game.i18n.localize("Root.Sheet.Moves.Basic"),
-            creation:  true,
-            moves: []
+            label: game.i18n.localize('Root.Sheet.Moves.Basic'),
+            creation: true,
+            moves: [],
           },
           playbook: {
-            label: game.i18n.localize("Root.Sheet.Moves.Playbook"),
-            moves: []
+            label: game.i18n.localize('Root.Sheet.Moves.Playbook'),
+            moves: [],
           },
           weapon: {
-            label: game.i18n.localize("Root.Sheet.Moves.Weapon"),
-            moves: []
+            label: game.i18n.localize('Root.Sheet.Moves.Weapon'),
+            moves: [],
           },
           travel: {
-            label: game.i18n.localize("Root.Sheet.Moves.Travel"),
-            creation:  true,
-            moves: []
+            label: game.i18n.localize('Root.Sheet.Moves.Travel'),
+            creation: true,
+            moves: [],
           },
           reputation: {
-            label: game.i18n.localize("Root.Sheet.Moves.Reputation"),
-            creation:  true,
-            moves: []
-          }
+            label: game.i18n.localize('Root.Sheet.Moves.Reputation'),
+            creation: true,
+            moves: [],
+          },
         },
         equipmentTypes: {
           equipment: {
-            label: game.i18n.localize("Root.Sheet.Items.Equipment"),
-            moves: []
-          }
-        }
+            label: game.i18n.localize('Root.Sheet.Items.Equipment'),
+            moves: [],
+          },
+        },
       },
       npc: {
         attributes: {
           injury: {
             position: 'top',
-            label: game.i18n.localize("Root.Sheet.NPC.Injury"),
+            label: game.i18n.localize('Root.Sheet.NPC.Injury'),
             description: null,
             customLabel: false,
             userLabel: false,
-            type: "ListMany",
+            type: 'ListMany',
             condition: false,
             options: {
               0: {
-                label: "",
+                label: '',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
+                    value: false,
                   },
                   4: {
-                    value: false
+                    value: false,
                   },
                   5: {
-                    value: false
+                    value: false,
                   },
                   6: {
-                    value: false
+                    value: false,
                   },
                   7: {
-                    value: false
+                    value: false,
                   },
                   8: {
-                    value: false
+                    value: false,
                   },
                   9: {
-                    value: false
+                    value: false,
                   },
                   10: {
-                    value: false
+                    value: false,
                   },
                   11: {
-                    value: false
+                    value: false,
                   },
                   12: {
-                    value: false
+                    value: false,
                   },
                   13: {
-                    value: false
+                    value: false,
                   },
                   14: {
-                    value: false
+                    value: false,
                   },
                   15: {
-                    value: false
+                    value: false,
                   },
                   16: {
-                    value: false
+                    value: false,
                   },
                   17: {
-                    value: false
+                    value: false,
                   },
                   18: {
-                    value: false
+                    value: false,
                   },
                   19: {
-                    value: false
+                    value: false,
                   },
                   20: {
-                    value: false
+                    value: false,
                   },
                   21: {
-                    value: false
+                    value: false,
                   },
                   22: {
-                    value: false
-                  }
-                }
+                    value: false,
+                  },
+                },
               },
-            }
+            },
           },
           exhaustion: {
             position: 'top',
-            label: game.i18n.localize("Root.Sheet.NPC.Exhaustion"),
+            label: game.i18n.localize('Root.Sheet.NPC.Exhaustion'),
             description: null,
             customLabel: false,
             userLabel: false,
-            type: "ListMany",
+            type: 'ListMany',
             condition: false,
             options: {
               0: {
-                label: "",
+                label: '',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
+                    value: false,
                   },
                   4: {
-                    value: false
+                    value: false,
                   },
                   5: {
-                    value: false
+                    value: false,
                   },
                   6: {
-                    value: false
+                    value: false,
                   },
                   7: {
-                    value: false
+                    value: false,
                   },
                   8: {
-                    value: false
+                    value: false,
                   },
                   9: {
-                    value: false
+                    value: false,
                   },
                   10: {
-                    value: false
+                    value: false,
                   },
                   11: {
-                    value: false
+                    value: false,
                   },
                   12: {
-                    value: false
+                    value: false,
                   },
                   13: {
-                    value: false
+                    value: false,
                   },
                   14: {
-                    value: false
+                    value: false,
                   },
                   15: {
-                    value: false
+                    value: false,
                   },
                   16: {
-                    value: false
+                    value: false,
                   },
                   17: {
-                    value: false
+                    value: false,
                   },
                   18: {
-                    value: false
+                    value: false,
                   },
                   19: {
-                    value: false
+                    value: false,
                   },
                   20: {
-                    value: false
+                    value: false,
                   },
                   21: {
-                    value: false
+                    value: false,
                   },
                   22: {
-                    value: false
-                  }
-                }
-              }
-            }
+                    value: false,
+                  },
+                },
+              },
+            },
           },
           wear: {
             position: 'top',
-            label: game.i18n.localize("Root.Sheet.NPC.Wear"),
+            label: game.i18n.localize('Root.Sheet.NPC.Wear'),
             description: null,
             customLabel: false,
             userLabel: false,
-            type: "ListMany",
+            type: 'ListMany',
             condition: false,
             options: {
               0: {
-                label: "",
+                label: '',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
+                    value: false,
                   },
                   4: {
-                    value: false
+                    value: false,
                   },
                   5: {
-                    value: false
+                    value: false,
                   },
                   6: {
-                    value: false
+                    value: false,
                   },
                   7: {
-                    value: false
+                    value: false,
                   },
                   8: {
-                    value: false
+                    value: false,
                   },
                   9: {
-                    value: false
+                    value: false,
                   },
                   10: {
-                    value: false
+                    value: false,
                   },
                   11: {
-                    value: false
+                    value: false,
                   },
                   12: {
-                    value: false
+                    value: false,
                   },
                   13: {
-                    value: false
+                    value: false,
                   },
                   14: {
-                    value: false
+                    value: false,
                   },
                   15: {
-                    value: false
+                    value: false,
                   },
                   16: {
-                    value: false
+                    value: false,
                   },
                   17: {
-                    value: false
+                    value: false,
                   },
                   18: {
-                    value: false
+                    value: false,
                   },
                   19: {
-                    value: false
+                    value: false,
                   },
                   20: {
-                    value: false
+                    value: false,
                   },
                   21: {
-                    value: false
+                    value: false,
                   },
                   22: {
-                    value: false
-                  }
-                }
-              }
-            }
+                    value: false,
+                  },
+                },
+              },
+            },
           },
           morale: {
             position: 'top',
-            label: game.i18n.localize("Root.Sheet.NPC.Morale"),
+            label: game.i18n.localize('Root.Sheet.NPC.Morale'),
             description: null,
             customLabel: false,
             userLabel: false,
-            type: "ListMany",
+            type: 'ListMany',
             condition: false,
             options: {
               0: {
-                label: "",
+                label: '',
                 value: false,
                 values: {
                   0: {
-                    value: false
+                    value: false,
                   },
                   1: {
-                    value: false
+                    value: false,
                   },
                   2: {
-                    value: false
+                    value: false,
                   },
                   3: {
-                    value: false
+                    value: false,
                   },
                   4: {
-                    value: false
+                    value: false,
                   },
                   5: {
-                    value: false
+                    value: false,
                   },
                   6: {
-                    value: false
+                    value: false,
                   },
                   7: {
-                    value: false
+                    value: false,
                   },
                   8: {
-                    value: false
+                    value: false,
                   },
                   9: {
-                    value: false
+                    value: false,
                   },
                   10: {
-                    value: false
+                    value: false,
                   },
                   11: {
-                    value: false
+                    value: false,
                   },
                   12: {
-                    value: false
+                    value: false,
                   },
                   13: {
-                    value: false
+                    value: false,
                   },
                   14: {
-                    value: false
+                    value: false,
                   },
                   15: {
-                    value: false
+                    value: false,
                   },
                   16: {
-                    value: false
+                    value: false,
                   },
                   17: {
-                    value: false
+                    value: false,
                   },
                   18: {
-                    value: false
+                    value: false,
                   },
                   19: {
-                    value: false
+                    value: false,
                   },
                   20: {
-                    value: false
+                    value: false,
                   },
                   21: {
-                    value: false
+                    value: false,
                   },
                   22: {
-                    value: false
-                  }
-                }
-              }
-            }
+                    value: false,
+                  },
+                },
+              },
+            },
           },
           inflicts: {
             position: 'left',
-            label: game.i18n.localize("Root.Sheet.NPC.Inflicts"),
+            label: game.i18n.localize('Root.Sheet.NPC.Inflicts'),
             description: null,
             customLabel: false,
             userLabel: false,
-            type: "LongText",
-            value: ""
+            type: 'LongText',
+            value: '',
           },
           drive: {
             position: 'left',
-            label: game.i18n.localize("Root.Sheet.NPC.Drive"),
+            label: game.i18n.localize('Root.Sheet.NPC.Drive'),
             description: null,
             customLabel: false,
             userLabel: false,
-            type: "LongText",
-            value: ""
-          }
+            type: 'LongText',
+            value: '',
+          },
         },
         moveTypes: {
           moves: {
-            label: game.i18n.localize("Root.Sheet.NPC.Moves"),
-            moves: []
-          }
+            label: game.i18n.localize('Root.Sheet.NPC.Moves'),
+            moves: [],
+          },
         },
         equipmentTypes: {
           equipment: {
-            label: game.i18n.localize("Root.Sheet.Items.Equipment"),
-            moves: []
-          }
-        }
-      }
-    }
-  };
+            label: game.i18n.localize('Root.Sheet.Items.Equipment'),
+            moves: [],
+          },
+        },
+      },
+    },
+  }
 
-  let useAdvDis = await game.settings.get('root', 'advantage');
+  const useAdvDis = await game.settings.get('root', 'advantage')
 
   // Settings for Root
-  await game.settings.set('pbta', 'hideRollFormula', true);
-  await game.settings.set('pbta', 'hideUses', true);
-  await game.settings.set('pbta', 'advForward', true);
+  await game.settings.set('pbta', 'hideRollFormula', true)
+  await game.settings.set('pbta', 'hideUses', true)
+  await game.settings.set('pbta', 'advForward', true)
   if (!useAdvDis) {
-    await game.settings.set('pbta', 'hideForward', false);
-    await game.settings.set('pbta', 'hideOngoing', false);
-    await game.settings.set('pbta', 'hideRollMode', true);
+    await game.settings.set('pbta', 'hideForward', false)
+    await game.settings.set('pbta', 'hideOngoing', false)
+    await game.settings.set('pbta', 'hideRollMode', true)
   } else {
-    await game.settings.set('pbta', 'hideForward', true);
-    await game.settings.set('pbta', 'hideOngoing', true);
-    await game.settings.set('pbta', 'hideRollMode', false);
-  };
-
-};
+    await game.settings.set('pbta', 'hideForward', true)
+    await game.settings.set('pbta', 'hideOngoing', true)
+    await game.settings.set('pbta', 'hideRollMode', false)
+  }
+}

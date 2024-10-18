@@ -1,0 +1,78 @@
+folder: 7OgMZ1zwLL1Hj5cH
+name: Loot and Plunder
+type: move
+_id: vrmNnMQLWCK8eKrC
+img: icons/creatures/mammals/humanoid-fox-cat-archer.webp
+system:
+  name: ''
+  description: >-
+    <p>When you loot a rich area for valuables, roll with Finesse.</p>
+
+    <details>
+
+    <summary>Choices</summary>
+
+    <ul>
+
+    <li>It is worth a lot of money (+2-value)</li>
+
+    <li>It is of special value to a particular faction (+4 prestige if traded to
+    them)</li>
+
+    <li>It is extremely durable (+1-wear)</li>
+
+    </ul>
+
+    </details>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: >-
+        <p>On a 10+, something out of the ordinary catches your eye; claim it
+        and it&rsquo;s yours. You get all 3 choices.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7-9, something out of the ordinary catches your eye; claim it
+        and it&rsquo;s yours. And choose 1.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, you can get your hands on it, but it is sought by dangerous
+        denizens who are all too willing to kill to take it from whoever
+        possesses it.</p>
+  uses: 0
+  playbook: The Raider
+  rollType: finesse
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690745185171
+  modifiedTime: 1690745392206
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!vrmNnMQLWCK8eKrC'
+

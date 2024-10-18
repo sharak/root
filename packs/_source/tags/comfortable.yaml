@@ -1,0 +1,24 @@
+folder: Xvg3JRTYUqw8jnPI
+name: Comfortable
+type: tag
+_id: e3IMu9ZXs6sGWiZI
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: <p>This item counts as 1 fewer Load.</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690774202488
+  modifiedTime: 1690774210571
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!e3IMu9ZXs6sGWiZI'
+

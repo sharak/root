@@ -1,0 +1,73 @@
+folder: Ov7NAnWqqivWfdQu
+name: Crash and Smash
+type: move
+_id: y7aJYBGtX1xhuqID
+img: systems/pbta/assets/icons/skills/affliction_24.webp
+system:
+  name: ''
+  description: >-
+    <p>When you smash your way through scenery to reach someone or something,
+    roll with Might.</p>
+
+    <details>
+
+    <summary>Choices</summary>
+
+    <ul>
+
+    <li>You hurt yourself: mark injury</li>
+
+    <li>You break an important part of your surroundings</li>
+
+    <li>You damage or leave behind a piece of gear (GM&rsquo;s choice)</li>
+
+    </ul>
+
+    </details>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: <p>On a 10+, you reach your target and choose 1.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: <p>On a 7-9, you reach your target and choose 2.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, you smash through, but you leave yourself totally vulnerable
+        on the other side.</p>
+  uses: 0
+  playbook: The Arbiter
+  rollType: might
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689878417190
+  modifiedTime: 1689906626877
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!y7aJYBGtX1xhuqID'
+

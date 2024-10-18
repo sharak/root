@@ -1,0 +1,17 @@
+name: Positive Equipment Tags
+sorting: a
+folder: null
+type: Item
+_id: Xvg3JRTYUqw8jnPI
+sort: 0
+color: null
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '11.306'
+  createdTime: 1690774136221
+  modifiedTime: 1690774136221
+  lastModifiedBy: rlorite_exporter
+_key: '!folders!Xvg3JRTYUqw8jnPI'
+

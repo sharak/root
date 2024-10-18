@@ -1,0 +1,75 @@
+name: Storm a Group
+type: move
+img: icons/environment/people/infantry-army.webp
+system:
+  name: ''
+  description: >-
+    <p>When you storm a group of foes in melee, mark exhaustion and roll with
+    Might.</p>
+
+    <details>
+
+    <summary>Choices</summary>
+
+    <ul>
+
+    <li>You show them up; you inflict 2-morale harm.</li>
+
+    <li>You keep them off balance and confused; you inflict 2-exhaustion.</li>
+
+    <li>You avoid their blows to the best of your ability; you suffer little
+    (-1) harm.</li>
+
+    <li>You use them against each other; mark exhaustion again and they inflict
+    their harm against themselves.</li>
+
+    </ul>
+
+    </details>
+  requiresMove: ''
+  moveType: weapon
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: <p>On a 10+, trade harm and choose 2.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: <p>On a 7&ndash;9, trade harm and choose 1.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: <p>On a 6-, the GM gets to say what happens next.</p>
+  uses: 0
+  playbook: ''
+  rollType: might
+  rollMod: 0
+  choices: ''
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689200848576
+  modifiedTime: 1689908223334
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_id: P8vRQ3vahMlteMoj
+sort: 300000
+_key: '!items!P8vRQ3vahMlteMoj'
+

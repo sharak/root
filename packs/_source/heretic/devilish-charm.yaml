@@ -1,0 +1,56 @@
+folder: gln6juXn8idlJZXh
+name: Devilish Charm
+type: move
+_id: OdpfvGkM9g3o3FGn
+img: icons/magic/unholy/silhouette-light-fire-blue.webp
+system:
+  name: ''
+  description: >-
+    <p>When you trick an NPC you’ve previously aided or impressed, mark
+    exhaustion to make the move as if you had rolled a 12+, instead of
+    rolling.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Heretic
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690309985064
+  modifiedTime: 1690310016645
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!OdpfvGkM9g3o3FGn'
+

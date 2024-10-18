@@ -1,0 +1,75 @@
+folder: j6gQErmNCdAhx8pK
+name: Watch the Signs
+type: move
+_id: ELV2A2ZQ42ZYawZK
+img: icons/commodities/treasure/token-engraved-green-glowing.webp
+system:
+  name: ''
+  description: >-
+    <p>When you first attune yourself to a ruin or mysterious site by taking in
+    its signs, symbols, particular traits, and layout, roll with Cunning.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: <p>On a 10+, hold 3.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: <p>On a 7-9, hold 2.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: <p>On a 6-, you may mark an exhaustion to hold 1.</p>
+  uses: 0
+  playbook: The Seeker
+  rollType: cunning
+  rollMod: 0
+  choices: >-
+    <p>While within that ruin or mysterious site, you can spend your hold 1 for
+    1 to:</p>
+
+    <ul>
+
+    <li>Identify the quickest path to the closest valuable treasure or
+    knowledge</li>
+
+    <li>Disarm a trap or overcome a natural hazard without cost</li>
+
+    <li>Name a character within reach about to suffer harm; you suffer it
+    instead</li>
+
+    <li>Name a character in the ruin; you cross the distance to them
+    instantly</li>
+
+    <li>Take cover in the ruin; ignore all harm from a single attack or
+    catastrophe</li>
+
+    </ul>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690771413013
+  modifiedTime: 1690771759408
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!ELV2A2ZQ42ZYawZK'
+

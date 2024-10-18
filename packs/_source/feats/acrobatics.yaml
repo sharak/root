@@ -1,0 +1,50 @@
+name: Acrobatics
+type: root.traits
+_id: DkwveHuA1QHjg42x
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: feat
+    traitDescription: >-
+      <p><strong>Description:</strong> Adeptly climbing, vaulting, jumping.</p>
+
+      <blockquote>
+
+      <p><strong>Risks</strong></p>
+
+      <ul>
+
+      <li><strong>Break Something:</strong> Break something you&rsquo;re
+      carrying or in the environment. Possibly mark wear.</li>
+
+      <li><strong>Detection:</strong> Straight up get noticed by onlooker.</li>
+
+      <li><strong>Plunge Into Danger:</strong> Seize the chance to act and run
+      into a more dangerous situation.</li>
+
+      </ul>
+
+      </blockquote>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689798188477
+  modifiedTime: 1689798731057
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!DkwveHuA1QHjg42x'
+

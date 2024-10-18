@@ -1,0 +1,60 @@
+folder: G2WNTaq7HXAdA9Bw
+name: Fealty
+type: move
+_id: GIJ0v1gZTEGuYytC
+img: icons/skills/social/diplomacy-handshake-yellow.webp
+system:
+  name: ''
+  description: >-
+    <p>When you commit yourself to the cause of someone you deem worthy, swear
+    an oath to them stating what task you will complete on their behalf. Mark
+    exhaustion to reroll a move made in pursuit of that task. You cannot commit
+    yourself to another cause until you accomplish the first, or break your
+    oath. If you break your oath, fill your exhaustion track and mark
+    4-notoriety with the faction whose trust you betrayed. If you fulfill your
+    oath, mark 4-prestige with the faction whose trust you kept.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Ronin
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689952513594
+  modifiedTime: 1689952543321
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!GIJ0v1gZTEGuYytC'
+

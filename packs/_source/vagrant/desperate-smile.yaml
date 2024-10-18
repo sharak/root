@@ -1,0 +1,55 @@
+folder: KtFCgkDkUgh8pq8Z
+name: Desperate Smile
+type: move
+_id: TrNupl4lF8ZFM4cl
+img: icons/magic/holy/prayer-hands-glowing-yellow.webp
+system:
+  name: ''
+  description: >-
+    <p>When you trust fate to see you through by begging, pleading, or abasing
+    yourself, roll with Charm instead of Luck.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Vagrant
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689987225992
+  modifiedTime: 1689987275484
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!TrNupl4lF8ZFM4cl'
+

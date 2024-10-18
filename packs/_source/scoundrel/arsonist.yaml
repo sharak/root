@@ -1,0 +1,55 @@
+folder: kt55MFkUnq7loeP4
+name: Arsonist
+type: move
+_id: hQxBloYmp7yWxVxc
+img: icons/magic/fire/explosion-mushroom-nuke-orange.webp
+system:
+  name: ''
+  description: >-
+    <p>When you wreck something with flagrantly dangerous means (explosives,
+    uncontrolled flame, etc.), roll with Luck instead of Might.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Scoundrel
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689963596024
+  modifiedTime: 1689963770152
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!hQxBloYmp7yWxVxc'
+

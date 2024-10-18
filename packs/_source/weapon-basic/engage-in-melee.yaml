@@ -1,0 +1,73 @@
+name: Engage in Melee
+type: move
+img: systems/pbta/assets/icons/skills/yellow_37.webp
+system:
+  name: ''
+  description: >-
+    <p>When you engage an enemy in melee at close or intimate range, roll with
+    Might.</p>
+
+    <details>
+
+    <summary>Choices</summary>
+
+    <ul>
+
+    <li>Inflict serious (+1) harm.</li>
+
+    <li>Suffer little (-1) harm.</li>
+
+    <li>Shift your range one step.</li>
+
+    <li>Impress, dismay, or frighten your foe.</li>
+
+    </ul>
+
+    </details>
+  requiresMove: ''
+  moveType: weapon
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: <p>On a 10+, trade harm and pick 3.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: <p>On a 7&ndash;9, trade harm and pick 1.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: <p>On a 6-, the GM gets to say what happens next.</p>
+  uses: 0
+  playbook: ''
+  rollType: might
+  rollMod: 0
+  choices: ''
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689200848576
+  modifiedTime: 1689907949789
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_id: GodN2u6r8agp9LdM
+sort: 100000
+_key: '!items!GodN2u6r8agp9LdM'
+

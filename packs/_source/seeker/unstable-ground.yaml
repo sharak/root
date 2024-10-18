@@ -1,0 +1,56 @@
+folder: j6gQErmNCdAhx8pK
+name: Unstable Ground
+type: move
+_id: Ncdh4jdaqPJ0PDs0
+img: icons/magic/earth/lava-stone-fire-yellow.webp
+system:
+  name: ''
+  description: >-
+    <p>When you use a rough or chaotic environment—slippery rocks, a crowded
+    market, etc—to gain an advantage over your opponents in a fight, you can
+    grapple them using Finesse instead of Might.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Seeker
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690771924638
+  modifiedTime: 1690771960973
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!Ncdh4jdaqPJ0PDs0'
+

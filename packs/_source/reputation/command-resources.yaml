@@ -1,0 +1,63 @@
+name: Command Resources
+type: move
+img: icons/containers/bags/sack-open-grain-red-tan.webp
+system:
+  name: ''
+  description: >-
+    <p><em><strong>Requires +3 or higher Reputation </strong></em></p>
+
+    <p>When you command an NPC to give you significant, valuable resources, roll
+    with Reputation for their faction.</p>
+  requiresMove: ''
+  moveType: reputation
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: >-
+        <p>On a 10+, you get what you need as soon as they can get it to
+        you.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7-9, they impose a condition on how you can use the resources,
+        or what you must return to the faction in recompense.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, they don&rsquo;t have what you need, but they tell you a way
+        you can get it at a steep cost or some serious difficulty.</p>
+  uses: 0
+  playbook: ''
+  rollType: prompt
+  rollMod: 0
+  choices: ''
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689353276845
+  modifiedTime: 1689908346087
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_id: vhwbt2xfgR9VuC7V
+sort: 0
+_key: '!items!vhwbt2xfgR9VuC7V'
+

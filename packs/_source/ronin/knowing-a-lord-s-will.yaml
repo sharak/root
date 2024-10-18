@@ -1,0 +1,56 @@
+folder: G2WNTaq7HXAdA9Bw
+name: Knowing a Lord’s Will
+type: move
+_id: caOYYSgEWn5wzy2T
+img: icons/magic/control/silhouette-grow-shrink-blue.webp
+system:
+  name: ''
+  description: >-
+    <p>When you figure out a denizen of status, authority, or power, roll with
+    Might instead of Charm. When you trick a denizen of status, authority, or
+    power by playing subordinate, roll with Might instead of Cunning.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Ronin
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689951975126
+  modifiedTime: 1689952104027
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!caOYYSgEWn5wzy2T'
+

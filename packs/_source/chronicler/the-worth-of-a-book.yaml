@@ -1,0 +1,61 @@
+folder: HkVSqY9EEkg8f8kS
+name: The Worth of a Book
+type: move
+_id: X9dNxgAZIpfPZmEO
+img: icons/sundries/books/book-embossed-spiral-purple-white.webp
+system:
+  name: ''
+  description: >-
+    <p>When you study your tomes and scrolls to discover old techniques or
+    methods to solve an intractable problem—curing a deadly disease, ending a
+    drought, legally unseating a leader, etc—decide what you want to accomplish
+    and tell the GM. The GM will give you between 1 to 4 conditions you must
+    fulfill to discover a path forward, including time taken, additional
+    information needed, mentors or translators needed, facilities/tools needed,
+    or the limits of your solution. When you fulfill the conditions, you gain
+    whatever knowledge you were seeking—it’s up to you to put to use.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Chronicler
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690128444870
+  modifiedTime: 1690128480319
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!X9dNxgAZIpfPZmEO'
+

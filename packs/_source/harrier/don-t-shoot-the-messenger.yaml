@@ -1,0 +1,57 @@
+folder: MCcghwufENVFlWVk
+name: Don’t Shoot the Messenger
+type: move
+_id: 7K7kcBmJPmsZsMfr
+img: icons/sundries/documents/envelope-sealed-red-tan.webp
+system:
+  name: ''
+  description: >-
+    <p>Take the @UUID[Compendium.root.feats.Item.aroS6tQCfSvYN6ZO]{Counterfeit}
+    roguish feat (it does not count against your limit.) When you pretend to be
+    an innocuous messenger carrying a missive of import to trick someone, roll
+    with Luck instead of Cunning.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Harrier
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689884932182
+  modifiedTime: 1689885025420
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!7K7kcBmJPmsZsMfr'
+

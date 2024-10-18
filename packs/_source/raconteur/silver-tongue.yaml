@@ -1,0 +1,56 @@
+folder: AqM1Ab5E1o7JH0tZ
+name: Silver Tongue
+type: move
+_id: PkdOdqCk4MGHb4R2
+img: icons/magic/control/hypnosis-mesmerism-pendulum.webp
+system:
+  name: ''
+  description: >-
+    <p>When you persuade an NPC with a colorful anecdote, mark exhaustion on a
+    hit to make them reveal something important and relevant about the
+    situation.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Raconteur
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690680027738
+  modifiedTime: 1690680244087
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!PkdOdqCk4MGHb4R2'
+

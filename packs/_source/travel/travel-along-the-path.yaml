@@ -1,0 +1,78 @@
+name: Travel Along the Path
+type: move
+img: icons/environment/wilderness/terrain-river-road-gray.webp
+system:
+  name: ''
+  description: >-
+    <p>When you travel from clearing to clearing along the path, the band
+    collectively decides how it travels and one member rolls:</p>
+
+    <ul>
+
+    <li>At a relaxing pace: everyone clears 3-exhaustion; the band collectively
+    marks a total of 2-depletion; <strong>-1 to the roll</strong>.</li>
+
+    <li>At an average pace: everyone clears 2-exhaustion; the band collectively
+    marks 1-depletion; <strong>+0 to the roll</strong>.</li>
+
+    <li>Safely, quickly, and under the radar: the band collectively marks
+    1-depletion for supplies; <strong>+1 to the roll</strong>.</li>
+
+    <li>Urgently fast: everyone marks exhaustion; <strong>+2 to the
+    roll</strong>.</li>
+
+    </ul>
+  requiresMove: ''
+  moveType: travel
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: >-
+        <p>On a 10+, you reach the next clearing in a timely fashion and the
+        trip is uninterrupted and quick.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7-9, you reach the next clearing in a timely fashion, but you
+        encounter something noteworthy on the path&mdash;a caravan, a
+        battleground, or something else odd passing through.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, you are caught in the middle of a dangerous situation before
+        you arrive at the next clearing.</p>
+  uses: 0
+  playbook: ''
+  rollType: prompt
+  rollMod: 0
+  choices: ''
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689348309229
+  modifiedTime: 1689908316539
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_id: KwoLyftmiChqFD7D
+sort: 0
+_key: '!items!KwoLyftmiChqFD7D'
+

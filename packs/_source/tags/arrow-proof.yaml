@@ -1,0 +1,26 @@
+folder: Xvg3JRTYUqw8jnPI
+name: Arrow-Proof
+type: tag
+_id: k9cz5XEfuY6RzWTQ
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: >-
+    <p>Ignore the first hit dealing injury from arrows that you suffer in a
+    scene.</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690774148126
+  modifiedTime: 1690774399467
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!k9cz5XEfuY6RzWTQ'
+

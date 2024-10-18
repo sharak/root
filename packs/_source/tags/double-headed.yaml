@@ -1,0 +1,26 @@
+folder: KiLgnAe5upB0DLbN
+name: Double-headed
+type: tag
+_id: u5FUyH0KGeKQ21lK
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: >-
+    <p>One edge inflicts injury, the other exhaustion. Declare which side you
+    use at the start of a fight</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690680920354
+  modifiedTime: 1690680935057
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!u5FUyH0KGeKQ21lK'
+

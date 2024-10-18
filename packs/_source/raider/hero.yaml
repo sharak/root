@@ -1,0 +1,33 @@
+folder: johDwUUV4386ubYJ
+name: Hero
+type: root.traits
+_id: emP9moPSUqWX23gU
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: nature
+    traitDescription: >-
+      <p>Clear your exhaustion track when you outright attack a dangerous,
+      oppressive, or villainous NPC.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690744387064
+  modifiedTime: 1690744399196
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!emP9moPSUqWX23gU'
+

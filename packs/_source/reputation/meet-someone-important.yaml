@@ -1,0 +1,78 @@
+name: Meet Someone Important
+type: move
+img: icons/skills/social/diplomacy-writing-letter.webp
+system:
+  name: ''
+  description: >-
+    <p>When you meet with someone important for the first time, roll with
+    Reputation for their faction.</p>
+
+    <details>
+
+    <summary>Choices</summary>
+
+    <ul>
+
+    <li>You&rsquo;ve heard stories; ask a question about them, and the GM will
+    tell you one story you&rsquo;ve heard about them as an answer.</li>
+
+    <li>They&rsquo;ve heard something in your favor; take +1 forward when you
+    first try to play up your connection with them and their faction.</li>
+
+    </ul>
+
+    </details>
+  requiresMove: ''
+  moveType: reputation
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: >-
+        <p>On a 10+, you&rsquo;re aware of their wider reputation (if any), and
+        they&rsquo;re aware of yours (if any); plus get both choices.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7&ndash;9, you&rsquo;re aware of their wider reputation (if
+        any), and they&rsquo;re aware of yours (if any); plus choose 1.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, you only know the basics about them, and they&rsquo;ve heard
+        stories about you and the things you&rsquo;ve done, true or
+        false&mdash;prepare for major complications.</p>
+  uses: 0
+  playbook: ''
+  rollType: prompt
+  rollMod: 0
+  choices: ''
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689353276845
+  modifiedTime: 1689908452696
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_id: RMxBxGTn5dbfpQ9H
+sort: 0
+_key: '!items!RMxBxGTn5dbfpQ9H'
+

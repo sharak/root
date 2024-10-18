@@ -1,0 +1,33 @@
+folder: MHDQ9sFFMgAVMTIk
+name: Survivor
+type: root.traits
+_id: AV7Vw3fyBSHXxDv6
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: nature
+    traitDescription: >-
+      <p>Clear your exhaustion track when you try to flee or cover allies&rsquo;
+      flight from a dangerous or overwhelming situation.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689950828202
+  modifiedTime: 1689950839114
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!AV7Vw3fyBSHXxDv6'
+

@@ -1,0 +1,50 @@
+name: Leather Armor
+type: equipment
+_id: IJOf1om7ZzHJNO1S
+img: icons/equipment/chest/breastplate-banded-leather-brown.webp
+system:
+  name: ''
+  description: ''
+  uses: 0
+  playbook: ''
+  quantity: 3
+  weight: 1
+  tags: '[{"value":"flexible"}]'
+  tagsString: flexible
+  itemType: null
+  equipmentType: equipment
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    itemWear:
+      addBox1: true
+      box1: false
+      addBox2: true
+      box2: false
+      addBox3: false
+      box3: false
+      addBox4: false
+      box4: false
+      addBox5: false
+      box5: false
+      addBox6: false
+      box6: false
+      addBox7: false
+      box7: false
+      addBox8: false
+      box8: false
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690777271821
+  modifiedTime: 1690777322924
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!IJOf1om7ZzHJNO1S'
+

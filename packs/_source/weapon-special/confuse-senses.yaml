@@ -1,0 +1,62 @@
+name: Confuse Senses
+type: move
+img: icons/magic/earth/projectiles-stone-salvo.webp
+system:
+  name: ''
+  description: >-
+    <p>When you throw something to confuse an opponent&rsquo;s senses at close
+    or intimate range, roll with Finesse.</p>
+  requiresMove: ''
+  moveType: weapon
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: >-
+        <p>On a 10+, you&rsquo;ve thrown them off balance, blinded them,
+        deafened them, or confused them, and given yourself an opportunity; they
+        have to take some time to get their bearings and restore their senses
+        before they can act clearly again.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7&ndash;9, you&rsquo;ve thrown them off balance, blinded them,
+        deafened them, or confused them, and given yourself an opportunity; you
+        have just a few moments.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: <p>On a 6-, the GM gets to say what happens next.</p>
+  uses: 0
+  playbook: ''
+  rollType: finesse
+  rollMod: 0
+  choices: ''
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689200848576
+  modifiedTime: 1689908084300
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_id: EX4YuMPVWoVDr0Qv
+sort: 900000
+_key: '!items!EX4YuMPVWoVDr0Qv'
+

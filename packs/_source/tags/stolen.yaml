@@ -1,0 +1,24 @@
+folder: AqtsECVOdTtN2nnX
+name: Stolen
+type: tag
+_id: eOJ6j1EFjgFqrY2J
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: <p>someone dangerous is pursuing you to recover their property</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690322987416
+  modifiedTime: 1690773941936
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!eOJ6j1EFjgFqrY2J'
+

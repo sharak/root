@@ -1,0 +1,24 @@
+folder: Xvg3JRTYUqw8jnPI
+name: Luxury
+type: tag
+_id: RhsEKqjQW8kOAiUf
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: <p>After creation, this item is worth +3 Value.</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690774472556
+  modifiedTime: 1690774479993
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!RhsEKqjQW8kOAiUf'
+

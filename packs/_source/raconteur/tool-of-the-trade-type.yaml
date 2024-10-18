@@ -1,0 +1,79 @@
+folder: GCcQ8X6jKXKPwruC
+name: Tool of the Trade Type
+type: equipment
+_id: FvwxlJtUiY7CAL44
+img: icons/tools/instruments/harp-red.webp
+system:
+  name: ''
+  description: >-
+    <p>Choose a <strong>type</strong>: musical instrument, poetry book, unique
+    costume, stage prop</p>
+
+    <p>Choose a <strong>look</strong>: battered, fancy, delicate, stained,
+    pristine</p>
+
+    <p>Choose <strong>three feature tags</strong>:</p>
+
+    <ul>
+
+    <li><strong>Enchanting</strong>: mark wear instead of exhaustion to add +2
+    when you help another vagabond by distracting someone with your
+    performance</li>
+
+    <li><strong>Pleasant</strong>: when you perform for your band while
+    traveling on a path, mark wear to clear up to 2 additional exhaustion from
+    each vagabond.</li>
+
+    <li><strong>Revealing</strong>: when you perform in public, mark wear to ask
+    any one character who watched “what truly motivates your character?”; take
+    +1 when acting on the answer</li>
+
+    <li><strong>Sturdy</strong>: +2 boxes of wear; when you tend to your symbol
+    after a public performance, clear a box of wear.</li>
+
+    <li><strong>Versatile</strong>: choose two equipment tags for your
+    symbol</li>
+
+    </ul>
+  uses: 0
+  playbook: The Raconteur
+  quantity: null
+  weight: 0
+  tags: ''
+  tagsString: ''
+  itemType: null
+  equipmentType: equipment
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    itemWear:
+      addBox1: true
+      box1: false
+      addBox2: true
+      box2: false
+      addBox3: true
+      box3: false
+      addBox4: false
+      box4: false
+      addBox5: false
+      box5: false
+      addBox6: false
+      box6: false
+      addBox7: false
+      box7: false
+      addBox8: false
+      box8: false
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690678216393
+  modifiedTime: 1690681335210
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!FvwxlJtUiY7CAL44'
+

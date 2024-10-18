@@ -1,0 +1,26 @@
+folder: KiLgnAe5upB0DLbN
+name: Unique
+type: tag
+_id: 0lomWOI0FfjBmrLW
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: >-
+    <p>Your weapon is of unusual design; once per session, mark exhaustion to
+    ignore the harm inflicted on you by a single attack</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690681011163
+  modifiedTime: 1690681019720
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!0lomWOI0FfjBmrLW'
+

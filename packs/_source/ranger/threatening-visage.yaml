@@ -1,0 +1,55 @@
+folder: yfgWmnNblb0MsbsG
+name: Threatening Visage
+type: move
+_id: r5CDf56r8Dq9rAEk
+img: icons/skills/melee/hand-grip-sword-strike-orange.webp
+system:
+  name: ''
+  description: >-
+    <p>When you persuade an NPC with open threats or naked steel, roll with
+    Might instead of Charm.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Ranger
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689907044042
+  modifiedTime: 1689907123113
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!r5CDf56r8Dq9rAEk'
+

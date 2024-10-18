@@ -1,0 +1,63 @@
+folder: alVXkrr2XN0IDZJr
+name: A Just Cause
+type: move
+_id: 5bmrwVkf8dJ7Qd5X
+img: icons/skills/melee/unarmed-punch-fist.webp
+system:
+  name: ''
+  description: >-
+    <p>When you threaten an authority on behalf of the downtrodden, mark
+    notoriety with the authority’s faction and roll with Might.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: >-
+        <p>On a 10+, the force of your defiance unnerves them; they must make a
+        concession right now to your cause or openly attack you. Your words are
+        also inspirational; you and your allies take a +1 ongoing against them
+        and their allies if they attack you.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7-9, the force of your defiance unnerves them; they must make a
+        concession right now to your cause or openly attack you.&nbsp;</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, the authority reveals that the cause you champion is not as
+        just as you were led to believe.</p>
+  uses: 0
+  playbook: The Champion
+  rollType: might
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690126089962
+  modifiedTime: 1690126203595
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!5bmrwVkf8dJ7Qd5X'
+

@@ -1,0 +1,31 @@
+folder: swg0uOm37mMIekPi
+name: Wanderlust
+type: root.traits
+_id: dWmLrDCG5lyhAr4C
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: drive
+    traitDescription: <p>Advance when you finish a journey to a clearing.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689884013067
+  modifiedTime: 1689884024070
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!dWmLrDCG5lyhAr4C'
+

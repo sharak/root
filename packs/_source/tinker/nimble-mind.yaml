@@ -1,0 +1,55 @@
+folder: uJRgelKGRtfSjvL3
+name: Nimble Mind
+type: move
+_id: PVjKFtlG0siFzk4U
+img: icons/skills/trades/security-locksmith-key-gray.webp
+system:
+  name: ''
+  description: >-
+    <p>When you attempt roguish feats involving mechanisms or locks, mark
+    depletion to roll with Cunning instead of Finesse.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Tinker
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689981546018
+  modifiedTime: 1689981607566
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!PVjKFtlG0siFzk4U'
+

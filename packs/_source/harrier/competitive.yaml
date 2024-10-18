@@ -1,0 +1,33 @@
+folder: Rah2CTvc5pbq2FuH
+name: Competitive
+type: root.traits
+_id: Xu8YsGQzElZ0NTWN
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: nature
+    traitDescription: >-
+      <p>Clear your exhaustion track when you take dramatically unnecessary
+      risks to show off.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689883889205
+  modifiedTime: 1689883899047
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!Xu8YsGQzElZ0NTWN'
+

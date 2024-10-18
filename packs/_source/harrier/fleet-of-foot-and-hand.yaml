@@ -1,0 +1,53 @@
+folder: MCcghwufENVFlWVk
+name: Fleet of Foot and Hand
+type: move
+_id: 4iEues1FvFsDbwGL
+img: icons/skills/movement/feet-winged-boots-brown.webp
+system:
+  name: ''
+  description: <p>Take +1 Finesse (max +3).</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Harrier
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 1
+    automationStat: finesse
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689884866902
+  modifiedTime: 1689884912435
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!4iEues1FvFsDbwGL'
+

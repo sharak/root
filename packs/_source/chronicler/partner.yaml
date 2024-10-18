@@ -1,0 +1,40 @@
+folder: injLjiSNw0LQ3Xnd
+name: Partner
+type: root.traits
+_id: 2bRYWezwqHZxDw6P
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: connection
+    traitDescription: >-
+      <p>____________ and I exposed a dark secret of a faction, leading to a
+      meaningful political change. What was it? And which member of that faction
+      hates us for it?</p>
+
+      <blockquote>When you fill in this connection, you each mark 2-prestige
+      with the faction you helped, and mark 2-notoriety with the faction you
+      harmed. During play, if you are spotted together, then any prestige or
+      notoriety gains with those factions are doubled for the two of
+      you.</blockquote>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690128360297
+  modifiedTime: 1690128379929
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!2bRYWezwqHZxDw6P'
+

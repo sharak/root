@@ -1,0 +1,33 @@
+folder: E7nju3C8qY3NFvHp
+name: Protection
+type: root.traits
+_id: oJIyulZhk1CYTbDl
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: drive
+    traitDescription: >-
+      <p>Name your ward. Advance when you protect them from significant danger,
+      or when time passes and your ward is safe.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689980383112
+  modifiedTime: 1689980406881
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!oJIyulZhk1CYTbDl'
+

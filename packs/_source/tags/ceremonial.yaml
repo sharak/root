@@ -1,0 +1,27 @@
+folder: Xvg3JRTYUqw8jnPI
+name: Ceremonial
+type: tag
+_id: LFDHoVmZip1f5oWB
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: >-
+    <p>Choose an attached faction. While this item is displayed, treat yourself
+    as having +1 Reputation with that faction, and -1 Reputation with other
+    factions.</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690774180505
+  modifiedTime: 1690774194599
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!LFDHoVmZip1f5oWB'
+

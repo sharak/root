@@ -1,0 +1,72 @@
+folder: j6gQErmNCdAhx8pK
+name: Treasurer Hunter
+type: move
+_id: gxcsstYTFNBGwCO0
+img: icons/commodities/currency/coins-plain-pouch-gold.webp
+system:
+  name: ''
+  description: >-
+    <p>When you sell the treasures you found in a ruin at market, roll with
+    Cunning.</p>
+
+    <details>
+
+    <summary>Choices</summary>
+
+    <ul>
+
+    <li>you get a good price; you get double what such findings are usually
+    worth</li>
+
+    <li>you are popular; mark two prestige with the controlling faction</li>
+
+    </ul>
+
+    </details>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: <p>On a 10+, you find some buyers, and take both choices.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: <p>On a 7-9, you find some buyers, and take 1 choice.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, you still sell the items for a fair price, but someone
+        powerful takes offense at your plunder of such sacred sites.</p>
+  uses: 0
+  playbook: The Seeker
+  rollType: cunning
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690770706618
+  modifiedTime: 1690770886988
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!gxcsstYTFNBGwCO0'
+

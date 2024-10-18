@@ -1,0 +1,24 @@
+folder: Xvg3JRTYUqw8jnPI
+name: Short Limbs
+type: tag
+_id: WPP2mEgV9UegWDB8
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: <p>Mark wear to fire a quick shot at far range.</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690774684215
+  modifiedTime: 1690774691787
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!WPP2mEgV9UegWDB8'
+

@@ -1,0 +1,280 @@
+name: The Prince
+type: playbook
+img: icons/svg/book.svg
+system:
+  name: ''
+  description: >-
+    <div>
+
+    <p style="margin: 20px 100px; text-align: center; font-size: 1.5em;"><em>You
+    are a second-generation vagabond, heir to your parent&rsquo;s masteries and
+    knowledge, but also born to this life of roguery and independence&mdash;you
+    are not a vagabond by your own volition.</em></p>
+
+    </div>
+
+    <hr>
+
+    <p style="font-size: 0.95em;"><em><strong>Instructions:</strong> You can
+    drag-and-drop into your character sheet any <span style="background: #DDD;
+    border: 1px solid var(--color-border-dark-tertiary); border-radius: 2px;
+    color: #2d2d2d; display: inline-block; padding: 1px 4px; font-style:
+    normal;"><img style="border: none; filter: opacity(0.5); height: 14px;
+    margin: 2px 0 -2px; width: 14px;"
+    src="modules/root/styles/img/icons/suitcase.svg" alt=""> Item</span> you
+    choose and it will automatically be assigned to its correct place.
+    Everything else needs to be copy-pasted or input manually (this includes the
+    background &amp; details, your stats, and the equipment starting
+    value).</em></p>
+
+    <hr>
+
+    <section class="grid grid-3col">
+
+    <div class="background" style="border-right: dashed 1px black;
+    padding-right: 10px;">
+
+    <h2 style="margin: 15px 0 10px;">BACKGROUND &amp; DETAILS</h2>
+
+    <h3 style="border: none;">Species</h3>
+
+    <ul>
+
+    <li>badger, beaver, bluejay, cat, fox, hawk, lizard, mouse, opossum, otter,
+    owl, raccoon, rabbit, squirrel, wolf</li>
+
+    </ul>
+
+    <hr>
+
+    <h3 style="border: none;">Details</h3>
+
+    <ul>
+
+    <li>he, she, they, shifting</li>
+
+    <li>bright-eyed, practical, short, simple</li>
+
+    <li>trusty backpack, comfortable jacket, family compass, walking stick</li>
+
+    </ul>
+
+    <hr>
+
+    <h3 style="border: none;">Demeanor</h3>
+
+    <ul>
+
+    <li>arrogant, curious, foolhardy, brave</li>
+
+    </ul>
+
+    <hr>
+
+    <h3 style="border: none;">Background</h3>
+
+    <p><strong>Why did your parents raise you as a vagabond?</strong></p>
+
+    <ul>
+
+    <li>They rejected the ordinary life of a clearing of the Woodland</li>
+
+    <li>They feared their enemies would find them if they settled down</li>
+
+    <li>They wanted me to make my own choices free of society&rsquo;s
+    influence</li>
+
+    <li>They never fit in with the denizens</li>
+
+    <li>They didn&rsquo;t know how else to live</li>
+
+    </ul>
+
+    <p><strong>What happened to your parents?</strong></p>
+
+    <ul>
+
+    <li>Captured by a powerful faction</li>
+
+    <li>Felled by a rival vagabond</li>
+
+    <li>Retired to a Woodland clearing</li>
+
+    <li>Missing in the forest, now presumed dead</li>
+
+    <li>Killed in battle by agents of a powerful faction</li>
+
+    </ul>
+
+    <p><strong>Which faction did your parents serve the most?</strong>
+    &nbsp;&mdash;&nbsp;<em>mark two prestige for appropriate group</em>.</p>
+
+    <p><strong>With faction did your parents most often oppose?</strong>
+    &nbsp;&mdash;&nbsp;<em>mark one notoriety for appropriate group</em>.</p>
+
+    </div>
+
+    <div class="attributes" style="border-right: dashed 1px black;
+    padding-right: 10px;">
+
+    <h2 style="margin: 15px 0 10px;">ATTRIBUTES &amp; TRAITS</h2>
+
+    <h3 style="border: none;">Stats</h3>
+
+    <p><strong>Charm:</strong> <input style="margin: 0; text-align: center;
+    width: 30px;" type="text" value="-1" data-dtype="Number"></p>
+
+    <p><strong>Cunning:</strong> <input style="margin: 0; text-align: center;
+    width: 30px;" type="text" value="1" data-dtype="Number"></p>
+
+    <p><strong>Finesse:</strong> <input style="margin: 0; text-align: center;
+    width: 30px;" type="text" value="1" data-dtype="Number"></p>
+
+    <p><strong>Luck:</strong> <input style="margin: 0; text-align: center;
+    width: 30px;" type="text" value="1" data-dtype="Number"></p>
+
+    <p><strong>Might:</strong> <input style="margin: 0; text-align: center;
+    width: 30px;" type="text" value="0" data-dtype="Number"></p>
+
+    <p><em>Add <strong>+1 to a stat</strong> of your choice, to a max of
+    +2.</em></p>
+
+    <hr>
+
+    <h3 style="border: none;">Nature</h3>
+
+    <p>Drag-and-drop <strong>one nature</strong>:</p>
+
+    <p>@UUID[Compendium.root.prince.Item.J0uEZifbxxYRKCvA]{Scion}</p>
+
+    <p>@UUID[Compendium.root.prince.Item.z9c8bPRhxNoFWurJ]{Trailblazer}</p>
+
+    <hr>
+
+    <h3 style="border: none;">Drives</h3>
+
+    <p>Drag-and-drop <strong>two drives</strong>:</p>
+
+    <p>@UUID[Compendium.root.prince.Item.Vge0VH9MOhTPJStG]{Crime}</p>
+
+    <p>@UUID[Compendium.root.prince.Item.AzdG7ZwxIHoZ5zh6]{Freedom}</p>
+
+    <p>@UUID[Compendium.root.prince.Item.WoH8ZEECECpvzAXV]{Protection}</p>
+
+    <p>@UUID[Compendium.root.prince.Item.nHReQmIhOnn5VmG1]{Wanderlust}</p>
+
+    <hr>
+
+    <h3 style="border: none;">Connections</h3>
+
+    <p>Drag-and-drop <strong>your two connections</strong>:</p>
+
+    <p>@UUID[Compendium.root.prince.Item.bPYn89P5VrTO1EkA]{Family}</p>
+
+    <p>@UUID[Compendium.root.prince.Item.YRC4UAIFopyhFEjC]{Peer}</p>
+
+    <hr>
+
+    <h3 style="border: none;">Roguish Feats</h3>
+
+    <p>Drag-and-drop <strong>these two roguish feats</strong>:</p>
+
+    <p>@UUID[Compendium.root.feats.Item.R23a3mq4KIil8nxu]{Hide}</p>
+
+    <p>@UUID[Compendium.root.feats.Item.fTimsK8D9UZpDm63]{Sneak}</p>
+
+    <p>Then drag-and-drop<strong> two more roguish feats</strong>:</p>
+
+    <p>@UUID[Compendium.root.feats.Item.DkwveHuA1QHjg42x]{Acrobatics}</p>
+
+    <p>@UUID[Compendium.root.feats.Item.ZktkLmvroSa67Bk3]{Blindside}</p>
+
+    <p>@UUID[Compendium.root.feats.Item.aroS6tQCfSvYN6ZO]{Counterfeit}</p>
+
+    <p>@UUID[Compendium.root.feats.Item.0qcE3RoZApWNK1yj]{Disable Device}</p>
+
+    <p>@UUID[Compendium.root.feats.Item.3DKqIF8sBfvLrkbb]{Pick Lock}</p>
+
+    <p>@UUID[Compendium.root.feats.Item.UdqlW5J5nsXkiAF1]{Pickpocket}</p>
+
+    <p>@UUID[Compendium.root.feats.Item.0k6qyIRuLbe2ZFVV]{Sleight of Hand}</p>
+
+    <hr>
+
+    <h3 style="border: none;">Equipment</h3>
+
+    <p>Starting Value: <input style="margin: 0; text-align: center; width:
+    30px;" type="text" value="7" data-dtype="Number"></p>
+
+    </div>
+
+    <div class="moves">
+
+    <h2 style="margin: 15px 0 10px;">STARTING MOVES</h2>
+
+    <h3 style="border: none;">Playbook Moves</h3>
+
+    <p>Drag-and-drop <strong>these two playbook moves</strong>:</p>
+
+    <p>@UUID[Compendium.root.prince.Item.Wv1DbBErWuH2pWvK]{Heirloom Weapon}</p>
+
+    <p>@UUID[Compendium.root.prince.Item.NxRJs3DMQnohA8sR]{Legacy}</p>
+
+    <p>Then drag-and-drop <strong>one more playbook move</strong>:</p>
+
+    <p>@UUID[Compendium.root.prince.Item.KoWpWZNTqJcujcDt]{Favored}
+    <strong>**</strong></p>
+
+    <p>@UUID[Compendium.root.prince.Item.8KNJ2PWqK7CKYImB]{No Jail Can Hold
+    Me}</p>
+
+    <p>@UUID[Compendium.root.prince.Item.O2HUVF6IJ9OsZYkS]{One of Us}</p>
+
+    <p>@UUID[Compendium.root.prince.Item.mU2FHw6pNuyIqrlp]{Tall Tales}</p>
+
+    <hr>
+
+    <h3 style="border: none;">Weapon Moves</h3>
+
+    <p>Drag-and-drop <strong>one weapon move</strong>:</p>
+
+    <p>@UUID[Compendium.root.weapon-special.Item.EX4YuMPVWoVDr0Qv]{Confuse
+    Senses}</p>
+
+    <p>@UUID[Compendium.root.weapon-special.Item.1uM7YSsZIDEOSoEX]{Disarm}</p>
+
+    <p>@UUID[Compendium.root.weapon-special.Item.TtmqndtTIHwcaF8y]{Harry a
+    Group}</p>
+
+    <p>@UUID[Compendium.root.weapon-special.Item.koxBjhOuKfe1Ur2d]{Parry}</p>
+
+    </div>
+
+    </section>
+
+    <hr>
+
+    <p style="text-align: center;"><em><strong>*</strong> Changes you make on
+    this document (like your stats) won't be saved, but you can type and
+    copy-paste them onto your sheet.</em></p>
+
+    <p style="text-align: center;"><em><strong>**</strong> Adds +1 Luck
+    automatically if automation enabled (default setting).</em></p>
+effects: []
+folder: null
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689790157843
+  modifiedTime: 1690667272623
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_id: HilZlXAN0IMBQzRV
+sort: 0
+_key: '!items!HilZlXAN0IMBQzRV'
+

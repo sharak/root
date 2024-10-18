@@ -1,0 +1,63 @@
+folder: j6gQErmNCdAhx8pK
+name: Adventurer Contract
+type: move
+_id: S9R6S6rzjgHxVRHk
+img: icons/sundries/scrolls/scroll-writing-beige.webp
+system:
+  name: ''
+  description: >-
+    <p>When you try to convince a powerful NPC to supply an exploratory
+    adventure, roll with Cunning.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: >-
+        <p>On a 10+, they give you 8-value in resources and depletion&mdash;but
+        you must fulfill a request. They ask for something general&mdash;more
+        riches, information, a prize or trophy.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7-9, they give you 8-value in resources and depletion&mdash;but
+        you must fulfill a request. They want something specific&mdash;a
+        singular treasure, secret knowledge, a lost ritual.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, they mount a competing expedition based on what you have
+        told them.</p>
+  uses: 0
+  playbook: The Seeker
+  rollType: cunning
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690771101612
+  modifiedTime: 1690771269425
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!S9R6S6rzjgHxVRHk'
+

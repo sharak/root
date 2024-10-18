@@ -1,0 +1,33 @@
+folder: QSbbL2SDkLkgUmYn
+name: Defender
+type: root.traits
+_id: 88NM1QYswQlv4A2r
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: nature
+    traitDescription: >-
+      <p>Clear your exhaustion track when you put yourself in harm&rsquo;s way
+      to defend someone against injustice or dire threat.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689876637226
+  modifiedTime: 1689876646895
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!88NM1QYswQlv4A2r'
+

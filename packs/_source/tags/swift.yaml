@@ -1,0 +1,24 @@
+folder: AqtsECVOdTtN2nnX
+name: Swift
+type: tag
+_id: NEiFmedzeVEpiMDA
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: <p>once per session, mark wear to outrun any pursuer on the water</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690322885415
+  modifiedTime: 1690773937445
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!NEiFmedzeVEpiMDA'
+

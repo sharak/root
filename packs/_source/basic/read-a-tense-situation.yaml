@@ -1,0 +1,61 @@
+name: Read a Tense Situation
+type: move
+img: icons/magic/control/fear-fright-white.webp
+system:
+  name: ''
+  description: |-
+    <p>When you read a tense situation, roll with Cunning.</p>
+    <details>
+    <summary>Questions</summary>
+    <ul>
+    <li>What&rsquo;s my best way out / in / through?</li>
+    <li>Who or what is the biggest threat?</li>
+    <li>Who or what is most vulnerable to me?</li>
+    <li>What should I be on the lookout for?</li>
+    <li>Who is in control here?</li>
+    </ul>
+    </details>
+  requiresMove: ''
+  moveType: basic
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: <p>On a 10+, ask 3. Take +1 when acting on the answers.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: <p>On a 7&ndash;9, ask 1. Take +1 when acting on the answer.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: <p>On a 6-, the GM gets to say what happens next.</p>
+  uses: 0
+  playbook: ''
+  rollType: cunning
+  rollMod: 0
+  choices: ''
+effects: []
+folder: null
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689200848576
+  modifiedTime: 1689305096087
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_id: MSKpRVGcMqcwFCkg
+sort: 400000
+_key: '!items!MSKpRVGcMqcwFCkg'
+

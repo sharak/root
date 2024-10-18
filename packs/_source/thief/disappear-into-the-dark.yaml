@@ -1,0 +1,59 @@
+folder: e1NonQmIadthtpP1
+name: Disappear Into the Dark
+type: move
+_id: 3mL6AKJAyZp2D70t
+img: icons/magic/nature/stealth-hide-eyes-green.webp
+system:
+  name: ''
+  description: >-
+    <p>When you slip into shadows while unnoticed, mark exhaustion and hold 1.
+    As long as you remain quiet, move slowly, and hold 1 for this move, you will
+    remain hidden. If you inadvertently reveal yourself, lose your hold. Spend
+    your hold to reveal yourself from a darkened place, suddenly and without
+    warning. If you attack someone immediately after spending the hold, take +3
+    on the roll.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Thief
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689968272493
+  modifiedTime: 1689968379783
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!3mL6AKJAyZp2D70t'
+

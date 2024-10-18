@@ -1,0 +1,67 @@
+name: Sway an NPC
+type: move
+img: icons/skills/social/diplomacy-handshake-blue.webp
+system:
+  name: ''
+  description: >-
+    <p><em><strong>Requires +2 or higher Reputation </strong></em></p>
+
+    <p>When you try to sway an open or vulnerable NPC by appealing to their
+    belief in your reputation, roll with Reputation for their faction.</p>
+  requiresMove: ''
+  moveType: reputation
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: >-
+        <p>On a 10+, you can change their mind about the world; say what you
+        want them to believe, and the GM will rewrite their drive
+        accordingly.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7&ndash;9, you can change their mind about the world; say what
+        you want them to believe, and the GM will rewrite their drive
+        accordingly. But you use up some goodwill; clear 3-prestige. If you
+        don&rsquo;t have enough prestige to clear, mark the remainder in
+        notoriety.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, the NPC takes the wrong message away from what you say; the
+        GM will rewrite their drive accordingly.</p>
+  uses: 0
+  playbook: ''
+  rollType: prompt
+  rollMod: 0
+  choices: ''
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689353276845
+  modifiedTime: 1689908459707
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_id: Jo6QN5W2yMXWWGKz
+sort: 0
+_key: '!items!Jo6QN5W2yMXWWGKz'
+

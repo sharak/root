@@ -1,0 +1,82 @@
+folder: G2WNTaq7HXAdA9Bw
+name: Well-Mannered
+type: move
+_id: y7GkzMuiR0MdmRdF
+img: icons/containers/kitchenware/goblet-gold-red.webp
+system:
+  name: ''
+  description: >-
+    <p>When you enter a social environment dependent on manners and etiquette,
+    roll with Cunning.</p>
+
+    <details>
+
+    <summary>Choices</summary>
+
+    <ul>
+
+    <li>Cover up a social faux pas on behalf of yourself or an ally; clear
+    1-exhaustion</li>
+
+    <li>Call out someone else’s social faux pas; inflict 1-morale harm on
+    them</li>
+
+    <li>Charm someone; take +1 ongoing to speak to them while you have hold</li>
+
+    <li>Demonstrate your value; mark prestige with a powerful denizen’s
+    faction</li>
+
+    </ul>
+
+    </details>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: >-
+        <p>On a 10+, hold 3. Lose all hold when you leave or when social rules
+        fall apart. Spend hold 1-for-1 to pick a choice.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7-9, hold 2. Lose all hold when you leave or when social rules
+        fall apart. Spend hold 1-for-1 to pick a choice.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, the rules of etiquette here are far different from what you
+        expected; mark exhaustion as you commit a gravely impolite error.</p>
+  uses: 0
+  playbook: The Ronin
+  rollType: cunning
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689952124663
+  modifiedTime: 1689952595759
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!y7GkzMuiR0MdmRdF'
+

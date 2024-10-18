@@ -1,0 +1,26 @@
+folder: Xvg3JRTYUqw8jnPI
+name: Throwable
+type: tag
+_id: e0ovGj5OyCixIfOW
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: >-
+    <p>Mark exhaustion to target a vulnerable foe with this weapon at far
+    range.</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690774990758
+  modifiedTime: 1690774999751
+  lastModifiedBy: rlorite_exporter
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!e0ovGj5OyCixIfOW'
+
