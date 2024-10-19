@@ -33,7 +33,7 @@
     ]
   },
   "esmodules": [
-    "./root.mjs"
+    "./modules/root.mjs"
   ],
   "styles": [
     "./styles/root.css"

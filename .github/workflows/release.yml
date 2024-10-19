@@ -39,6 +39,7 @@ jobs:
           version: ${{ env.VERSION }}
           manifest: ${{ env.RELEASE_INSTALL_URL }}
           download: ${{ env.RELEASE_DOWNLOAD_URL }}
+          esmodules: '[ "./root.mjs" ]'
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
