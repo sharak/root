@@ -1,0 +1,83 @@
+name: Release Creation
+
+on:
+  push:
+    tags:
+      - 'v[0-9]+.[0-9]+.[0-9]+'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # Load the system.json manifest into memory
+      - name: Load system manifest
+        id: manifest
+        uses: zoexx/github-action-json-file-properties@release
+        with:
+          file_path: "./module.json"
+
+      - name: Set up variables
+        id: get_vars
+        run: |
+          TAG=${GITHUB_REF/refs\/tags\//}
+          VERSION=${TAG:1}
+          echo "TAG_NAME=$TAG" >> $GITHUB_ENV
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+          echo "ZIP_NAME=root-$TAG.zip" >> $GITHUB_ENV
+          echo "RELEASE_DOWNLOAD_URL=https://github.com/${{github.repository}}/releases/download/$TAG/root-$TAG.zip" >> $GITHUB_ENV
+          echo "RELEASE_INSTALL_URL=https://github.com/${{github.repository}}/releases/download/$TAG/module.json" >> $GITHUB_ENV
+
+      - name: Adjust manifest
+        uses: TomaszKandula/variable-substitution@v1.0.2
+        with:
+          files: "module.json"
+        env:
+          flags.hotReload: false
+          version: ${{ env.VERSION }}
+          manifest: ${{ env.RELEASE_INSTALL_URL }}
+          download: ${{ env.RELEASE_DOWNLOAD_URL }}
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18.x'
+          cache: 'yarn'
+
+      - name: Build
+        run: |
+          yarn install
+          yarn run build
+          yarn run compendium:compile
+
+      - run: zip ${{ env.ZIP_NAME }} -r languages root.mjs root.mjs.map packs styles templates module.json LICENSE README.md --exclude "packs/_source/*"
+
+      - name: Fetch Release Body
+        id: release
+        uses: cardinalby/git-get-release-action@v1
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          tag: ${{ env.TAG_NAME }}
+          doNotFailIfNotFound: true
+
+      # Create a release for this specific version
+      - name: Update Release with Files
+        id: create_version_release
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: true # Set this to false if you want to prevent updating existing releases
+          name: ${{ env.TAG_NAME }}
+          draft: false
+          prerelease: true
+          omitDraftDuringUpdate: true
+          omitPrereleaseDuringUpdate: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+          artifacts: './module.json, ./${{ env.ZIP_NAME }}'
+          tag: ${{ env.TAG_NAME }}
+          body: |
+            ${{ steps.release.outputs.body }}
+
+            **Installation:** To manually install this release, please use the following manifest URL: ${{ env.RELEASE_INSTALL_URL }}

@@ -114,7 +114,7 @@ Hooks.on('init', () => {
 
     if (masteries) {
       try {
-        if (this.data?.moveResults.critical.value != '' && this.total >= '12') {
+        if (this.data?.moveResults.critical.value !== '' && this.total >= '12') {
           resultType = 'critical'
           resultLabel = game.i18n.localize('Root.Sheet.Results.Critical')
           resultDetails = this.data?.moveResults.critical.value

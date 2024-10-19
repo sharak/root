@@ -23,7 +23,7 @@ function cleanEntry(entry, { clearSourceId = true, ownership = 0 } = {}) {
   if (clearSourceId) delete entry.flags?.core?.sourceId
   delete entry.flags?.importSource
   delete entry.flags?.exportSource
-  if (entry._stats?.lastModifiedBy) entry._stats.lastModifiedBy = 'rlorite_exporter'
+  if (entry._stats?.lastModifiedBy) entry._stats.lastModifiedBy = 'rloriteexporter0'
   if (!entry.flags) entry.flags = {}
   Object.entries(entry.flags).forEach(([key, contents]) => {
     if (Object.keys(contents).length === 0) delete entry.flags[key]

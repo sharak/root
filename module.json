@@ -2,6 +2,7 @@
   "id": "root",
   "name": "root",
   "title": "Root (PbtA)",
+  "version": "2.2.1",
   "description": "Unofficial Root RPG custom sheet and compendium module, to be used with the Powered by the Apocalypse (PbtA) system.",
   "authors": [
     {
@@ -12,7 +13,6 @@
       "url": "https://github.com/sharak"
     }
   ],
-  "version": "2.2",
   "minimumCoreVersion": "11",
   "compatibleCoreVersion": "11",
   "compatibility": {
@@ -33,7 +33,7 @@
     ]
   },
   "esmodules": [
-    "./module/root.mjs"
+    "./root.mjs"
   ],
   "styles": [
     "./styles/root.css"

@@ -5,6 +5,7 @@
   "scripts": {
     "lint": "eslint",
     "lint:fix": "eslint --fix",
+    "build": "rollup module/root.mjs -f es -o root.mjs -p node-resolve -m --sourcemapFile root.mjs",
     "compendium:extract": "node cli.js compendium extract",
     "compendium:compile": "node cli.js compendium compile"
   },
@@ -12,6 +13,7 @@
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.12.0",
     "@foundryvtt/foundryvtt-cli": "^1.0.3",
+    "@rollup/plugin-node-resolve": "^15.3.0",
     "eslint": "^9.12.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-standard": "^17.1.0",
@@ -23,6 +25,7 @@
     "fancy-log": "^2.0.0",
     "globals": "^15.11.0",
     "prettier": "^3.3.3",
+    "rollup": "^4.24.0",
     "yargs": "^17.7.2"
   },
   "overrides": {
