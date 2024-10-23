@@ -163,6 +163,7 @@ Hooks.on('init', () => {
 
     // Either create the message or just return the chat data
     const cls = getDocumentClass('ChatMessage')
+    // eslint-disable-next-line new-cap
     const msg = new cls(messageData)
 
     // Either create or return the data
@@ -176,12 +177,12 @@ Hooks.on('init', () => {
 })
 
 // Override sheetConfig with Root sheet (TOML).
-Hooks.once('pbtaSheetConfig', () => {
+Hooks.once('pbtaSheetConfig', async () => {
   // Disable the sheet config form.
   game.settings.set('pbta', 'sheetConfigOverride', true)
 
   // Replace the game.pbta.sheetConfig with Root version.
-  configSheet()
+  await configSheet()
 })
 
 /* -------------------------------------------- */
@@ -190,7 +191,7 @@ Hooks.once('pbtaSheetConfig', () => {
 
 // Change starting actor image.
 Hooks.on('preCreateActor', async function (actor) {
-  if (actor.img == 'icons/svg/mystery-man.svg') {
+  if (actor.img === 'icons/svg/mystery-man.svg') {
     function random_icon(icons) {
       return icons[Math.floor(Math.random() * icons.length)]
     }

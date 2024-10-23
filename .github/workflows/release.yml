@@ -29,6 +29,7 @@ jobs:
           echo "ZIP_NAME=root-$TAG.zip" >> $GITHUB_ENV
           echo "RELEASE_DOWNLOAD_URL=https://github.com/${{github.repository}}/releases/download/$TAG/root-$TAG.zip" >> $GITHUB_ENV
           echo "RELEASE_INSTALL_URL=https://github.com/${{github.repository}}/releases/download/$TAG/module.json" >> $GITHUB_ENV
+          echo "LATEST_RELEASE_INSTALL_URL=https://github.com/${{github.repository}}/releases/latest/download/module.json" >> $GITHUB_ENV
 
       - name: Adjust manifest
         uses: TomaszKandula/variable-substitution@v1.0.2
@@ -37,7 +38,7 @@ jobs:
         env:
           flags.hotReload: false
           version: ${{ env.VERSION }}
-          manifest: ${{ env.RELEASE_INSTALL_URL }}
+          manifest: ${{ env.LATEST_RELEASE_INSTALL_URL }}
           download: ${{ env.RELEASE_DOWNLOAD_URL }}
           esmodules: '[ "./root.mjs" ]'
 

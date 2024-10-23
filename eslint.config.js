@@ -16,7 +16,6 @@ const compat = new FlatCompat({
 export default [
   {
     files: ['**/*.mjs', '**/*.js'],
-    ignores: ['.gitignore'],
   },
   ...compat.extends('standard', 'plugin:foundry-vtt/recommended'),
   {

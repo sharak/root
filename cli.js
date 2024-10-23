@@ -7,6 +7,7 @@ import { hideBin } from 'yargs/helpers'
 
 const COMPENDIUM_SOURCE = 'packs/_source'
 const COMPENDIUM_DEST = 'packs'
+
 function slugify(name) {
   return name
     .toLowerCase()
@@ -20,7 +21,10 @@ function slugify(name) {
 
 function cleanEntry(entry, { clearSourceId = true, ownership = 0 } = {}) {
   if (entry.ownership) entry.ownership = { default: ownership }
-  if (clearSourceId) delete entry.flags?.core?.sourceId
+  if (clearSourceId) {
+    delete entry._stats?.compendiumSource
+    delete entry.flags?.core?.sourceId
+  }
   delete entry.flags?.importSource
   delete entry.flags?.exportSource
   if (entry._stats?.lastModifiedBy) entry._stats.lastModifiedBy = 'rloriteexporter0'
@@ -39,18 +43,55 @@ async function extractCompendiums() {
     const destPath = path.join(COMPENDIUM_SOURCE, pack.name)
     const packPath = pack.path || `packs/${pack.name}`
     logger.info(`Extrayendo el compendio ${pack.label}`)
+
+    const folders = {}
+    const containers = {}
+    await extractPack(packPath, destPath, {
+      log: false,
+      transformEntry: (e) => {
+        if (e._key.startsWith('!folders'))
+          folders[e._id] = { name: slugify(e.name), folder: e.folder }
+        else if (e.type === 'container')
+          containers[e._id] = {
+            name: slugify(e.name),
+            container: e.system?.container,
+            folder: e.folder,
+          }
+        return false
+      },
+    })
+    const buildPath = (collection, entry, parentKey) => {
+      let parent = collection[entry[parentKey]]
+      entry.path = entry.name
+      while (parent) {
+        entry.path = path.join(parent.name, entry.path)
+        parent = collection[parent[parentKey]]
+      }
+    }
+    Object.values(folders).forEach((f) => buildPath(folders, f, 'folder'))
+    Object.values(containers).forEach((c) => {
+      buildPath(containers, c, 'container')
+      const folder = folders[c.folder]
+      if (folder) c.path = path.join(folder.path, c.path)
+    })
     await extractPack(packPath, destPath, {
       yaml: true,
       transformEntry: (entry) => cleanEntry(entry),
       transformName: (entry) => {
-        return `${slugify(entry.name)}.yaml`
+        if (entry._id in folders) return path.join(folders[entry._id].path, '_folder.yaml')
+        if (entry._id in containers) return path.join(containers[entry._id].path, '_container.yaml')
+        const outputName = slugify(entry.name)
+        const parent = containers[entry.system?.container] ?? folders[entry.folder]
+        return path.join(parent?.path ?? '', `${outputName}.yaml`)
       },
     })
   }
 }
 
 async function compileCompendiums() {
-  const folders = fs.readdirSync(COMPENDIUM_SOURCE, { withFileTypes: true })
+  const folders = fs
+    .readdirSync(COMPENDIUM_SOURCE, { withFileTypes: true })
+    .filter((file) => file.isDirectory())
 
   for (const folder of folders) {
     const src = path.join(COMPENDIUM_SOURCE, folder.name)

@@ -2,11 +2,11 @@
   "id": "root",
   "name": "root",
   "title": "Root (PbtA)",
-  "version": "2.2.1",
+  "version": "dev",
   "description": "Unofficial Root RPG custom sheet and compendium module, to be used with the Powered by the Apocalypse (PbtA) system.",
   "authors": [
     {
-        "name": "gonzaPaEst"
+      "name": "gonzaPaEst"
     },
     {
       "name": "Roberto Lorite",
@@ -21,34 +21,34 @@
   },
   "relationships": {
     "systems": [
-        {
-            "id": "pbta",
-            "type": "system",
-            "manifest": "https://asacolips-artifacts.s3.amazonaws.com/pbta/master/system.json",
-            "compatibility": {
-                "verified": "1.1.5",
-                "minimum": "1.0.11"
-            }
+      {
+        "id": "pbta",
+        "type": "system",
+        "manifest": "https://asacolips-artifacts.s3.amazonaws.com/pbta/master/system.json",
+        "compatibility": {
+          "verified": "1.1.5",
+          "minimum": "1.0.11"
         }
+      }
     ]
   },
   "esmodules": [
-    "./modules/root.mjs"
+    "./module/root.mjs"
   ],
   "styles": [
     "./styles/root.css"
   ],
   "languages": [
     {
-        "lang": "en",
-        "name": "English",
-        "path": "languages/en.json"
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
     },
     {
       "lang": "es",
       "name": "Español",
       "path": "languages/es.json"
-  }
+    }
   ],
   "documentTypes": {
     "Item": {
@@ -57,7 +57,9 @@
           "description"
         ],
         "filePathFields": {
-          "img": ["IMAGE"]
+          "img": [
+            "IMAGE"
+          ]
         }
       }
     }
@@ -481,5 +483,21 @@
   ],
   "url": "https://github.com/sharak/root",
   "manifest": "https://raw.githubusercontent.com/sharak/root/v2.2/module.json",
-  "download": "https://github.com/sharak/root/releases/download/v2.2/module.zip"
+  "download": "https://github.com/sharak/root/releases/download/v2.2/module.zip",
+  "flags": {
+    "hotReload": {
+      "extensions": [
+        "js",
+        "css",
+        "hbs",
+        "json"
+      ],
+      "paths": [
+        "module/root.js",
+        "styles/root.css",
+        "templates",
+        "languages"
+      ]
+    }
+  }
 }
