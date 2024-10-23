@@ -1,0 +1,26 @@
+folder: Xvg3JRTYUqw8jnPI
+name: Reach
+type: tag
+_id: x2A6GjsBywcMv7w8
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: >-
+    <p>When you engage in melee, mark wear on this weapon to inflict harm
+    instead of trading harm; you cannot use this tag if your enemy&rsquo;s
+    weapon also has reach.</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690774577421
+  modifiedTime: 1690774585265
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!x2A6GjsBywcMv7w8'
+

@@ -1,0 +1,81 @@
+name: Draw Attention
+type: move
+img: icons/skills/social/intimidation-impressing.webp
+system:
+  name: ''
+  description: >-
+    <p><em><strong>Requires -2 or lower Reputation&nbsp;</strong></em></p>
+
+    <p>When you try to publicly draw attention to yourself as an enemy of a
+    faction, roll with Reputation for their faction, treating it as positive (+2
+    or +3) for this roll.</p>
+
+    <details>
+
+    <summary>Choices</summary>
+
+    <ul>
+
+    <li>The faction employs significant military strength to chase you
+    down.</li>
+
+    <li>The faction deploys an available, capable NPC agent (of your choice) to
+    chase you down.</li>
+
+    <li>The faction is rattled by your threat; mark 2-notoriety with them.</li>
+
+    </ul>
+
+    </details>
+  requiresMove: ''
+  moveType: reputation
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: >-
+        <p>On a 10+, you draw out the faction&rsquo;s resources to oppose you;
+        brace yourself. And choose 2.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7&ndash;9, you draw out the faction&rsquo;s resources to oppose
+        you; brace yourself. And choose 1.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, your enemies are already moving against you quietly; the GM
+        tells you how they catch you unprepared.</p>
+  uses: 0
+  playbook: ''
+  rollType: prompt
+  rollMod: 0
+  choices: ''
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689353276845
+  modifiedTime: 1689908363918
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_id: VcsLzcE8VlTeWKRa
+sort: 0
+_key: '!items!VcsLzcE8VlTeWKRa'
+

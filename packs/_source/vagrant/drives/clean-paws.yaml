@@ -1,0 +1,32 @@
+folder: KznzhCaBLZTeV19K
+name: Clean Paws
+type: root.traits
+_id: CCrfpIGMWEGL7fyz
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: drive
+    traitDescription: >-
+      <p>Advance when you accomplish an illicit, criminal goal while maintaining
+      a believable veneer of innocence.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689986467933
+  modifiedTime: 1689986477555
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!CCrfpIGMWEGL7fyz'
+

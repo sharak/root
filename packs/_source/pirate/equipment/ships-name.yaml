@@ -1,0 +1,89 @@
+folder: LsunJdaZEgOSs3Js
+name: Ship's Name
+type: equipment
+_id: 6S9BCVhS48m5PNSu
+img: icons/tools/nautical/steering-wheel.webp
+system:
+  name: ''
+  description: >-
+    <h4><strong>Blessing tags (choose 2):</strong></h4>
+
+    <ul>
+
+    <li><strong>stocked:</strong> your ship gains a 2-box depletion track of
+    cargo and gear<strong>*</strong></li>
+
+    <li><strong>nimble:</strong> take +1 ongoing to tricking NPCs when relying
+    on your ship’s speed</li>
+
+    <li><strong>renowned:</strong> take +1 to reputation with a chosen faction
+    while on your ship</li>
+
+    <li><strong>swift:</strong> once per session, mark wear to outrun any
+    pursuer on the water</li>
+
+    </ul>
+
+    <h4><strong>Flaw tags (choose 2):</strong></h4>
+
+    <ul>
+
+    <li><strong>dreaded:</strong> take -1 to reputation with a chosen faction
+    while on your ship</li>
+
+    <li><strong>rickety:</strong> your ship has one fewer box of wear than
+    usual</li>
+
+    <li><strong>clumsy:</strong> take -1 ongoing to trusting fate when piloting
+    your ship carefully</li>
+
+    <li><strong>stolen:</strong> someone dangerous is pursuing you to recover
+    their property</li>
+
+    </ul>
+
+    <hr />
+
+    <p><strong>*</strong><em>If stocked tag is added, depletion boxes will
+    appear after you close this item</em>.</p>
+  uses: 0
+  playbook: The Pirate
+  quantity: null
+  weight: 0
+  tags: ''
+  tagsString: ''
+  itemType: null
+  equipmentType: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    itemWear:
+      addBox2: true
+      addBox3: true
+      addBox4: true
+      box1: false
+      box2: false
+      box3: false
+      box4: false
+      addBox5: false
+      box5: false
+      addBox6: false
+      box6: false
+      addBox7: false
+      box7: false
+      addBox8: false
+      box8: false
+      addBox1: true
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690322503882
+  modifiedTime: 1690681938187
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!6S9BCVhS48m5PNSu'
+

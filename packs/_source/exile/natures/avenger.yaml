@@ -1,0 +1,32 @@
+folder: PdwnxGtGhScD8gQP
+name: Avenger
+type: root.traits
+_id: kB8dPXZJR4oLkGiq
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: nature
+    traitDescription: >-
+      <p>Clear your exhaustion track when you openly attack those who have
+      wronged you or your sworn vassals and wards.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690133632593
+  modifiedTime: 1690133640387
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!kB8dPXZJR4oLkGiq'
+

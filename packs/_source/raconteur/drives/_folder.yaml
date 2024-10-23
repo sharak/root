@@ -1,0 +1,17 @@
+name: Drives
+sorting: a
+folder: null
+type: Item
+_id: 8OopOuy03HbhMjfk
+sort: 0
+color: null
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '11.306'
+  createdTime: 1690677588789
+  modifiedTime: 1690677588789
+  lastModifiedBy: rloriteexporter0
+_key: '!folders!8OopOuy03HbhMjfk'
+

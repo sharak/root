@@ -1,0 +1,56 @@
+folder: Ov7NAnWqqivWfdQu
+name: Strong Draw
+type: move
+_id: lyJrY7aQP4ScvKNz
+img: icons/skills/ranged/archery-bow-attack-yellow.webp
+system:
+  name: ''
+  description: >-
+    <p>When you target someone with a bow, mark wear on the bow to roll with
+    Might. On a hit, mark exhaustion to inflict 1 additional injury. Mark
+    exhaustion again to make your shot ignore the enemy&rsquo;s armor&mdash;they
+    cannot mark wear to absorb the injury.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Arbiter
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689878807105
+  modifiedTime: 1689878888788
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!lyJrY7aQP4ScvKNz'
+

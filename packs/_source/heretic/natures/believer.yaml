@@ -1,0 +1,32 @@
+folder: xs7LgYXvrkx43Yqy
+name: Believer
+type: root.traits
+_id: Vw9bQLIpLTvS6cP6
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: nature
+    traitDescription: >-
+      <p>Clear your exhaustion track when you publicly call out a symbol or
+      authority dedicated to beliefs opposed to yours.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690308577707
+  modifiedTime: 1690308869437
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!Vw9bQLIpLTvS6cP6'
+

@@ -1,0 +1,67 @@
+folder: alVXkrr2XN0IDZJr
+name: Of the People
+type: move
+_id: 6aqppngfDDskN1Sz
+img: icons/environment/people/group.webp
+system:
+  name: ''
+  description: >-
+    <p>When your band travels down a path at a relaxing pace, roll with +1
+    instead of -1.</p>
+
+    <ul>
+
+    <li>On a hit, you encounter friendly faces on the journey who offer food and
+    assistance; your band marks half as much depletion as normal.</li>
+
+    <li>On a 7-9, the characters you meet are in a bit of trouble; they expect
+    you to lend a hand.</li>
+
+    <li>On a miss, a dangerous foe committed to ending your “righteousness”
+    catches you (and your friends) unaware and unprepared.</li>
+
+    </ul>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Champion
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690125950324
+  modifiedTime: 1690126000151
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!6aqppngfDDskN1Sz'
+

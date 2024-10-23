@@ -1,0 +1,59 @@
+folder: kt55MFkUnq7loeP4
+name: Daredevil
+type: move
+_id: PAaYwQA0CMenvpAr
+img: icons/magic/fire/elemental-fire-humanoid.webp
+system:
+  name: ''
+  description: >-
+    <p>You’re at your luckiest when you go into danger without hesitation. When
+    you dive into a dangerous situation without forethought or planning, treat
+    yourself as having “Luck Armor,” with 1 box of wear (remember, armor is only
+    “destroyed” when you would mark another box of wear, and all its boxes are
+    full). The “Luck Armor” automatically goes away once the danger has passed,
+    and the next time you would have “Luck Armor,” you gain it as if it was
+    brand new with clear boxes.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Scoundrel
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689964111557
+  modifiedTime: 1689964136463
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!PAaYwQA0CMenvpAr'
+

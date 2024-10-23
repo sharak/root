@@ -1,0 +1,58 @@
+folder: 5m4TK5f3u0q6qVCu
+name: Turncoat
+type: move
+_id: bA2ySzA0fs7BqYP9
+img: icons/skills/melee/strike-blade-knife-white-red.webp
+system:
+  name: ''
+  description: >-
+    <p>You gain the roguish feats
+    @UUID[Compendium.root.feats.Item.ZktkLmvroSa67Bk3]{Blindside} and
+    @UUID[Compendium.root.feats.Item.aroS6tQCfSvYN6ZO]{Counterfeit} (they do not
+    count against your maximum for advancement). When you attempt a roguish feat
+    to blindside someone who trusts you, roll with Cunning instead of
+    Finesse.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Envoy
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.9.1
+  coreVersion: '12.331'
+  createdTime: 1690219622339
+  modifiedTime: 1708372507373
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!bA2ySzA0fs7BqYP9'
+

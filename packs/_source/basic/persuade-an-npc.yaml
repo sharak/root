@@ -1,0 +1,53 @@
+name: Persuade an NPC
+type: move
+img: icons/skills/social/theft-pickpocket-bribery-brown.webp
+system:
+  name: ''
+  description: <p>When you persuade an NPC with promises or threats, roll with Charm.</p>
+  requiresMove: ''
+  moveType: basic
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: >-
+        <p>On a 10+, they see things your way, provided you have given them a
+        strong motive or reasonable bribe.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7&ndash;9, they aren&rsquo;t sure; the GM will tell you what you
+        need to do to sway them.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: <p>On a 6-, the GM gets to say what happens next.</p>
+  uses: 0
+  playbook: ''
+  rollType: charm
+  rollMod: 0
+  choices: ''
+effects: []
+folder: null
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689200848576
+  modifiedTime: 1689305096087
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_id: fd9o0imQe5gaY58o
+sort: 600000
+_key: '!items!fd9o0imQe5gaY58o'
+

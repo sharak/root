@@ -1,0 +1,23 @@
+folder: AqtsECVOdTtN2nnX
+name: Nimble
+type: tag
+_id: D4EwpCRqVAyQM2Uf
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: <p>take +1 ongoing to tricking NPCs when relying on your ship’s speed</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690322839524
+  modifiedTime: 1690773961873
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!D4EwpCRqVAyQM2Uf'
+

@@ -1,0 +1,32 @@
+folder: fu0DWgkTteeMyIl9
+name: Advocate
+type: root.traits
+_id: Ip1TNWRr9cwcDMZW
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: nature
+    traitDescription: >-
+      <p>Clear your exhaustion track when you confront a powerful NPC about
+      their mistreatment of the powerless or weak.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690125199448
+  modifiedTime: 1690125208763
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!Ip1TNWRr9cwcDMZW'
+

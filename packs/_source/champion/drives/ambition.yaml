@@ -1,0 +1,30 @@
+folder: hHGB9sH8f5Q1zb78
+name: Ambition
+type: root.traits
+_id: bmC0DtNVLnGptUcF
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: drive
+    traitDescription: <p>Advance when you increase your reputation with any faction.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690125315066
+  modifiedTime: 1690125324870
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!bmC0DtNVLnGptUcF'
+

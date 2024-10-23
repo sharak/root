@@ -1,0 +1,60 @@
+folder: KtFCgkDkUgh8pq8Z
+name: Pleasant Facade
+type: move
+_id: rfuPdHt9WcPdTgbS
+img: icons/magic/holy/saint-glass-portrait-halo.webp
+system:
+  name: ''
+  description: >-
+    <p>When you suck up to or otherwise butter up an unsuspecting NPC, roll with
+    Charm.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: >-
+        <p>On a 10+, hold 3. Spend your hold 1 for 1 to deflect their suspicion
+        or aggression away from you onto someone or something else.&nbsp;</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7-9, hold 2. Spend your hold 1 for 1 to deflect their suspicion
+        or aggression away from you onto someone or something else.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, your attempts at flattery are suspicious&mdash;they&rsquo;re
+        going to keep their eye on you.</p>
+  uses: 0
+  playbook: The Vagrant
+  rollType: charm
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689986973116
+  modifiedTime: 1689987211382
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!rfuPdHt9WcPdTgbS'
+

@@ -1,0 +1,25 @@
+folder: pyjA1M1AIyuM4SiT
+name: Sturdy
+type: tag
+_id: Y91YWUXmqYHbnOZb
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: >-
+    <p>+2 boxes of wear; when you tend to your symbol after a public
+    performance, clear a box of wear</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690681204403
+  modifiedTime: 1690681211076
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!Y91YWUXmqYHbnOZb'
+

@@ -1,0 +1,25 @@
+folder: Xvg3JRTYUqw8jnPI
+name: Iron bolts
+type: tag
+_id: QevBcJrIua7u7CY2
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: >-
+    <p>This weapon inflicts 1 additional wear when its harm is absorbed by
+    armor.</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690774443471
+  modifiedTime: 1690774450688
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!QevBcJrIua7u7CY2'
+

@@ -1,0 +1,17 @@
+name: Natures
+sorting: a
+folder: null
+type: Item
+_id: SO6T1v1uSugbVLwV
+sort: 0
+color: null
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '11.305'
+  createdTime: 1689793567336
+  modifiedTime: 1689793567336
+  lastModifiedBy: rloriteexporter0
+_key: '!folders!SO6T1v1uSugbVLwV'
+

@@ -1,0 +1,54 @@
+folder: gz08yG76DEThimJM
+name: One of Us
+type: move
+_id: O2HUVF6IJ9OsZYkS
+img: icons/equipment/back/cloak-hooded-jewels-green.webp
+system:
+  name: ''
+  description: >-
+    <p>When you try to figure out or persuade vagabonds, bandits,
+    revolutionaries, or outcasts, roll with Luck instead of Charm.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Prince
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690579853220
+  modifiedTime: 1690580719025
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!O2HUVF6IJ9OsZYkS'
+

@@ -1,0 +1,63 @@
+folder: MCcghwufENVFlWVk
+name: Smuggler’s Path
+type: move
+_id: fzCD6EP1THvphhyG
+img: icons/tools/navigation/map-marked-blue.webp
+system:
+  name: ''
+  description: >-
+    <p>You&rsquo;ve got a good sense for finding secret paths and doors. When
+    you spend time looking for a secret way in or out of a place that might have
+    one, mark exhaustion and roll with Luck.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: >-
+        <p>On a 10+, you find a hidden path&mdash;the GM will detail it and to
+        where it leads. Also, there&rsquo;s something along or inside the path
+        of value to you&mdash;the GM will tell you what.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7-9, you find a hidden path&mdash;the GM will detail it and to
+        where it leads.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, you find a secret path...and someone else is using it right
+        this second. They probably won&rsquo;t be happy you found their
+        secret.</p>
+  uses: 0
+  playbook: The Harrier
+  rollType: luck
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689885827739
+  modifiedTime: 1689886005806
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!fzCD6EP1THvphhyG'
+

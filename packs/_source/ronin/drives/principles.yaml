@@ -1,0 +1,32 @@
+folder: AoHsAyoxA0xQVNf9
+name: Principles
+type: root.traits
+_id: V7nwTygPMzwf4w7e
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: drive
+    traitDescription: >-
+      <p>Advance when you express or embody your moral principles at great cost
+      to yourself or your allies.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689950877281
+  modifiedTime: 1689950889109
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!V7nwTygPMzwf4w7e'
+

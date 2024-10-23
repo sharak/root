@@ -1,0 +1,54 @@
+folder: e1NonQmIadthtpP1
+name: Small Hands
+type: move
+_id: ewJ8G0T3OJLtJymE
+img: icons/creatures/abilities/paw-print-pair-purple.webp
+system:
+  name: ''
+  description: >-
+    <p>When you grapple with an enemy larger than you, roll with Finesse instead
+    of Might. On a miss, they overpower you—you’re at their mercy.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Thief
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689968564747
+  modifiedTime: 1689968859196
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!ewJ8G0T3OJLtJymE'
+

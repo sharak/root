@@ -1,0 +1,17 @@
+name: Connections
+sorting: a
+folder: null
+type: Item
+_id: YkfeFgvG3dliGrYo
+sort: 0
+color: null
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '11.306'
+  createdTime: 1690125174412
+  modifiedTime: 1690125174412
+  lastModifiedBy: rloriteexporter0
+_key: '!folders!YkfeFgvG3dliGrYo'
+

@@ -1,0 +1,64 @@
+name: Session Moves
+type: move
+_id: yCbajaLJQbfIT8mk
+img: icons/skills/trades/academics-study-reading-book.webp
+system:
+  name: ''
+  description: >-
+    <p>At the end of every session, the group spends some time going over
+    everyone&rsquo;s drives. This is a chance to give credit to a vagabond who
+    actually earned an advancement during play but didn&rsquo;t call it out. If
+    they fulfilled the condition of their drive during play, they can take their
+    advancement then, at session&rsquo;s end.</p>
+
+    <hr>
+
+    <p>At the end of any session, each vagabond may change their choice of one
+    drive, their nature, or one connection. Whatever they choose to change, they
+    replace with a new version chosen from any of the options across all the
+    playbooks.</p>
+  requiresMove: ''
+  moveType: ''
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: ''
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: '0'
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689731274527
+  modifiedTime: 1689731482584
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!yCbajaLJQbfIT8mk'
+

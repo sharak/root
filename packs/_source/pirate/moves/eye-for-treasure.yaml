@@ -1,0 +1,56 @@
+folder: 7ryuq1HTwUK69OlQ
+name: Eye for Treasure
+type: move
+_id: 2K4NDTlTlPRXsIst
+img: icons/containers/chest/chest-oak-steel-brown.webp
+system:
+  name: ''
+  description: <p>When you ask around a port about valuable trade, roll with Luck.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: >-
+        <p>On a 10+, you learn of nearby cargo worth your time. You also know
+        exactly where the cargo is held or how to intercept the shipment.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: <p>On a 7-9, you learn of nearby cargo worth your time.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, you hear only of well- guarded or difficult to reach
+        cargo...and your questions start drawing attention.</p>
+  uses: 0
+  playbook: The Pirate
+  rollType: luck
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690323831153
+  modifiedTime: 1690323972565
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!2K4NDTlTlPRXsIst'
+

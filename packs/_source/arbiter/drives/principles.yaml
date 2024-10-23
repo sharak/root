@@ -1,0 +1,44 @@
+folder: 86PExqLjf8yt3IQf
+name: Principles
+type: root.traits
+_id: hqF7elK9ECeGn7vE
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: drive
+    traitDescription: >-
+      <div class="page" title="Page 3">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p>Advance when you express or embody your moral principles at great cost
+      to&nbsp; yourself or your allies.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689876714091
+  modifiedTime: 1689876770145
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!hqF7elK9ECeGn7vE'
+

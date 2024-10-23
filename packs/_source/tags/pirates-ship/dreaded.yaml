@@ -1,0 +1,23 @@
+folder: AqtsECVOdTtN2nnX
+name: Dreaded
+type: tag
+_id: IwUDD8fDNvDRGkZN
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: <p>take -1 to reputation with a chosen faction while on your ship</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690322905240
+  modifiedTime: 1690773965567
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!IwUDD8fDNvDRGkZN'
+

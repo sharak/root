@@ -1,0 +1,36 @@
+folder: QXU4vUeYVdzsFM97
+name: Protector
+type: root.traits
+_id: TxGdVru7dtUO69c8
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: connection
+    traitDescription: >-
+      <p>I see greatness in ____________ that I wish to nurture...and perhaps
+      turn to my own purposes. What is it about them that inspires me so?</p>
+
+      <blockquote>When they are in reach, mark exhaustion to take a blow meant
+      for them. If you do, take +1 ongoing to weapon moves for the rest of the
+      scene.</blockquote>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690133761479
+  modifiedTime: 1690133780502
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!TxGdVru7dtUO69c8'
+

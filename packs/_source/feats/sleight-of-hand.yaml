@@ -1,0 +1,53 @@
+name: Sleight of Hand
+type: root.traits
+_id: 0k6qyIRuLbe2ZFVV
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: feat
+    traitDescription: >-
+      <p><strong>Description:</strong> Palming, switching, ditching,
+      flourishes.</p>
+
+      <blockquote>
+
+      <p><strong>Risks</strong></p>
+
+      <ul>
+
+      <li><strong>Draw Unwanted Attention: </strong>Either create hostile
+      onlookers where before no one cared, or call attention without actually
+      being detected.</li>
+
+      <li><strong>Leave Evidence:</strong> Leave behind evidence that can later
+      lead an investigation against you or expose your allies to
+      retribution.</li>
+
+      <li><strong>Weak Result:</strong> Get a hard choice about exactly what you
+      want, or just straight up don&rsquo;t quite get everything you want.</li>
+
+      </ul>
+
+      </blockquote>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689799077004
+  modifiedTime: 1689799125024
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!0k6qyIRuLbe2ZFVV'
+

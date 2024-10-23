@@ -1,0 +1,23 @@
+folder: NiuSEccu9Pv8f6up
+name: Far
+type: tag
+_id: vrimMyCHmG4EPYbi
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: <p>Far range, within distance to shoot an arrow.</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690773199245
+  modifiedTime: 1690773983038
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!vrimMyCHmG4EPYbi'
+

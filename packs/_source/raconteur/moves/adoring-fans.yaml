@@ -1,0 +1,59 @@
+folder: AqM1Ab5E1o7JH0tZ
+name: Adoring Fans
+type: move
+_id: bqJVROaX6CBkYGdk
+img: icons/magic/control/silhouette-hold-beam-blue.webp
+system:
+  name: ''
+  description: <p>When you first enter a clearing, roll with Charm.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: >-
+        <p>On a 10+, a fan recognizes you; they relate gossip, offer a place to
+        stay, and show your band around. Addtionally, your fan will go even
+        further to help you.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7-9, a fan recognizes you; they relate gossip, offer a place to
+        stay, and show your band around.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, you meet a fan with good intentions who immediately makes
+        your situation much, much worse.</p>
+  uses: 0
+  playbook: The Raconteur
+  rollType: charm
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690678735440
+  modifiedTime: 1690679004300
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!bqJVROaX6CBkYGdk'
+

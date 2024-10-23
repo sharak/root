@@ -1,0 +1,30 @@
+folder: pOLTz7j4gkrnZIeg
+name: Freedom
+type: root.traits
+_id: LcdZP2HhOaWYqu4P
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: drive
+    traitDescription: <p>Advance when you free a group of denizens from oppression.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689967727828
+  modifiedTime: 1689967736512
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!LcdZP2HhOaWYqu4P'
+

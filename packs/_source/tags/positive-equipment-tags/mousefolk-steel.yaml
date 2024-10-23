@@ -1,0 +1,23 @@
+folder: Xvg3JRTYUqw8jnPI
+name: Mousefolk Steel
+type: tag
+_id: Cq4sNs9omp6LIrj6
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: <p>Mark wear to engage in melee using Cunning instead of Might.</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690774488863
+  modifiedTime: 1690774495739
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!Cq4sNs9omp6LIrj6'
+

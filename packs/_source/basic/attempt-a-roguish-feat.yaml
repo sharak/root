@@ -1,0 +1,61 @@
+name: Attempt a Roguish Feat
+type: move
+img: icons/creatures/mammals/humanoid-cat-skulking-teal.webp
+system:
+  name: ''
+  description: >-
+    <p>When you attempt a roguish feat you are skilled in, say your goal and
+    roll with Finesse.</p>
+
+    <hr />
+
+    <p><em>When you attempt a roguish feat you are NOT skilled in, you are
+    trusting fate.</em></p>
+  requiresMove: ''
+  moveType: basic
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: <p>On a 10+, you achieve your goal.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7-9, you achieve your goal but mark exhaustion or one risk of
+        your feat (GM&rsquo;s choice) comes to bear.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: <p>On a 6-, the GM gets to say what happens next.</p>
+  uses: 0
+  playbook: ''
+  rollType: finesse
+  rollMod: 0
+  choices: ''
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.9.1
+  coreVersion: '12.331'
+  createdTime: 1689200099540
+  modifiedTime: 1708370415856
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_id: 7bnQNqmVrwnqopvQ
+sort: 900000
+_key: '!items!7bnQNqmVrwnqopvQ'
+

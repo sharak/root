@@ -1,0 +1,54 @@
+folder: HkVSqY9EEkg8f8kS
+name: Dedicated Scholar
+type: move
+_id: JsJMFfL2sOqrAU8T
+img: icons/skills/trades/academics-merchant-scribe.webp
+system:
+  name: ''
+  description: >-
+    <p>Take an extra box of exhaustion. When you acquire a new tome or scroll
+    documenting the history of the Woodland, clear your exhaustion track.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Chronicler
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 1
+    automationStat: exhaustion
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690128944952
+  modifiedTime: 1690128978007
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!JsJMFfL2sOqrAU8T'
+

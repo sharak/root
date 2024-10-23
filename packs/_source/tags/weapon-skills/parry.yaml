@@ -1,0 +1,26 @@
+folder: jVsymm4H7y1AIYhE
+name: Parry
+type: tag
+_id: RsyAwvf5N5waajuo
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: >-
+    <p>Weapon can be use with the
+    @UUID[Compendium.root.weapon-special.Item.koxBjhOuKfe1Ur2d]{Parry} special
+    move.</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690773524186
+  modifiedTime: 1691115519151
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!RsyAwvf5N5waajuo'
+

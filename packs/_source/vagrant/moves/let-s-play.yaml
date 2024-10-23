@@ -1,0 +1,59 @@
+folder: KtFCgkDkUgh8pq8Z
+name: Let’s Play
+type: move
+_id: 1AuMHhUxovPS36wj
+img: icons/sundries/gaming/playing-cards.webp
+system:
+  name: ''
+  description: >-
+    <p>When you play a game of skill and wit to loosen another’s tongue, roll
+    with Charm.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: <p>On a 10+, they let slip something useful or valuable.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7-9, they let slip something useful or valuable. But you have to
+        lose the game to get them there; mark depletion.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, they&rsquo;re better than you ever thought; either mark
+        depletion and cut your losses, or mark 3-depletion and they&rsquo;ll
+        start talking.</p>
+  uses: 0
+  playbook: The Vagrant
+  rollType: charm
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689987455038
+  modifiedTime: 1689987786647
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!1AuMHhUxovPS36wj'
+

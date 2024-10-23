@@ -1,0 +1,32 @@
+folder: hHGB9sH8f5Q1zb78
+name: Loyalty
+type: root.traits
+_id: eFoofp0t4ygtkleu
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: drive
+    traitDescription: >-
+      <p>You&rsquo;re loyal to someone; name them. Advance when you obey their
+      order at a great cost to yourself.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690125299127
+  modifiedTime: 1690125308435
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!eFoofp0t4ygtkleu'
+

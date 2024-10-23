@@ -1,0 +1,55 @@
+folder: MCcghwufENVFlWVk
+name: Cross Country
+type: move
+_id: b8cSzLGr1KDxB055
+img: icons/environment/settlement/bridge-stone.webp
+system:
+  name: ''
+  description: >-
+    <p>Take one extra box of exhaustion. When your exhaustion track is full and
+    you must mark exhaustion, you may choose to mark an equivalent amount of
+    injury instead of being removed from the situation or going unconscious.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Harrier
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 1
+    automationStat: exhaustion
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689884616806
+  modifiedTime: 1689884852348
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!b8cSzLGr1KDxB055'
+

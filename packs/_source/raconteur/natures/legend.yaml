@@ -1,0 +1,32 @@
+folder: CYLBjjksZecnLMTz
+name: Legend
+type: root.traits
+_id: vFWmJeXkxzBlV9Hs
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: nature
+    traitDescription: >-
+      <p>Clear your exhaustion track when you put on a performance in front of a
+      large, attentive audience.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690677653293
+  modifiedTime: 1690677670724
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!vFWmJeXkxzBlV9Hs'
+

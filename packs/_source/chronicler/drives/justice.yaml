@@ -1,0 +1,32 @@
+folder: cJeIdSWP5cmuuYq6
+name: Justice
+type: root.traits
+_id: E7hBTcu5d7qQPgR2
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: drive
+    traitDescription: >-
+      <p>Advance when you achieve justice for someone wronged by a powerful,
+      wealthy, or high-status individual.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690128252594
+  modifiedTime: 1690128262715
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!E7hBTcu5d7qQPgR2'
+

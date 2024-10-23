@@ -1,0 +1,64 @@
+folder: MCcghwufENVFlWVk
+name: Parkour
+type: move
+_id: IB3N0lUvRALvHauO
+img: icons/magic/control/debuff-energy-snare-blue.webp
+system:
+  name: ''
+  description: >-
+    <p>When you dash your way through a chaotic scene or fight, roll with
+    Finesse.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: >-
+        <p>On a 10+, hold 3. Spend your hold 1-for-1 to dash to something within
+        sight and reach without being stopped, or to dash away from something
+        nearby without being stopped. You can dash away from an enemy even at
+        the moment they attack.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7-9, hold 2. Spend your hold 1-for-1 to dash to something within
+        sight and reach without being stopped, or to dash away from something
+        nearby without being stopped. You can dash away from an enemy even at
+        the moment they attack.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, your surroundings trip you up, and you&rsquo;re caught in
+        place while danger closes in.</p>
+  uses: 0
+  playbook: The Harrier
+  rollType: finesse
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689885067143
+  modifiedTime: 1689885527475
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!IB3N0lUvRALvHauO'
+

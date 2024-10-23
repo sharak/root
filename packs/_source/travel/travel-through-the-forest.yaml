@@ -1,0 +1,80 @@
+name: Travel Through the Forest
+type: move
+img: icons/environment/wilderness/tree-spruce.webp
+system:
+  name: ''
+  description: >-
+    <p>When you travel from clearing to clearing through the forest, the band
+    collectively decides how it travels and one member rolls:</p>
+
+    <ul>
+
+    <li>Slowly, foraging heavily: everyone clears 2-depletion; the band
+    collectively marks an exhaustion for each band member; <strong>-1 to the
+    roll</strong>.</li>
+
+    <li>Carefully, avoiding trouble: the band collectively marks one depletion
+    or exhaustion for each band member; <strong>+1 to the roll</strong>.</li>
+
+    <li>As quickly as possible: everyone marks exhaustion and depletion;
+    <strong>+2 to the roll</strong>.</li>
+
+    </ul>
+  requiresMove: ''
+  moveType: travel
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: >-
+        <p>On a 10+, you pass through the forest to any clearing on the other
+        side. Along the way, one of you spots an interesting site; you leave
+        markers so you can return after you finish your trip. And the transit is
+        largely safe.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7-9, you pass through the forest to any clearing on the other
+        side. Along the way, one of you spots an interesting site; you leave
+        markers so you can return after you finish your trip. But something from
+        the forest is following you; you can let it track you, or every vagabond
+        marks exhaustion to lose it.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, you run afoul of one of the forest&rsquo;s dangers during
+        the trip, and you can&rsquo;t escape it easily; deal with it before you
+        can reach the clearing on the other side.</p>
+  uses: 0
+  playbook: ''
+  rollType: prompt
+  rollMod: 0
+  choices: ''
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689348309229
+  modifiedTime: 1689908320589
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_id: jRMigmNclkR68NEr
+sort: 0
+_key: '!items!jRMigmNclkR68NEr'
+

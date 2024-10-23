@@ -1,0 +1,55 @@
+folder: gln6juXn8idlJZXh
+name: Destroy Something Beautiful
+type: move
+_id: pmxqCOePasUeA1ZF
+img: icons/commodities/treasure/totem-wooden-glowing-yellow.webp
+system:
+  name: ''
+  description: >-
+    <p>When you wreck a false idol or symbol of oppression alongside your
+    allies, roll with Charm instead of Might; you and all your allies clear an
+    exhaustion, even on a miss.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Heretic
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690309518766
+  modifiedTime: 1690309975063
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!pmxqCOePasUeA1ZF'
+

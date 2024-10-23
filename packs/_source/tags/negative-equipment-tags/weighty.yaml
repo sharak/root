@@ -1,0 +1,23 @@
+folder: 0D09CG4JOkfF1LaH
+name: Weighty
+type: tag
+_id: Z1VX80PCzPYMzuk3
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: <p>This item counts as 1 additional Load.</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690774096472
+  modifiedTime: 1690774105125
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!Z1VX80PCzPYMzuk3'
+

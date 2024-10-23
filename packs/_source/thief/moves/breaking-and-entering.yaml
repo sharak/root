@@ -1,0 +1,55 @@
+folder: e1NonQmIadthtpP1
+name: Breaking and Entering
+type: move
+_id: ZYXFkquAsNGfWKfB
+img: icons/tools/hand/lockpicks-steel-grey.webp
+system:
+  name: ''
+  description: >-
+    <p>When you attempt roguish feats to get into or out of a place you’ve
+    previously been, you can mark exhaustion to make the move as if you had
+    rolled a 10+, instead of rolling.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Thief
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689968184837
+  modifiedTime: 1689968998645
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!ZYXFkquAsNGfWKfB'
+

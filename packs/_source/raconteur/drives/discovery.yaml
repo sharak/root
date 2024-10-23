@@ -1,0 +1,30 @@
+folder: 8OopOuy03HbhMjfk
+name: Discovery
+type: root.traits
+_id: RU7MOXohNtSPN5vY
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: drive
+    traitDescription: <p>Advance when you encounter a new wonder or ruin in the forests.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690677817872
+  modifiedTime: 1690677829361
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!RU7MOXohNtSPN5vY'
+

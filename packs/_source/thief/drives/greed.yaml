@@ -1,0 +1,30 @@
+folder: pOLTz7j4gkrnZIeg
+name: Greed
+type: root.traits
+_id: gpnURpu8RehRcPSe
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: drive
+    traitDescription: <p>Advance when you secure a serious payday or treasure.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689967744757
+  modifiedTime: 1689967754753
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!gpnURpu8RehRcPSe'
+

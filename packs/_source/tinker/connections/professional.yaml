@@ -1,0 +1,38 @@
+folder: QCiSKZ2kwN626x93
+name: Professional
+type: root.traits
+_id: FycancyGdDnAoAHr
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: connection
+    traitDescription: >-
+      <p>____________ and I have been working together well for a while. We read
+      each other&rsquo;s moves easily.</p>
+
+      <blockquote>If you share information with them after reading a tense
+      situation, you both benefit from the +1 for acting on the answers. If you
+      help them while they attempt a roguish feat, you gain choices on the help
+      move as if you had marked 2-exhaustion when you mark
+      1-exhaustion.</blockquote>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689980430446
+  modifiedTime: 1689980455513
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!FycancyGdDnAoAHr'
+

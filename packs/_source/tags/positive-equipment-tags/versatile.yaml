@@ -1,0 +1,26 @@
+folder: Xvg3JRTYUqw8jnPI
+name: Versatile
+type: tag
+_id: gpuxKTe8Al1957yT
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: >-
+    <p>When you move to or from a range this weapon can reach, mark wear to make
+    a quick strike and inflict 1-injury on any opponent in this weapon&rsquo;s
+    range.</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690775067693
+  modifiedTime: 1690775077139
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!gpuxKTe8Al1957yT'
+

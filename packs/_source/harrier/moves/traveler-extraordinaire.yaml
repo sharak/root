@@ -1,0 +1,58 @@
+folder: MCcghwufENVFlWVk
+name: Traveler Extraordinaire
+type: move
+_id: HNfTB7IYGzTrNoeN
+img: icons/environment/wilderness/cave-entrance-island.webp
+system:
+  name: ''
+  description: >-
+    <p>When you travel along the paths to another clearing, you can always give
+    +1 to the roll or clear 2-exhaustion, your choice. When you travel through
+    the forest to another clearing, you can always give +1 to the roll or clear
+    2-depletion, your choice. In both cases, before you arrive at the next
+    clearing, you can ask the GM any two questions about the next clearing,
+    based on what you remember from your last time through.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Harrier
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.9.1
+  coreVersion: '12.331'
+  createdTime: 1689885631455
+  modifiedTime: 1708372391278
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!HNfTB7IYGzTrNoeN'
+

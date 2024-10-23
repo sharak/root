@@ -1,0 +1,23 @@
+folder: Xvg3JRTYUqw8jnPI
+name: Blunted
+type: tag
+_id: 8Lq5kUt8U3lAYdR6
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: <p>This weapon inflicts exhaustion, not injury.</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690774165224
+  modifiedTime: 1690774173053
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!8Lq5kUt8U3lAYdR6'
+

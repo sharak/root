@@ -1,0 +1,58 @@
+folder: 61E4zz1SDNvQ2ETb
+name: Fancy Paper
+type: move
+_id: pMIb53ddMwSrrP4g
+img: icons/sundries/documents/document-official-brownl.webp
+system:
+  name: ''
+  description: >-
+    <p>You gain the roguish feat
+    @UUID[Compendium.root.feats.Item.aroS6tQCfSvYN6ZO]{Counterfeit} (it does not
+    count against your maximum for advancement). When you attempt a roguish feat
+    to produce counterfeit documents using your intimate knowledge of your home
+    faction’s politics and procedures, mark notoriety with that faction to make
+    the move as if you had rolled a 12+.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Exile
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690134501559
+  modifiedTime: 1690134583874
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!pMIb53ddMwSrrP4g'
+

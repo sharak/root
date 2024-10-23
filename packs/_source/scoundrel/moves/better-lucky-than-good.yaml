@@ -1,0 +1,54 @@
+folder: kt55MFkUnq7loeP4
+name: Better Lucky than Good
+type: move
+_id: v5tCgk26w0PP1ufG
+img: icons/magic/control/buff-luck-fortune-green.webp
+system:
+  name: ''
+  description: >-
+    <p>When you use a weapon move (basic or skilled), mark exhaustion to roll
+    with Luck instead of the listed stat.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Scoundrel
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689964310380
+  modifiedTime: 1689964421437
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!v5tCgk26w0PP1ufG'
+

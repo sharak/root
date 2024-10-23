@@ -1,0 +1,25 @@
+folder: pyjA1M1AIyuM4SiT
+name: Enchanting
+type: tag
+_id: HOOYk9H4CJSxW5kB
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: >-
+    <p>mark wear instead of exhaustion to add +2 when you help another vagabond
+    by distracting someone with your performance</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690681218781
+  modifiedTime: 1690773918168
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!HOOYk9H4CJSxW5kB'
+

@@ -1,0 +1,61 @@
+folder: gln6juXn8idlJZXh
+name: Friends Indeed
+type: move
+_id: zBSZQiCmR3w2oO3H
+img: icons/environment/people/cleric-orange.webp
+system:
+  name: ''
+  description: >-
+    <p>When you first seek out those who share your cause after arriving in a
+    clearing, roll with Charm.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: >-
+        <p>On a 10+, you find one or two; they provide what they can in service
+        to your collective work.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7-9, you find one or two; they provide what they can in service
+        to your collective work. They also tell you about a threat to your
+        shared ideology that has arisen in the clearing.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, you are caught by someone in the clearing who openly
+        despises your kind.</p>
+  uses: 0
+  playbook: The Heretic
+  rollType: charm
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690309166475
+  modifiedTime: 1690309262267
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!zBSZQiCmR3w2oO3H'
+

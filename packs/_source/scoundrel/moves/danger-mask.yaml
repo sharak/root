@@ -1,0 +1,60 @@
+folder: kt55MFkUnq7loeP4
+name: Danger Mask
+type: move
+_id: IZ6Am2m8mtJ8bd8e
+img: icons/equipment/head/mask-carved-wood-white.webp
+system:
+  name: ''
+  description: >-
+    <p>You have a mask or outfit you wear when you go about your most
+    destructive work—more of a calling card, an identifier of “the real you,”
+    than a disguise. Treat it as a piece of equipment with two boxes of wear.
+    While you have your mask on, any notoriety you gain is doubled, any prestige
+    you gain is halved, and take +1 to trust fate and all Scoundrel playbook
+    moves. If your mask is ever taken from you, mark exhaustion. If your mask is
+    ever destroyed, mark 4-exhaustion. If your mask is destroyed, you can make a
+    new mask when time passes.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Scoundrel
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689964154687
+  modifiedTime: 1689964296719
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!IZ6Am2m8mtJ8bd8e'
+

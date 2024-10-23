@@ -1,0 +1,54 @@
+folder: uJRgelKGRtfSjvL3
+name: Dismantle
+type: move
+_id: G9xiuq9UFpYQFQhy
+img: icons/skills/trades/smithing-tongs-metal-red.webp
+system:
+  name: ''
+  description: >-
+    <p>When you dismantle a broken or disabled piece of equipment or machinery,
+    clear 2-depletion.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Tinker
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689981697052
+  modifiedTime: 1689981771771
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!G9xiuq9UFpYQFQhy'
+

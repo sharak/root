@@ -1,0 +1,56 @@
+folder: gz08yG76DEThimJM
+name: No Jail Can Hold Me
+type: move
+_id: 8KNJ2PWqK7CKYImB
+img: icons/magic/control/debuff-chains-shackle-movement-red.webp
+system:
+  name: ''
+  description: >-
+    <p>Take the roguish feat
+    @UUID[Compendium.root.feats.Item.3DKqIF8sBfvLrkbb]{Pick Lock}. It doesn’t
+    count against your maximum. When you attempt to escape confinement, mark
+    exhaustion to shift a miss to a 7-9.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Prince
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690580465023
+  modifiedTime: 1690580543158
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!8KNJ2PWqK7CKYImB'
+

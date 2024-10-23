@@ -1,0 +1,38 @@
+folder: XfSZ77IMasVJOBu9
+name: Professional
+type: root.traits
+_id: HuYVlWt7LYMG5vxu
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: connection
+    traitDescription: >-
+      <p>I stole something important, something needed or craved, for
+      ______________. I proved my worth to them.</p>
+
+      <blockquote>If you share information with them after reading a tense
+      situation, you both benefit from the +1 for acting on the answers. If you
+      help them while they attempt a roguish feat, you gain choices on the help
+      move as if you had marked 2-exhaustion when you mark
+      1-exhaustion.</blockquote>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689967801733
+  modifiedTime: 1689967823003
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!HuYVlWt7LYMG5vxu'
+

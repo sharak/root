@@ -1,0 +1,32 @@
+folder: ixDwonMX4264Y2V6
+name: Combative
+type: root.traits
+_id: runTbBaSj7cEzvTy
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: nature
+    traitDescription: >-
+      <p>Clear your exhaustion track when you try to start a fight against
+      overwhelming opposition.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689962997718
+  modifiedTime: 1689963007080
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!runTbBaSj7cEzvTy'
+

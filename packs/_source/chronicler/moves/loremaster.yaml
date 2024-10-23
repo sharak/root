@@ -1,0 +1,61 @@
+folder: HkVSqY9EEkg8f8kS
+name: Loremaster
+type: move
+_id: OVekvZEqHoQJkoMq
+img: icons/sundries/documents/document-writing-pink.webp
+system:
+  name: ''
+  description: >-
+    <p>When you consult your knowledge in order to understand a political
+    conflict, roll with Cunning.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: >-
+        <p>On a 10+, the GM tells you what information you remember that
+        completes your understanding of the messy situation. You can then ask a
+        followup question; the GM will answer honestly.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7-9, the GM tells you what information you remember that
+        completes your understanding of the messy situation.&nbsp;</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, something about the situation doesn&rsquo;t fit the
+        history&mdash;the GM will tell you what has radically shifted.</p>
+  uses: 0
+  playbook: The Chronicler
+  rollType: cunning
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690128665175
+  modifiedTime: 1690129018362
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!OVekvZEqHoQJkoMq'
+

@@ -1,0 +1,59 @@
+folder: 61E4zz1SDNvQ2ETb
+name: I Bring You...
+type: move
+_id: XBksK2a1REmIE37b
+img: icons/magic/control/debuff-chains-shackles-movement-purple.webp
+system:
+  name: ''
+  description: >-
+    <p>When you spend time talking to the denizens of a clearing, mark
+    exhaustion to learn what vital resource or fugitive the powers-that-be seek.
+    When you deliver a vital resource or prisoner to a faction, you may ask for
+    a favor from the faction as if you rolled a 12+ in addition to marking
+    prestige. If your reputation with that faction is already +2 or greater, you
+    may instead sway the NPC whose cause you most directly benefited with your
+    contribution as if you rolled a 12+.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Exile
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690134273483
+  modifiedTime: 1690134331579
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!XBksK2a1REmIE37b'
+

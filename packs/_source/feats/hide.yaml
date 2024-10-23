@@ -1,0 +1,51 @@
+name: Hide
+type: root.traits
+_id: R23a3mq4KIil8nxu
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: feat
+    traitDescription: >-
+      <p><strong>Description:</strong> Disappear from view, remain hidden.</p>
+
+      <blockquote>
+
+      <p><strong>Risks</strong></p>
+
+      <ul>
+
+      <li><strong>Expend Resources:</strong> Use up supplies. Mark depletion or
+      exhaustion as the GM chooses.</li>
+
+      <li><strong>Leave Evidence:</strong> Leave behind evidence that can later
+      lead an investigation against you or expose your allies to
+      retribution.</li>
+
+      <li>T<strong>ake too Long: </strong>Take too much time, leading the
+      situation to change around you in some meaningful way.</li>
+
+      </ul>
+
+      </blockquote>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689798833554
+  modifiedTime: 1689798890384
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!R23a3mq4KIil8nxu'
+

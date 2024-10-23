@@ -1,0 +1,23 @@
+folder: KiLgnAe5upB0DLbN
+name: Reliable
+type: tag
+_id: g1BERyNLoBXLWYvv
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: <p>+2 boxes of wear and an additional range</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690680994864
+  modifiedTime: 1690681004269
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!g1BERyNLoBXLWYvv'
+

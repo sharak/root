@@ -1,0 +1,268 @@
+name: The Champion
+type: playbook
+img: icons/svg/book.svg
+system:
+  name: ''
+  description: >-
+    <div>
+
+    <p style="margin: 20px 100px; text-align: center; font-size: 1.5em;"><em>You
+    are a would-be hero and legend, a defender of the innocent and a
+    standard-bearer of lost causes. Yours is the heroic narrative, even if you
+    sometimes oversimplify things.</em></p>
+
+    </div>
+
+    <hr>
+
+    <p style="font-size: 0.95em;"><em><strong>Instructions:</strong> You can
+    drag-and-drop into your character sheet any <span style="background: #DDD;
+    border: 1px solid var(--color-border-dark-tertiary); border-radius: 2px;
+    color: #2d2d2d; display: inline-block; padding: 1px 4px; font-style:
+    normal;"><img style="border: none; filter: opacity(0.5); height: 14px;
+    margin: 2px 0 -2px; width: 14px;"
+    src="modules/root/styles/img/icons/suitcase.svg" alt=""> Item</span> you
+    choose and it will automatically be assigned to its correct place.
+    Everything else needs to be copy-pasted or input manually (this includes the
+    background &amp; details, your stats, and the equipment starting
+    value).</em></p>
+
+    <hr>
+
+    <section class="grid grid-3col">
+
+    <div class="background" style="border-right: dashed 1px black;
+    padding-right: 10px;">
+
+    <h2 style="margin: 15px 0 10px;">BACKGROUND &amp; DETAILS</h2>
+
+    <h3 style="border: none;">Species</h3>
+
+    <ul>
+
+    <li>badger, beaver, bluejay, cat, fox, hawk, lizard, mouse, opossum, otter,
+    owl, raccoon, rabbit, squirrel, wolf</li>
+
+    </ul>
+
+    <hr>
+
+    <h3 style="border: none;">Details</h3>
+
+    <ul>
+
+    <li>he, she, they, shifting</li>
+
+    <li>stout, focused, disheveled, vain</li>
+
+    <li>ornate belt, heirloom ring, poetry book, token of chivalry</li>
+
+    </ul>
+
+    <hr>
+
+    <h3 style="border: none;">Demeanor</h3>
+
+    <ul>
+
+    <li>gruff, thoughtful, dramatic, kind</li>
+
+    </ul>
+
+    <hr>
+
+    <h3 style="border: none;">Background</h3>
+
+    <p><strong>Where do you call home?</strong></p>
+
+    <ul>
+
+    <li>____________ clearing</li>
+
+    <li>the forest</li>
+
+    <li>a place far from here</li>
+
+    </ul>
+
+    <p><strong>Why are you a vagabond?</strong></p>
+
+    <ul>
+
+    <li>I seek justice for all the Woodland</li>
+
+    <li>I wish to become a legend across many clearings</li>
+
+    <li>My enemies will burn any home I try to make</li>
+
+    <li>I have sworn to redeem a lost or failed cause</li>
+
+    <li>I am running from a terrible secret</li>
+
+    </ul>
+
+    <p><strong>Whom have you left behind?</strong></p>
+
+    <ul>
+
+    <li>my spouse</li>
+
+    <li>my mentor</li>
+
+    <li>my best friend</li>
+
+    <li>my ward</li>
+
+    <li>my commander</li>
+
+    </ul>
+
+    <p><strong>Which faction have you served the most?</strong>
+    &nbsp;&mdash;&nbsp;<em>mark two prestige for appropriate group</em>.</p>
+
+    <p><strong>With which faction have you earned a special enmity?</strong>
+    &nbsp;&mdash;&nbsp;<em>mark one notoriety for appropriate group</em>.</p>
+
+    </div>
+
+    <div class="attributes" style="border-right: dashed 1px black;
+    padding-right: 10px;">
+
+    <h2 style="margin: 15px 0 10px;">ATTRIBUTES &amp; TRAITS</h2>
+
+    <h3 style="border: none;">Stats*</h3>
+
+    <p><strong>Charm:</strong> <input style="margin: 0; text-align: center;
+    width: 30px;" type="text" value="1" data-dtype="Number"></p>
+
+    <p><strong>Cunning:</strong> <input style="margin: 0; text-align: center;
+    width: 30px;" type="text" value="-1" data-dtype="Number"></p>
+
+    <p><strong>Finesse:</strong> <input style="margin: 0; text-align: center;
+    width: 30px;" type="text" value="-1" data-dtype="Number"></p>
+
+    <p><strong>Luck:</strong> <input style="margin: 0; text-align: center;
+    width: 30px;" type="text" value="1" data-dtype="Number"></p>
+
+    <p><strong>Might:</strong> <input style="margin: 0; text-align: center;
+    width: 30px;" type="text" value="2" data-dtype="Number"></p>
+
+    <p><em>Add <strong>+1 to a stat</strong> of your choice, to a max of
+    +2.</em></p>
+
+    <hr>
+
+    <h3 style="border: none;">Nature</h3>
+
+    <p>Drag-and-drop <strong>one nature</strong>:</p>
+
+    <p>@UUID[Compendium.root.champion.Item.Ip1TNWRr9cwcDMZW]{Advocate}</p>
+
+    <p>@UUID[Compendium.root.champion.Item.FLcPsImG8sr4tBkt]{Exemplar}</p>
+
+    <hr>
+
+    <h3 style="border: none;">Drives</h3>
+
+    <p>Drag-and-drop <strong>two drives</strong>:</p>
+
+    <p>@UUID[Compendium.root.champion.Item.bmC0DtNVLnGptUcF]{Ambition}</p>
+
+    <p>@UUID[Compendium.root.champion.Item.mow7cc5MWtOKFHqP]{Justice}</p>
+
+    <p>@UUID[Compendium.root.champion.Item.eFoofp0t4ygtkleu]{Loyalty}</p>
+
+    <p>@UUID[Compendium.root.champion.Item.arQlE2FoGqwvEimg]{Principles}</p>
+
+    <hr>
+
+    <h3 style="border: none;">Connections</h3>
+
+    <p>Drag-and-drop <strong>your two connections</strong>:</p>
+
+    <p>@UUID[Compendium.root.champion.Item.hpBcjUvnF1zTIyb1]{Family}</p>
+
+    <p>@UUID[Compendium.root.champion.Item.tr674x2mWqEck3dV]{Protector}</p>
+
+    <hr>
+
+    <h3 style="border: none;">Roguish Feats</h3>
+
+    <p>Drag-and-drop <strong>your roguish feat</strong>:</p>
+
+    <p>@UUID[Compendium.root.feats.Item.0k6qyIRuLbe2ZFVV]{Sleight of Hand}</p>
+
+    <hr>
+
+    <h3 style="border: none;">Equipment</h3>
+
+    <p>Starting Value: <input style="margin: 0; text-align: center; width:
+    30px;" type="text" value="11" data-dtype="Number"></p>
+
+    </div>
+
+    <div class="moves">
+
+    <h2 style="margin: 15px 0 10px;">STARTING MOVES</h2>
+
+    <h3 style="border: none;">Playbook Moves</h3>
+
+    <p>Drag-and-drop <strong>this playbook move</strong>:</p>
+
+    <p>@UUID[Compendium.root.champion.Item.PRQOlxjbvOoKHzsb]{Take Up the
+    Call}</p>
+
+    <p>Then drag-and-drop <strong>one more playbook move</strong>:</p>
+
+    <p>@UUID[Compendium.root.champion.Item.5bmrwVkf8dJ7Qd5X]{A Just Cause}</p>
+
+    <p>@UUID[Compendium.root.champion.Item.6aqppngfDDskN1Sz]{Of the People}</p>
+
+    <p>@UUID[Compendium.root.champion.Item.5PRsdhsmxoPhpZZR]{Raw Force}</p>
+
+    <p>@UUID[Compendium.root.champion.Item.gqSNmUKV7yRyMbZT]{Skill Against Skill
+    Alone}</p>
+
+    <hr>
+
+    <h3 style="border: none;">Weapon Moves</h3>
+
+    <p>Drag-and-drop <strong>one weapon move</strong>:</p>
+
+    <p>@UUID[Compendium.root.weapon-special.Item.78EbcqJh9bqAubuh]{Cleave}</p>
+
+    <p>@UUID[Compendium.root.weapon-special.Item.jY3uTFRctwbo2vsd]{Quick
+    Shot}</p>
+
+    <p>@UUID[Compendium.root.weapon-special.Item.P8vRQ3vahMlteMoj]{Storm a
+    Group}</p>
+
+    <p>@UUID[Compendium.root.weapon-special.Item.EwhkWgLikYolwwCH]{Trick
+    Shot}</p>
+
+    </div>
+
+    </section>
+
+    <hr>
+
+    <p style="text-align: center;"><em><strong>*</strong> Changes you make on
+    this document (like your stats) won't be saved, but you can type and
+    copy-paste them onto your sheet.</em></p>
+effects: []
+folder: null
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689790157843
+  modifiedTime: 1690543638837
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_id: QVOmx8Gy1j3rsRmC
+sort: 100000
+_key: '!items!QVOmx8Gy1j3rsRmC'
+

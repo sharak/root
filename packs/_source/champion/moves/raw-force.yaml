@@ -1,0 +1,57 @@
+folder: alVXkrr2XN0IDZJr
+name: Raw Force
+type: move
+_id: 5PRsdhsmxoPhpZZR
+img: icons/skills/melee/hand-grip-sword-orange.webp
+system:
+  name: ''
+  description: >-
+    <p>Take one of the following weapon skills:
+    @UUID[Compendium.root.weapon-special.Item.1uM7YSsZIDEOSoEX]{Disarm} or
+    @UUID[Compendium.root.weapon-special.Item.koxBjhOuKfe1Ur2d]{Parry}. It does
+    not count against your maximum. When you use either weapon skill, you can
+    mark exhaustion to roll with Might.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Champion
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690126228010
+  modifiedTime: 1690126290149
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!5PRsdhsmxoPhpZZR'
+

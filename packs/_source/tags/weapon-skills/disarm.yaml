@@ -1,0 +1,26 @@
+folder: jVsymm4H7y1AIYhE
+name: Disarm
+type: tag
+_id: O7SHdvZXBaMzX65o
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: >-
+    <p>Weapon can be use with the
+    @UUID[Compendium.root.weapon-special.Item.1uM7YSsZIDEOSoEX]{Disarm} special
+    move.</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690773489821
+  modifiedTime: 1691115498576
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!O7SHdvZXBaMzX65o'
+

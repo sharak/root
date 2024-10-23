@@ -1,0 +1,32 @@
+folder: y8uACUeNUH3INgJG
+name: Kleptomaniac
+type: root.traits
+_id: F62C5Bgwa4DhjuSE
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: nature
+    traitDescription: >-
+      <p>Clear your exhaustion track when you try to selfishly steal something
+      valuable or important.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689967689408
+  modifiedTime: 1689967698147
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!F62C5Bgwa4DhjuSE'
+

@@ -1,0 +1,64 @@
+folder: HkVSqY9EEkg8f8kS
+name: Good Advice
+type: move
+_id: ok5K1LH3113k94h9
+img: icons/skills/trades/academics-investigation-puzzles.webp
+system:
+  name: ''
+  description: >-
+    <p>When you offer an NPC advice about a sticky situation, offer them the
+    best advice you’ve got and roll with Cunning.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: >-
+        <p>On a 10+, they see the wisdom of your suggestion; they have to mark
+        exhaustion or incorporate your advice into their plans. On a 7-9, you
+        let something about your own plans or allegiances slip as you try to
+        help them out.&nbsp;</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7-9, they see the wisdom of your suggestion; they have to mark
+        exhaustion or incorporate your advice into their plans. You then let
+        something about your own plans or allegiances slip as you try to help
+        them out.&nbsp;</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, the advice angers or offends them; the GM will tell you what
+        local custom you&rsquo;ve overstepped with your meddling.</p>
+  uses: 0
+  playbook: The Chronicler
+  rollType: cunning
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.9.1
+  coreVersion: '12.331'
+  createdTime: 1690128795077
+  modifiedTime: 1708372592466
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!ok5K1LH3113k94h9'
+

@@ -1,0 +1,55 @@
+folder: KtFCgkDkUgh8pq8Z
+name: Instigator
+type: move
+_id: fQy8nvpoSNkt1uPz
+img: icons/magic/control/mouth-smile-deception-purple.webp
+system:
+  name: ''
+  description: >-
+    <p>When you trick an NPC into fighting another NPC, you can remove one
+    option from the 7-9 list—they cannot choose that option instead of doing
+    what you want.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Vagrant
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.9.1
+  coreVersion: '12.331'
+  createdTime: 1689986886706
+  modifiedTime: 1708371689893
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!fQy8nvpoSNkt1uPz'
+

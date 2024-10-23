@@ -1,0 +1,68 @@
+name: Harry a Group
+type: move
+img: icons/skills/ranged/arrows-flying-salvo-blue.webp
+system:
+  name: ''
+  description: >-
+    <p>When you harry a group of enemies at far range, mark wear and roll with
+    Cunning.</p>
+
+    <details>
+
+    <summary>Choices</summary>
+
+    <ul>
+
+    <li>Inflict 2-morale harm.</li>
+
+    <li>They are pinned or blocked.</li>
+
+    </ul>
+
+    </details>
+  requiresMove: ''
+  moveType: weapon
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: <p>On a 10+, both choices.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: <p>On a 7&ndash;9, choose 1.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: <p>On a 6-, the GM gets to say what happens next.</p>
+  uses: 0
+  playbook: ''
+  rollType: cunning
+  rollMod: 0
+  choices: ''
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689200848576
+  modifiedTime: 1689908115040
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_id: TtmqndtTIHwcaF8y
+sort: 500000
+_key: '!items!TtmqndtTIHwcaF8y'
+

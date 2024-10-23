@@ -1,0 +1,73 @@
+folder: yfgWmnNblb0MsbsG
+name: Slip Away
+type: move
+_id: zC1iOCQuwGTLGv2R
+img: icons/skills/movement/figure-running-gray.webp
+system:
+  name: ''
+  description: >-
+    <p>When you take advantage of an opening to escape from a dangerous
+    situation, roll with Finesse.</p>
+
+    <details>
+
+    <summary>Choices</summary>
+
+    <ul>
+
+    <li>You suffer injury or exhaustion (GM’s choice) during your escape.</li>
+
+    <li>You end up in another dangerous situation.</li>
+
+    <li>You leave something important behind.</li>
+
+    </ul>
+
+    </details>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: <p>On a 10+, you get away and choose 1.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: <p>On a 7-9, you get away and choose 2.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, you escape, but it costs you&mdash;mark injury or
+        exhaustion, GM&rsquo;s choice&mdash;and you leave ample evidence behind
+        for your foes to track and follow you.</p>
+  uses: 0
+  playbook: The Ranger
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689906114810
+  modifiedTime: 1689906380557
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!zC1iOCQuwGTLGv2R'
+

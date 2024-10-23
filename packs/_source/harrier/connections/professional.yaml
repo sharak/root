@@ -1,0 +1,39 @@
+folder: T0TKNlWTTrbUXhcz
+name: Professional
+type: root.traits
+_id: zV9NKvj9DkMXdzMR
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: connection
+    traitDescription: >-
+      <p>_____________ and I tried to blaze a new trail between two clearings;
+      without the support of the major factions, it never fully came to
+      fruition.</p>
+
+      <blockquote>If you share information with them after reading a tense
+      situation, you both benefit from the +1 for acting on the answers. If you
+      help them while they attempt a roguish feat, you gain choices on the help
+      move as if you had marked 2-exhaustion when you mark
+      1-exhaustion.</blockquote>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689884050095
+  modifiedTime: 1689884077281
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!zV9NKvj9DkMXdzMR'
+

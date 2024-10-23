@@ -1,0 +1,57 @@
+name: Trust Fate
+type: move
+img: icons/skills/social/peace-luck-insult.webp
+system:
+  name: ''
+  description: <p>When you trust fate to get through trouble, roll with Luck.</p>
+  requiresMove: ''
+  moveType: basic
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: >-
+        <p>On a 10+, you scrape by or barrel through; the GM will tell you what
+        it costs you. And fortune favors the bold; your panache also earns you a
+        fleeting opportunity.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7&ndash;9, you scrape by or barrel through; the GM will tell you
+        what it costs you.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: <p>On a 6-, the GM gets to say what happens next.</p>
+  uses: 0
+  playbook: ''
+  rollType: luck
+  rollMod: 0
+  choices: ''
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689200848576
+  modifiedTime: 1689964400392
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_id: 6zR8Z0JuOKxW6Ken
+sort: 200000
+_key: '!items!6zR8Z0JuOKxW6Ken'
+

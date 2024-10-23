@@ -1,0 +1,32 @@
+folder: nizgDZD02FrugjyZ
+name: Rogue
+type: root.traits
+_id: eqWbEHg3fmaiebBB
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: nature
+    traitDescription: >-
+      <p>Clear your exhaustion track when you attempt to doublecross,
+      triplecross, or betray a powerful or dangerous NPC.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690321193690
+  modifiedTime: 1690321212864
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!eqWbEHg3fmaiebBB'
+

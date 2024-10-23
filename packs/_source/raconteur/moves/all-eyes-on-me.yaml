@@ -1,0 +1,63 @@
+folder: AqM1Ab5E1o7JH0tZ
+name: All Eyes on Me
+type: move
+_id: MZOGIgIYR6xENARC
+img: icons/skills/trades/music-singing-voice-blue.webp
+system:
+  name: ''
+  description: >-
+    <p>When you create a distraction through outlandish performance, mark
+    exhaustion and roll with Charm.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: >-
+        <p>On a 10+, the room can&rsquo;t look away; your allies take +1 ongoing
+        to sneak, hide, pickpocket, or trust fate while you perform. Also, hold
+        1; spend the hold to grant an ally a +3 for one of the aforementioned
+        rolls instead.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7-9, the room can&rsquo;t look away; your allies take +1 ongoing
+        to sneak, hide, pickpocket, or trust fate while you perform.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, your audience finds something about your performance
+        insulting or misguided; they fall over themselves to give you their
+        opinion.</p>
+  uses: 0
+  playbook: The Raconteur
+  rollType: charm
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690679139509
+  modifiedTime: 1690679243817
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!MZOGIgIYR6xENARC'
+

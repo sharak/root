@@ -1,0 +1,68 @@
+folder: 7OgMZ1zwLL1Hj5cH
+name: Plan of Attack
+type: move
+_id: lGjnbAlwt8ktrwEL
+img: icons/skills/ranged/arrows-flying-triple-blue.webp
+system:
+  name: ''
+  description: <p>When you work out a plan of attack with someone, roll with Might.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: <p>On a 10+, hold 3.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: <p>On a 7-9, hold 2.&nbsp;</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, hold 1, but your plan encounters some disastrous opposition
+        right from the start.</p>
+  uses: 0
+  playbook: The Raider
+  rollType: might
+  rollMod: 0
+  choices: >-
+    <p>You can spend your hold 1-for-1, regardless of distance, while the plan
+    is being carried out to:</p>
+
+    <ul>
+
+    <li>Lend a hand; add +1 to someone&rsquo;s roll (choose after rolling)</li>
+
+    <li>Soften a blow; reduce by one the harm someone suffers from a single
+    attack</li>
+
+    <li>Ensure your gear holds; allow someone to ignore marking depletion or
+    wear</li>
+
+    </ul>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.9.1
+  coreVersion: '12.331'
+  createdTime: 1690745485408
+  modifiedTime: 1708372168050
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!lGjnbAlwt8ktrwEL'
+

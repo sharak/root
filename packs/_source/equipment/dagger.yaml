@@ -1,0 +1,51 @@
+name: Dagger
+type: equipment
+_id: Seh0JdrXQaWYEx9z
+img: icons/weapons/daggers/dagger-bone-barbed.webp
+system:
+  name: ''
+  description: ''
+  uses: 0
+  playbook: ''
+  quantity: 5
+  weight: 0
+  tags: >-
+    [{"value":"intimate"},{"value":"close"},{"value":"parry"},{"value":"vicious
+    strike"},{"value":"quick"}]
+  tagsString: intimate, close, parry, vicious strike, quick
+  itemType: null
+  equipmentType: equipment
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    itemWear:
+      addBox1: true
+      box1: false
+      addBox2: false
+      box2: false
+      addBox3: false
+      box3: false
+      addBox4: false
+      box4: false
+      addBox5: false
+      box5: false
+      addBox6: false
+      box6: false
+      addBox7: false
+      box7: false
+      addBox8: false
+      box8: false
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690777126297
+  modifiedTime: 1690777248494
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!Seh0JdrXQaWYEx9z'
+

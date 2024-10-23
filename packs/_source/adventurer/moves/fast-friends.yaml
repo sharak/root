@@ -1,0 +1,65 @@
+folder: aRSSZIShh9I8jZnb
+name: Fast Friends
+type: move
+_id: owF8otTmuRP7H30w
+img: icons/skills/social/diplomacy-handshake.webp
+system:
+  name: ''
+  description: >-
+    <p>When you try to befriend an NPC you’ve just met by matching their
+    personality, body language, and desires, mark exhaustion and roll with
+    Cunning.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: >-
+        <p>On a 10+, they&rsquo;ll look upon you favorably&mdash;ask them any
+        one non-compromising question and they&rsquo;ll answer truthfully, or
+        request a simple favor and they&rsquo;ll do it for you. Also, they
+        really like you&mdash;they&rsquo;ll share a valuable secret or grant you
+        a serious favor instead.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7-9, they&rsquo;ll look upon you favorably&mdash;ask them any
+        one non-compromising question and they&rsquo;ll answer truthfully, or
+        request a simple favor and they&rsquo;ll do it for you.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, you read them totally wrong, and their displeasure costs
+        you.</p>
+  uses: 0
+  playbook: The Adventurer
+  rollType: cunning
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689800561468
+  modifiedTime: 1689800691808
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!owF8otTmuRP7H30w'
+

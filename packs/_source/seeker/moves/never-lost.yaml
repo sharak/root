@@ -1,0 +1,55 @@
+folder: j6gQErmNCdAhx8pK
+name: Never Lost
+type: move
+_id: EVlE3DsfsZYbuLPB
+img: icons/environment/wilderness/altar-hidden.webp
+system:
+  name: ''
+  description: >-
+    <p>Take two additional boxes of injury and depletion you can mark when you
+    confront dangers within a ruin and a +1 ongoing to trusting fate and
+    performing roguish feats while exploring such ancient locales.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Seeker
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690770617208
+  modifiedTime: 1690770683159
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!EVlE3DsfsZYbuLPB'
+

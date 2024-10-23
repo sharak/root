@@ -1,0 +1,56 @@
+folder: HkVSqY9EEkg8f8kS
+name: An Eye for the Real Story
+type: move
+_id: 6i7YISPtv7QjU8bz
+img: icons/magic/perception/orb-eye-scrying.webp
+system:
+  name: ''
+  description: >-
+    <p>When you read a tense situation, mark an exhaustion—even on a miss—to
+    spot someone who knows more than they’re letting on. Take a +1 ongoing to
+    convince them to share their secrets with you when you get them in
+    private.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Chronicler
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.9.1
+  coreVersion: '12.331'
+  createdTime: 1690128495244
+  modifiedTime: 1708372562501
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!6i7YISPtv7QjU8bz'
+

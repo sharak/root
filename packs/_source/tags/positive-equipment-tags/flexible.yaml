@@ -1,0 +1,25 @@
+folder: Xvg3JRTYUqw8jnPI
+name: Flexible
+type: tag
+_id: 5s20eYZFAPw9srPK
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: >-
+    <p>When you grapple with someone, mark exhaustion to ignore the first choice
+    they make.</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690774273205
+  modifiedTime: 1690774280377
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!5s20eYZFAPw9srPK'
+

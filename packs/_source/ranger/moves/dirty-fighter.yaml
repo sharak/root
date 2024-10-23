@@ -1,0 +1,70 @@
+folder: yfgWmnNblb0MsbsG
+name: Dirty Fighter
+type: move
+_id: uv6uGChXYVKicQoQ
+img: icons/skills/melee/maneuver-daggers-paired-orange.webp
+system:
+  name: ''
+  description: >-
+    <p>Take two of the following weapon skills:</p>
+
+    <p>@UUID[Compendium.root.weapon-special.Item.EX4YuMPVWoVDr0Qv]{Confuse
+    Senses}</p>
+
+    <p>@UUID[Compendium.root.weapon-special.Item.1uM7YSsZIDEOSoEX]{Disarm}</p>
+
+    <p>@UUID[Compendium.root.weapon-special.Item.j6pWotpPfQePNTX8]{Improvise
+    Weapon}</p>
+
+    <p>@UUID[Compendium.root.weapon-special.Item.EwhkWgLikYolwwCH]{Trick
+    Shot}</p>
+
+    <p>@UUID[Compendium.root.weapon-special.Item.RT1WnI2rRG9kj6OO]{Vicious
+    Strike}</p>
+
+    <p>None of the skills you take with this move count against your maximum for
+    advancement.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Ranger
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689907140350
+  modifiedTime: 1689907569658
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!uv6uGChXYVKicQoQ'
+

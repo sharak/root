@@ -1,0 +1,51 @@
+name: Pickpocket
+type: root.traits
+_id: UdqlW5J5nsXkiAF1
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: feat
+    traitDescription: >-
+      <p><strong>Description:</strong> Subtly steal from a pocket.</p>
+
+      <blockquote>
+
+      <p><strong>Risks</strong></p>
+
+      <ul>
+
+      <li><strong>Leave Evidence:</strong> Leave behind evidence that can later
+      lead an investigation against you or expose your allies to
+      retribution.</li>
+
+      <li><strong>Take too Long:</strong> Take too much time, leading the
+      situation to change around you in some meaningful way.</li>
+
+      <li><strong>Weak Result:</strong> Get a hard choice about exactly what you
+      want, or just straight up don&rsquo;t quite get everything you want.</li>
+
+      </ul>
+
+      </blockquote>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689798993523
+  modifiedTime: 1689799066187
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!UdqlW5J5nsXkiAF1'
+

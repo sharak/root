@@ -1,0 +1,25 @@
+folder: pyjA1M1AIyuM4SiT
+name: Pleasant
+type: tag
+_id: 96JpWzfKEJZeVgem
+img: icons/svg/item-bag.svg
+system:
+  name: ''
+  description: >-
+    <p>when you perform for your band while traveling on a path, mark wear to
+    clear up to 2 additional exhaustion from each vagabond</p>
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690681296683
+  modifiedTime: 1690773922761
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!96JpWzfKEJZeVgem'
+

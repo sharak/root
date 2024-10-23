@@ -1,0 +1,61 @@
+folder: 7ryuq1HTwUK69OlQ
+name: Sail On
+type: move
+_id: mBAfbHnGXIfUihFB
+img: icons/tools/navigation/map-chart-tan.webp
+system:
+  name: ''
+  description: >-
+    <p>When you travel from clearing to clearing by ship, mark wear on the ship
+    and roll with Luck.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: >-
+        <p>On a 10+, you reach the next port; the GM will tell you one (mostly)
+        friendly denizen you know there.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>On a 7-9, you reach the next port; the GM will tell you one (mostly)
+        friendly denizen you know there. But they are holding a grudge&mdash;
+        work it out or offer at least 2-value to let things go.</p>
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: >-
+        <p>On a 6-, you are caught in a dangerous situation along your route
+        before you arrive at port.</p>
+  uses: 0
+  playbook: The Pirate
+  rollType: luck
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690323491670
+  modifiedTime: 1690323651978
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!mBAfbHnGXIfUihFB'
+

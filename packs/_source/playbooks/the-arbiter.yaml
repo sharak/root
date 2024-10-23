@@ -1,0 +1,290 @@
+name: The Arbiter
+type: playbook
+img: icons/svg/book.svg
+system:
+  name: ''
+  description: >-
+    <div>
+
+    <p style="margin: 20px 100px; text-align: center; font-size: 1.5em;"><em>You
+    are a powerful, obstinate vagabond, serving as somewhere between a mercenary
+    and a protector, perhaps taking sides too easily in the greater conflict
+    between the factions.</em></p>
+
+    </div>
+
+    <hr>
+
+    <p style="font-size: 0.95em;"><em><strong>Instructions:</strong> You can
+    drag-and-drop into your character sheet any <span style="background: #DDD;
+    border: 1px solid var(--color-border-dark-tertiary); border-radius: 2px;
+    color: #2d2d2d; display: inline-block; padding: 1px 4px; font-style:
+    normal;"><img style="border: none; filter: opacity(0.5); height: 14px;
+    margin: 2px 0 -2px; width: 14px;"
+    src="modules/root/styles/img/icons/suitcase.svg" alt=""> Item</span> you
+    choose and it will automatically be assigned to its correct place.
+    Everything else needs to be copy-pasted or input manually (this includes the
+    background &amp; details, your stats, and the equipment starting
+    value).</em></p>
+
+    <hr>
+
+    <section class="grid grid-3col">
+
+    <div class="background" style="border-right: dashed 1px black;
+    padding-right: 10px;">
+
+    <h2 style="margin: 15px 0 10px;">BACKGROUND &amp; DETAILS</h2>
+
+    <h3 style="border: none;">Species</h3>
+
+    <ul>
+
+    <li>badger, beaver, bluejay, cat, fox, hawk, lizard, mouse, opossum, otter,
+    owl, raccoon, rabbit, squirrel, wolf</li>
+
+    </ul>
+
+    <hr>
+
+    <h3 style="border: none;">Details</h3>
+
+    <ul>
+
+    <li>he, she, they, shifting</li>
+
+    <li>large, scarred, well-groomed, old</li>
+
+    <li>faded military insignia, eyepatch, repaired clothes, tarnished
+    locket</li>
+
+    </ul>
+
+    <hr>
+
+    <h3 style="border: none;">Demeanor</h3>
+
+    <ul>
+
+    <li>intimidating, honest, brusque, open</li>
+
+    </ul>
+
+    <hr>
+
+    <h3 style="border: none;">Background</h3>
+
+    <p><strong>Where do you call home?</strong></p>
+
+    <ul>
+
+    <li>____________ clearing</li>
+
+    <li>the forest</li>
+
+    <li>a place far from here</li>
+
+    </ul>
+
+    <p><strong>Why are you a vagabond?</strong></p>
+
+    <ul>
+
+    <li>I&rsquo;m being hunted by a powerful official</li>
+
+    <li>I wish to make up for a past transgression</li>
+
+    <li>I want to fight injustice</li>
+
+    <li>I must clear my tarnished name</li>
+
+    <li>I have been exiled from most clearings</li>
+
+    </ul>
+
+    <p><strong>Whom have you left behind?</strong></p>
+
+    <ul>
+
+    <li>my peer and friend</li>
+
+    <li>my family</li>
+
+    <li>my loved one</li>
+
+    <li>my ward</li>
+
+    <li>my commander</li>
+
+    </ul>
+
+    <p><strong>Which faction have you served the most?</strong>
+    &nbsp;&mdash;&nbsp;<em>mark two prestige for appropriate group</em>.</p>
+
+    <p><strong>With which faction have you earned a special enmity?</strong>
+    &nbsp;&mdash;&nbsp;<em>mark one notoriety for appropriate group</em>.</p>
+
+    </div>
+
+    <div class="attributes" style="border-right: dashed 1px black;
+    padding-right: 10px;">
+
+    <h2 style="margin: 15px 0 10px;">ATTRIBUTES &amp; TRAITS</h2>
+
+    <h3 style="border: none;">Stats*</h3>
+
+    <p><strong>Charm:</strong> <input style="margin: 0; text-align: center;
+    width: 30px;" type="text" value="1" data-dtype="Number"></p>
+
+    <p><strong>Cunning:</strong> <input style="margin: 0; text-align: center;
+    width: 30px;" type="text" value="0" data-dtype="Number"></p>
+
+    <p><strong>Finesse:</strong> <input style="margin: 0; text-align: center;
+    width: 30px;" type="text" value="0" data-dtype="Number"></p>
+
+    <p><strong>Luck:</strong> <input style="margin: 0; text-align: center;
+    width: 30px;" type="text" value="-1" data-dtype="Number"></p>
+
+    <p><strong>Might:</strong> <input style="margin: 0; text-align: center;
+    width: 30px;" type="text" value="2" data-dtype="Number"></p>
+
+    <p><em>Add <strong>+1 to a stat</strong> of your choice, to a max of
+    +2.</em></p>
+
+    <hr>
+
+    <h3 style="border: none;">Nature</h3>
+
+    <p>Drag-and-drop <strong>one nature</strong>:</p>
+
+    <p>@UUID[Compendium.root.arbiter.Item.88NM1QYswQlv4A2r]{Defender}</p>
+
+    <p>@UUID[Compendium.root.arbiter.Item.gz6sbNlfXgidW606]{Punisher}</p>
+
+    <hr>
+
+    <h3 style="border: none;">Drives</h3>
+
+    <p>Drag-and-drop <strong>two drives</strong>:</p>
+
+    <p>@UUID[Compendium.root.arbiter.Item.bEziHoNrcX1f84zV]{Justice}</p>
+
+    <p>@UUID[Compendium.root.arbiter.Item.koBs6gNsMaKGowq3]{Loyalty}</p>
+
+    <p>@UUID[Compendium.root.arbiter.Item.hqF7elK9ECeGn7vE]{Principles}</p>
+
+    <p>@UUID[Compendium.root.arbiter.Item.YpIlBGaUIcrrD769]{Protection}</p>
+
+    <hr>
+
+    <h3 style="border: none;">Connections</h3>
+
+    <p>Drag-and-drop <strong>your two connections</strong>:</p>
+
+    <p>@UUID[Compendium.root.arbiter.Item.kKkx2eVc6gcTbnMV]{Partner}</p>
+
+    <p>@UUID[Compendium.root.arbiter.Item.CW6La4i3KsbbcbuT]{Protector}</p>
+
+    <hr>
+
+    <h3 style="border: none;">Roguish Feats</h3>
+
+    <p>Drag-and-drop <strong>one roguish feat</strong>:</p>
+
+    <p>@UUID[Compendium.root.feats.Item.DkwveHuA1QHjg42x]{Acrobatics}</p>
+
+    <p>@UUID[Compendium.root.feats.Item.ZktkLmvroSa67Bk3]{Blindside}</p>
+
+    <p>@UUID[Compendium.root.feats.Item.aroS6tQCfSvYN6ZO]{Counterfeit}</p>
+
+    <p>@UUID[Compendium.root.feats.Item.0qcE3RoZApWNK1yj]{Disable Device}</p>
+
+    <p>@UUID[Compendium.root.feats.Item.R23a3mq4KIil8nxu]{Hide}</p>
+
+    <p>@UUID[Compendium.root.feats.Item.3DKqIF8sBfvLrkbb]{Pick Lock}</p>
+
+    <p>@UUID[Compendium.root.feats.Item.UdqlW5J5nsXkiAF1]{Pickpocket}</p>
+
+    <p>@UUID[Compendium.root.feats.Item.0k6qyIRuLbe2ZFVV]{Sleight of Hand}</p>
+
+    <p>@UUID[Compendium.root.feats.Item.fTimsK8D9UZpDm63]{Sneak}</p>
+
+    <hr>
+
+    <h3 style="border: none;">Equipment</h3>
+
+    <p>Starting Value: <input style="margin: 0; text-align: center; width:
+    30px;" type="text" value="10" data-dtype="Number"></p>
+
+    </div>
+
+    <div class="moves">
+
+    <h2 style="margin: 15px 0 10px;">STARTING MOVES</h2>
+
+    <h3 style="border: none;">Playbook Moves</h3>
+
+    <p>Drag-and-drop <strong>three playbook moves</strong>:</p>
+
+    <p>@UUID[Compendium.root.arbiter.Item.2Ptk7bSa7ad6UeOd]{Brute}
+    <strong>**</strong></p>
+
+    <p>@UUID[Compendium.root.arbiter.Item.qBss9dtIq3VaLQQu]{Carry a Big
+    Stick}</p>
+
+    <p>@UUID[Compendium.root.arbiter.Item.y7aJYBGtX1xhuqID]{Crash and Smash}</p>
+
+    <p>@UUID[Compendium.root.arbiter.Item.HY3OJdPLzEhNbuwZ]{Guardian}</p>
+
+    <p>@UUID[Compendium.root.arbiter.Item.pSQ40HhlvX1jGNX7]{Hardy}
+    <strong>***</strong></p>
+
+    <p>@UUID[Compendium.root.arbiter.Item.lyJrY7aQP4ScvKNz]{Strong Draw}</p>
+
+    <hr>
+
+    <h3 style="border: none;">Weapon Moves</h3>
+
+    <p>Drag-and-drop <strong>one weapon move</strong>:</p>
+
+    <p>@UUID[Compendium.root.weapon-special.Item.78EbcqJh9bqAubuh]{Cleave}</p>
+
+    <p>@UUID[Compendium.root.weapon-special.Item.1uM7YSsZIDEOSoEX]{Disarm}</p>
+
+    <p>@UUID[Compendium.root.weapon-special.Item.koxBjhOuKfe1Ur2d]{Parry}</p>
+
+    <p>@UUID[Compendium.root.weapon-special.Item.P8vRQ3vahMlteMoj]{Storm a
+    Group}</p>
+
+    </div>
+
+    </section>
+
+    <hr>
+
+    <p style="text-align: center;"><em><strong>*</strong> Changes you make on
+    this document (like your stats) won't be saved, but you can type and
+    copy-paste them onto your sheet.</em></p>
+
+    <p style="text-align: center;"><em>*<strong>*</strong> Adds +1 Might
+    automatically if automation enabled (default setting).</em></p>
+
+    <p style="text-align: center;"><em><strong>***</strong> Adds 1 injury box
+    automatically if automation enabled (default setting).</em></p>
+effects: []
+folder: null
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1689790157843
+  modifiedTime: 1690543632245
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_id: e05jIl89CkczcPAX
+sort: 1200000
+_key: '!items!e05jIl89CkczcPAX'
+

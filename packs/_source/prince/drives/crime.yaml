@@ -1,0 +1,32 @@
+folder: 8HUg4u6A5SOWuVnN
+name: Crime
+type: root.traits
+_id: Vge0VH9MOhTPJStG
+img: icons/svg/pawprint.svg
+system:
+  htmlFields:
+    - description
+  filePathFields:
+    img:
+      - IMAGE
+  steps: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    traitType: drive
+    traitDescription: >-
+      <p>Advance when you illicitly score a significant prize or pull off an
+      illegal caper against impressive odds.</p>
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690578587570
+  modifiedTime: 1690578599225
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!Vge0VH9MOhTPJStG'
+

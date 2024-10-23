@@ -1,0 +1,54 @@
+folder: 7OgMZ1zwLL1Hj5cH
+name: Eye For Battle
+type: move
+_id: HHolnZZOXNDuf15s
+img: icons/magic/control/hypnosis-mesmerism-eye-tan.webp
+system:
+  name: ''
+  description: >-
+    <p>When you read a tense situation just as violence breaks out, roll with
+    Might instead of Cunning.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Raider
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690744663753
+  modifiedTime: 1690744841020
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!HHolnZZOXNDuf15s'
+

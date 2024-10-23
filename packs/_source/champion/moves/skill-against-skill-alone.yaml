@@ -1,0 +1,55 @@
+folder: alVXkrr2XN0IDZJr
+name: Skill Against Skill Alone
+type: move
+_id: gqSNmUKV7yRyMbZT
+img: icons/creatures/abilities/paw-print-orange.webp
+system:
+  name: ''
+  description: >-
+    <p>When you grapple with an enemy and roll a 12+, you may take their blows
+    to incapacitate them; suffer their full harm to fill their exhaustion or
+    injury track.</p>
+  requiresMove: ''
+  moveType: playbook
+  rollFormula: ''
+  moveGroup: ''
+  moveResults:
+    critical:
+      key: system.moveResults.critical.value
+      label: Triumph!
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit!
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss...
+      value: ''
+  uses: 0
+  playbook: The Champion
+  rollType: ''
+  rollMod: 0
+  choices: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  root:
+    automationValue: 0
+    automationStat: none
+_stats:
+  systemId: pbta
+  systemVersion: 0.7.2
+  coreVersion: '12.331'
+  createdTime: 1690126019756
+  modifiedTime: 1690126078045
+  lastModifiedBy: rloriteexporter0
+  duplicateSource: null
+_key: '!items!gqSNmUKV7yRyMbZT'
+
